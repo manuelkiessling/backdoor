@@ -1,0 +1,36 @@
+컴컴  BackDoor`s FLI - Viewer V1.2  컴컴
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+Okay Guys, here is what ya wanna know (We always know what you want !)
+
+BDFLI.EXE has four Commandline-Parameters:
+
+      'BDFLI.EXE PicDir PicNum DriverDir BreakKey'
+
+- 'PicDir' is the directory the BMP - pictures are in.
+- 'PicNum' is the number of total pictures.
+- 'DriverDir' is the directory where the EGAVGA.BGI can be found.
+- 'BreakKey' is the key you can stop the show with. When nothing is entered
+  here, you can not stop the show !
+ 
+Enter parameters without '/' or '-' !!!
+If you want to enter the current directory, enter '.\' and not nothing !!!
+
+
+The .BMP files have to be named as follows:
+
+            01.BMP
+            02.BMP
+            03.BMP
+            .
+            .
+            .
+            10.BMP
+            11.BMP
+            12.BMP
+
+            ... etc.
+
+They should also have the same size (But it's not necessary) !
+
+----------------  This Program Is Freeware. Hope You Enjoy It.  c/o '95

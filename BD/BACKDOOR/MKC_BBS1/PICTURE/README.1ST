@@ -1,0 +1,61 @@
+Dies ist keine           _______________________________
+			- DOKUMENTATION ZU PICTURE.BAS! -
+			 -------------------------------
+
+(...oder doch?)
+
+Dieses Programm ist auschlie·lich fÅr Programmierer gedacht. Es wird auf eine
+Dokumentation verzichtet, da ich davon ausgehe, da· Programmierer mit dem
+Programm umzugehen wissen.
+
+Trotzdem noch einige wichtige Anmerkungen:
+------------------------------------------
+ Die Geschwindigkeit von 'SAVEPICTURE' und 'VIEWPICTURE' ist sehr stark abhÑngig
+von der Geschwindigkeit des PC's. Bei meinem 386DX16 dauert das Auschneiden des
+grî·tmîglichen Ausschnitts (640x96) gut 2 Minuten, aber auf einem Standard-
+rechner (486DX40) ist es sehr viel ertrÑglicher. Es ist trotzdem zu empfehlen,
+ein ausgeschnittenes Bild einmal darzustellen und dann mit einer GET-Anweisung
+zu speichern, um es spÑter wieder mit einer PUT-Anweisung darzustellen.
+
+ Auch sind die gespeicherten Bilder recht gro· (beim oben genannten Beispiel
+knapp 500 KB), allerdings wei· ich dagegen noch kein Mittel; vielleicht in der
+nÑchsten Version? Jedoch, wenn man die Bilder packt (egal womit), werden Sie
+geradezu winzig.
+Der NC-Zipper gibt 100% gepackt an (MTITITLE.PIC: 446096 KB -> 3011 KB).
+
+ Mit dem kleinen aber nÅtzlichen HOWBIG-Programm kînnen Sie schnell und einfach
+PIC-Bilder ansehen und deren genaue Grî·e ermitteln. VORSICHT! Jedesmal, wenn
+Sie den Namen eines noch nicht vorhandenen Bildes eingeben, erstellt HOWBIG
+eine Datei mit entsprechendem Namen und der Grî·e 0 Byte!
+
+ Das Beispielprogramm PICTURE.BAS zeigt die Funktionsweise der SUB's recht an-
+schaulich auf, aber Experimentieren hilft wahrscheinlich am ehesten.
+
+ Wenn Sie allerdings die PICTURE-Subs in ihr Programm einbinden wollen, eignet
+sich PICTURE.BAS schlecht. Deshalb habe ich ihnen die Subs in der Datei
+PICTURE.SUB so zusammengestellt, da· man sie einfach herauskopieren kann und im
+eigenen Programm wieder einfÅgen kann.
+
+ Den PICTURE-Subs sind gewisse Grenzen gesetzt! Der zu speichernde Ausschnitt
+darf maximal 61440 Pixel enthalten, also zum Beispiel hîchstens 640x96 oder
+128x480 Pixel gro· sein. Ansonsten meldet QBasic einen öberlauf der Dateizu-
+griffe.
+	
+ Die Standardendung der PICTURE Bilder habe ich auf .PIC festgelegt. Da viele
+Bilddateien diese Endung haben, besitzten die PICTURE Bilder eine
+Identifikation: Wenn Sie sie mit einem gewîhnlichen Textbetrachter eingesehen
+werden (z.B. Norton Commander WPVIEW), dann kann man am Anfang der Datei
+"MKC-PIC" und dahinter "Ver. X.y" lesen. Nur wenn Programm und Bild das gleiche
+"X" bei der Versionsnummer besitzten, sind Sie kompatibel!
+
+   Viel Spass mit PICTURE und zukÅnftigen MTI-Programmen. Ihr MTI Team.
+
+	
+	
+Adresse:
+________
+______/|
+     | |
+     | |
+     | |__________________
+     |/_________________/

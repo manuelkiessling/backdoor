@@ -1,0 +1,4 @@
+@ECHO OFF
+REM *** WINDOWS startet durch ***
+C:\WINDOWS\SMARTDRIVE.EXE 1024
+WIN

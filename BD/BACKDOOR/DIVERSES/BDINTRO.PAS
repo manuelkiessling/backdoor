@@ -1,0 +1,299 @@
+(* First intro. No longer actual! But.. fine to see! *)
+(* by BackDoor. 18/6/1995 *)
+
+
+PROGRAM BackDoor_INTRO_v1_by_Captain_Olliwood;
+
+
+USES Crt,Graph;
+
+
+VAR PathToDriver : String;
+
+
+
+
+
+PROCEDURE Init_All;
+
+ BEGIN;
+
+  ClrScr;
+
+   TEXTCOLOR (11);
+  WRITELN ('BackDoor Intro Version 1.0 from 3/1995 by Captain Olliwood');
+   TEXTCOLOR (3);
+  WRITELN ('ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ');
+  WRITELN;
+   TEXTCOLOR (15);
+  WRITE ('Enter path to the EGAVGA.BGI file: ');
+   TEXTCOLOR (3);
+  READLN (PathToDriver);
+
+ END;
+
+
+
+
+
+PROCEDURE SetInGraphMode;
+
+ VAR grDrv, grMd, OccErr : Integer;
+
+
+ BEGIN
+   grDrv := Detect;
+
+  InitGraph (grDrv, grMd, PathToDriver);
+
+   OccErr := GraphResult;
+
+   IF OccErr = grOk THEN
+    BEGIN
+     EXIT;
+    END
+  ELSE
+   BEGIN
+    WRITELN;
+     TEXTCOLOR (LightRed+Blink);
+    WRITE('ERROR: ');
+     TEXTCOLOR (Yellow);
+    WRITELN(GraphErrorMsg(OccErr));
+
+     NORMVIDEO;
+      HALT;
+
+   END;
+
+ END;
+
+
+
+
+
+
+PROCEDURE InitFont (Font, Size : Word);
+
+ BEGIN
+
+  SETTEXTSTYLE (Font, HorizDir, Size);
+
+ END;
+
+
+
+
+
+
+PROCEDURE Make_Ellipse (x,y,rx,ry,c1,c2,z : Integer);
+
+ VAR i,j : Integer;
+
+
+
+ BEGIN
+
+
+  FOR i := 1 TO z DO
+   BEGIN
+
+
+    FOR j := 1 TO ry-1 DO
+
+     BEGIN
+      SETCOLOR (0);
+        ELLIPSE (x,y,0,360,rx,ry);
+
+              rx := rx - 1;
+
+       SETCOLOR (0);
+        ELLIPSE (x,y,0,360,rx,ry);
+
+    END;
+
+
+
+
+   FOR j := 1 TO ry-1 DO
+
+    BEGIN
+     SETCOLOR (c1);
+       ELLIPSE (x,y,0,360,rx,ry);
+
+            rx := rx + 1;
+
+      SETCOLOR (c1);
+        ELLIPSE (x,y,0,360,rx,ry);
+
+   END;
+
+
+
+    FOR j := 1 TO ry-1 DO
+
+     BEGIN
+      SETCOLOR (0);
+        ELLIPSE (x,y,0,360,rx,ry);
+
+              rx := rx - 1;
+
+       SETCOLOR (0);
+        ELLIPSE (x,y,0,360,rx,ry);
+
+     END;
+
+
+
+
+   FOR j := 1 TO ry-1 DO
+
+    BEGIN
+     SETCOLOR (c2);
+       ELLIPSE (x,y,0,360,rx,ry);
+
+            rx := rx + 1;
+
+      SETCOLOR (c2);
+        ELLIPSE (x,y,0,360,rx,ry);
+
+    END;
+
+  END;
+END;
+
+
+
+
+
+PROCEDURE ClearScrNice (c : Word);
+
+
+VAR x1,y1,x2,y2,i : Integer;
+
+
+BEGIN
+
+   x1 := 320;
+    x2 := 320;
+     y1 := 240;
+      y2 := 240;
+
+   SETFILLSTYLE (1,c);
+
+  FOR i := 1 TO 32 DO
+   BEGIN
+
+    BAR (x1,y1,x2,y2);
+
+        x1 := x1 -10;
+         x2 := x2 +10;
+          y1 := y1 -10;
+           y2 := y2 +10;
+
+   END;
+END;
+
+
+
+
+PROCEDURE View_Message;
+
+ BEGIN
+
+  CLOSEGRAPH;
+  CLRSCR;
+
+    TEXTCOLOR (15);
+   WRITE   ('ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ BACKDOOR ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ');
+    TEXTCOLOR (7);
+   WRITE   ('This  was the official  BackDoor (tm) Intro!  It was made by Captain Olliwood in');
+   WRITELN ('3 of 1995.');
+    TEXTCOLOR (11);
+   WRITE   ('"There was  much fun doin`  this, although it took  me quite a full fucked day!"');
+   WRITELN;
+    TEXTCOLOR (7);
+   WRITE   ('But, folks, that`s not all (not yet)! This is version 1, so ya see there`s still');
+   WRITELN ('much place and time for further (and nicer) creations. We will work on it...');
+   WRITELN;
+   WRITE   ('                                         Captain Olliwood (c/o) and Chip-sy-King');
+   WRITELN;
+    TEXTCOLOR (15);
+   WRITE   ('ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ THE MISSION ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ');
+    TEXTCOLOR (11);
+   WRITELN ('"I`ve never heard of BACKDOOR before. What the hell is this?"');
+   WRITELN;
+    TEXTCOLOR (7);
+   WRITELN ('You`ve just got this question in your breezed brain? Well, we try to explain.');
+   WRITELN;
+   WRITE   ('BACKDOOR is a two-men Computer-programmer-just-for-fun group. We just want: FUN.');
+   WRITE   ('Fun for you, fun  for us. We`re goin` to code  some useful and/or funny programs');
+   WRITE   ('which will help you, make you laugh or kill your bored times. We only program in');
+   WRITE   ('Turbo Pascal 6.0 by Borland (fuck for C++), cause we`re still learning, and that');
+   WRITELN ('is what TP is good for.');
+   WRITE   ('But don`t misunderstand us.  We make the programs WE wanna make. BACKDOOR is our');
+   WRITELN ('feeling of freedom, fun and way-of-live. So ya wanna know our motto...?');
+   WRITELN;
+    TEXTCOLOR (LightRed);
+   WRITE ('                            BACKDOOR - Gotta Get Away');
+
+    NORMVIDEO;
+     HALT;
+
+ END;
+
+
+
+
+
+BEGIN
+
+ Init_All;
+
+
+ SetInGraphMode;
+
+
+
+ InitFont (SansSerifFont, 7);
+
+  SETCOLOR (Cyan);
+   OUTTEXTXY (162,252, 'BACKD   R');
+  SETCOLOR (LightCyan);
+   OUTTEXTXY (160,250, 'BACKD   R');
+
+
+
+  Make_Ellipse (376,294,18,23,LightCyan,Cyan,1);
+   Make_Ellipse (374,292,18,23,Cyan,LightCyan,1);
+
+
+    Make_Ellipse (419,294,18,23,LightCyan,Cyan,1);
+     Make_Ellipse (417,292,18,23,Cyan,LightCyan,1);
+
+
+ InitFont (TriplexFont, 3);
+
+
+
+  SETCOLOR (LightRed);
+    OUTTEXTXY (185,320, 'ş Gotta ş Get ş Away ş');
+    SETCOLOR (7);
+      OUTTEXTXY (186,321, 'ş Gotta ş Get ş Away ş');
+      SETCOLOR (White);
+        OUTTEXTXY (186,321, 'ş Gotta ş Get ş Away ş');
+        SETCOLOR (Red);
+          OUTTEXTXY (186,321, 'ş Gotta ş Get ş Away ş');
+
+
+
+ REPEAT UNTIL READKEY <> '';
+
+ 
+
+    ClearScrNice (15);
+     ClearScrNice (0);
+
+   View_Message;
+    DELAY (1000);
+
+END.

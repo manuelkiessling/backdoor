@@ -1,0 +1,203 @@
+;
+;       COLONIZATION Colony Names List
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Default colony names by nation.  Strings can be no longer than 23 chars.
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Copyright (c) 1994 von MicroProse Software
+;
+;       Ver`nderungen an dieser Datei knnen zu Fehlfunktionen des 
+;       Spiels fhren.
+;
+;
+
+@ENGLISH
+Jamestown,1607
+Plymouth,1620
+Roanoke,1585
+Barbados,1627
+Penobscot,1628
+Boston,1630
+Baltimore,1632
+Providence,1636
+Hartford,1636
+New Haven,1640
+New York,1664
+Albany,1664
+New Jersey,1666
+Charleston,1670
+Philadelphia,1682
+Newport
+Yorktown
+Annapolis,1708
+Halifax,1710
+Lexington
+Savannah
+Williamsburg
+St. John's
+Norfolk
+Concord
+Wilmington
+Richmond
+Portsmouth
+Camden
+Springfield
+Newport News
+Antigua
+Rupert House,1668
+Kingston
+Reading
+Ottawa
+@STOP
+
+@FRENCH
+Quebec
+Montreal
+Guadelupe
+Cayenne
+St. Louis
+Martinique
+Port Royal
+Port au Prince
+Trois Rivieres
+New Orleans
+Fort Caroline
+Fort Detroit
+Fort Frontenac
+Fort Pontchartain
+Fort Tadoussac
+Fort Canada
+Fort Niagara
+Fort Crevecoeur
+Fort Roquelai
+Fort Laguille
+Fort Brest
+Fort Richelieu
+Fort Louis
+Fort Prudhome
+Fort Sandouski
+Fort du Quesne
+Fort Erie
+Fort Maurepas
+Fort Francois Xavier
+Fort St. Michel
+Fort Chicago
+Fort-de-France
+Fort Frances
+Fort St. Joseph
+Fort Miannis
+Fort Orleans
+Fort St. Ignace
+Fort Le Rocher
+Fort Miyamis
+Fort Rosalie
+Fort Balise
+Fort Conde
+Fort Pensacola
+Fort Toulouse
+Fort St. John
+Fort Kappa
+Fort Biloxi
+Fort Mobile
+Sault Ste. Marie
+Baton Rouge
+Denonville
+Gananoque
+St. Croix
+Port Cartier
+Terre Haute
+Trois Pistoles
+Sept-Iles
+Louisville
+St. Barthelemy
+St. Pierre
+Miquelon
+Des Moines
+Havre St. Pierre
+Port Menier
+Portage la Prairie
+St. Boniface
+@STOP
+
+@SPANISH
+Isabella
+Santo Domingo
+San Salvador
+Veracruz
+Habana
+Trinidad
+San Juan
+Panama
+Cartagena
+St. Augustine
+Lima
+Buenos Aires
+Guatemala
+Honduras
+Potosi
+Santiago
+Guadalajara
+Asuncion
+Managua
+Costa Rica
+Santa Fe
+Los Angeles
+Bogota
+Corpus Christi
+Acapulco
+Santa Marta
+San Agostin
+Caracas
+Tobago
+San Francisco
+Santiago
+San Diego
+San Angelo
+El Paso
+Cancun
+Valparaiso
+Concepcion
+La Plata
+Port of Spain
+@STOP
+
+@DUTCH
+New Amsterdam
+Fort Orange
+Fort Nassau
+Neuholland
+Vlissingen
+Curacao
+Recife
+Bahia
+Paramaribo
+Pernambuco
+St. Martin
+St. Eustatius
+Essequibo
+Berbice
+Surinam
+Paraiba
+Bonaire
+Willemstad
+Aruba
+Santa Catarina
+Saba
+Utrecht
+Haarlem
+Tappans
+Hoboken
+Rensselaerswyck
+Nederhorst
+Fort Cristina
+Gottenburgh
+Fort Kasimiris
+Fort Elsenburgh
+Naiack
+
+@STOP
+
+

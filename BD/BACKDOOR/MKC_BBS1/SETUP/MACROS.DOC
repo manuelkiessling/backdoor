@@ -1,0 +1,8 @@
+MACROS.BAT
+----------
+
+Mit dem Laden dieser .BAT Datei werden verschiedene Programmkrzel in den
+Speicher geladen. Sie k”nnen so zum Beispiel durch drcken der Taste
+STRG+A das jeweilige Verzeichnis seitenweise ber den Bildschirm laufen lassen.
+Wenn Sie neue Macros hinzufgen wollen, schauen Sie einfach in die MACROS.BAT
+Datei, dann sollte ihnen das System schnell klar werden.

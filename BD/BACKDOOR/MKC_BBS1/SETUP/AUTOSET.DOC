@@ -1,0 +1,43 @@
+                      MKC AUTOEXEC.BAT Setup-Programm
+         --------------------------------------------------------
+                                    README
+                                   --------
+
+Installation
+------------
+1. Kopieren Sie die AutoSetdateien in das Verzeichnis C:\SETUP auf ihrer
+   Festplatte (wenn nîtig, mÅssen Sie das Verzeichnis erst erstellen).
+
+2. Setzen Sie in ihrer AUTOEXEC.BAT an die letzte Position des PATH-Befehls
+   den Befehl ";C:\SETUP"
+
+3. Bearbeiten Sie ihre AUTOEXEC.BAT Datei so, da· nur noch die Befehle, die
+   unabhÑngig vom Modus ausgefÅhrt werden sollen, aufgelistet sind.
+   (Machen Sie sich am Besten eine Sicherheitskopie ihrer alten AUTOEXEC.BAT
+   Datei). An die letzte Position der AUTOEXEC.BAT geben Sie bitte folgendes 
+   ein:
+                   C:\SETUP\AUTOSET.BAT
+   oder            D:\SETUP\AUTOSET.BAT
+
+   Wenn Sie ihren Computer jetzt neu starten, wird automatisch das AUTOSET -
+   Programm gestartet.
+
+
+Programm
+--------
+   Sie kînnen zwischen 5 Punkten auswÑhlen.
+
+   Die .BAT - Dateien lauten: 1.BAT
+                              2.BAT
+                              3.BAT
+                              4.BAT
+                              5.BAT
+
+   Editieren Sie die einzelnen .BAT - Dateien so, da· DIE Programme ausgefÅhrt
+   werden, die Sie bei der Wahl eines Programmpunktes ausgefÅhrt haben wollen.
+
+   Sie kînnen die Namen der verschiedenen Programmpunkte in der Datei 
+   AUTOSET.BAT Ñndern. 
+   Wenn Sie den Ansi-Zeichensatz-Treiber ANSI.SYS noch nicht installiert haben,
+   sollten Sie das tun, da das Auswahlmenu des Programms sonst ein wenig
+   seltsam aussieht.

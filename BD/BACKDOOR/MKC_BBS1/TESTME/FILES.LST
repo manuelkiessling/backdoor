@@ -1,0 +1,23 @@
+Diese Dateien sind im TESTME V1.0dQ Packet enthalten:
+
+
+
+	TESTME.BAS    ¯Ä>  Programmdatei QBasic
+	TESTME.BAT    ¯Ä>  Startdatei fr TESTME.BAS
+	README.BAT    ¯Ä>  Startdatei fr die Dokumentation
+	TESTME.DOC    ¯Ä>  Dokumentation
+	FILES.LST     ¯Ä>  Diese Datei
+	FILE_ID.DIZ   ¯Ä>  BBS Identifikation
+	README.1ST    ¯Ä>  Die wichtigsten Informationen auf einen Blick
+	READER.COM    ¯Ä>  Anzeigedatei fr TESTME.DOC
+	VIEWER.EXE    ¯Ä>  Anzeigedatei fr PCX-Bilder
+	MKCTITLE.PCX  ¯Ä>  Bilddatei des MKC-Logos
+	MTITITLE.PCX  ¯Ä>  Bilddatei des MTI-Logos
+	SAMPLE.DAT    ¯Ä>  Beispieldatei einer TESTME Abfragedatei
+
+
+
+Noch ein Hinweis:
+ALLE *.DAT Dateien AUSSER der Datei SAMPLE.DAT sind NICHT frei kopierbar!
+
+            						       (c)1994 MKC + MTI

@@ -1,0 +1,282 @@
+(* A broken Projekt: similiar to NAVIGATE. A Mailbox for home PC *)
+(* This is the prog to make a user. by BackDoor. 18/6/1995 *)
+
+
+
+
+PROGRAM Erstelle_User_fuer_ICE;
+
+{$M 8192,0,0}
+
+USES Dos,Crt;
+
+TYPE DatTyp_1 = RECORD
+                 Name          : String[20];
+                 Vorname       : String[20];
+                 Firmenname    : String[40];
+
+                 Strasse_UP    : String[30];
+                 Hausnummer_UP : String[5];
+                 PLZ_UP        : LongInt;
+                 Ort_UP        : String[30];
+
+                 Strasse_UG    : String[30];
+                 Hausnummer_UG : String[5];
+                 PLZ_UG        : LongInt;
+                 Ort_UG        : String[30];
+
+                 GebDatum      : String[10];
+                END;
+
+
+TYPE DatTyp_2 = RECORD
+                 UserName    : String[20];
+                 Verzeichnis : PathStr;
+                END;
+
+VAR
+ E_Name, E_Vorname, E_Firmenname, E_Strasse_UP, E_Strasse_UG : String;
+ E_Hausnummer_UP, E_Hausnummer_UG                            : String;
+ E_PLZ_UP, E_PLZ_UG                                          : LongInt;
+ E_GebDatum, E_Ort_UP, E_Ort_UG                              : String;
+
+ E_Verzeichnis : PathStr;
+
+ f1       : File of DatTyp_1;
+ f2       : File of DatTyp_2;
+
+ Eingaben1 : DatTyp_1;
+ Eingaben2 : DatTyp_2;
+
+ CodeWort : String;
+ Command  : String;
+
+
+
+
+
+
+PROCEDURE Oeffne_Datei_1;
+
+ BEGIN
+  ASSIGN (f1, 'USERDATA.DAT');
+
+     {$I-};
+       RESET (f1);
+     {$I+};
+
+   IF IORESULT = 0 THEN EXIT ELSE REWRITE (f1);
+
+ END;
+
+
+
+
+
+
+
+PROCEDURE Oeffne_Datei_2;
+
+ BEGIN
+  ASSIGN (f2, '..\USERS.DAT');
+
+     {$I-};
+       RESET (f2);
+     {$I+};
+
+   IF IORESULT = 0 THEN EXIT ELSE REWRITE (f2);
+
+ END;
+
+
+
+
+
+
+
+PROCEDURE Daten_speichern_1;
+
+ BEGIN
+
+  Oeffne_Datei_1;
+
+   SEEK (f1, 0);
+
+     WITH Eingaben1 DO
+                     BEGIN
+                        Name          := E_Name;
+                        Vorname       := E_Vorname;
+                        Firmenname    := E_Firmenname;
+
+                        Strasse_UP    := E_Strasse_UP;
+                        Hausnummer_UP := E_Hausnummer_UP;
+                        PLZ_UP        := E_PLZ_UP;
+                        Ort_UP        := E_Ort_UP;
+
+                        Strasse_UG    := E_Strasse_UG;
+                        Hausnummer_UG := E_Hausnummer_UG;
+                        PLZ_UG        := E_PLZ_UG;
+                        Ort_UG        := E_Ort_UG;
+
+                        GebDatum      := E_GebDatum;
+                     END;
+
+     WRITE (f1, Eingaben1);
+    CLOSE (f1);
+END;
+
+
+
+
+
+
+
+PROCEDURE Daten_speichern_2;
+
+ BEGIN
+
+  Oeffne_Datei_2;
+
+   SEEK (f2, FileSize(f2));
+
+     WITH Eingaben2 DO
+                     BEGIN
+                        UserName      := E_Name;
+                        Verzeichnis   := E_Verzeichnis;
+                     END;
+
+     WRITE (f2, Eingaben2);
+    CLOSE (f2);
+END;
+
+
+
+
+
+
+
+PROCEDURE Abfrage;
+
+ BEGIN;
+
+  CLRSCR;
+
+   WRITE ('Name (20) : ');
+   READLN (E_Name);
+
+   WRITE ('Vorname (20) : ');
+   READLN (E_Vorname);
+
+   WRITE ('Firmenname (40) : ');
+   READLN (E_Firmenname);
+
+   WRITELN;
+
+   WRITE ('Strassenname Privat (30) : ');
+   READLN (E_Strasse_UP);
+
+   WRITE ('Hausnummer Privat : ');
+   READLN (E_Hausnummer_UP);
+
+   WRITE ('PostLeitZahl Privat : ');
+   READLN (E_PLZ_UP);
+
+   WRITE ('Ort Privat : ');
+   READLN (E_Ort_UP);
+
+   WRITELN;
+
+   WRITE ('Strassenname Gesch„ftlich : ');
+   READLN (E_Strasse_UG);
+
+   WRITE ('Hausnummer Gesch„ftlich : ');
+   READLN (E_Hausnummer_UG);
+
+   WRITE ('PostLeitZahl Gesch„ftlich : ');
+   READLN (E_PLZ_UG);
+
+   WRITE ('Ort Gesch„ftlich : ');
+   READLN (E_Ort_UG);
+
+   WRITELN;
+
+   WRITE ('Geburtsdatum (TT-MM-JJJJ) : ');
+   READLN (E_GebDatum);
+
+   WRITELN;
+
+   WRITE ('Wie soll ihr Verzeichnis heissen : ');
+   READLN (E_Verzeichnis);
+
+   WRITE ('Mit welchem Codewort wollen Sie ihre Daten sichern : ');
+   READLN (CodeWort);
+
+  END;
+
+
+
+
+PROCEDURE Schreibe_mittig (Zeile : Integer; Text : String);
+
+BEGIN
+
+ GOTOXY (40 - (Length(Text) div 2), Zeile);
+
+ WRITE (Text);
+
+END;
+
+
+
+
+PROCEDURE Menu_1;
+
+BEGIN
+
+ CLRSCR;
+
+  Schreibe_mittig (5, '-- W„hlen Sie bitte eine Option: --');
+  Schreibe_mittig (7, '1 -- Neuen User erstellen');
+  Schreibe_mittig (8, '2 ---------- User l”schen');
+  Schreibe_mittig (9, '3 ------------------ Quit');
+
+
+END;
+
+
+
+
+
+PROCEDURE Lade_Programm (Befehl : String);
+
+BEGIN
+  SWAPVECTORS;
+   EXEC(GetEnv('COMSPEC'), Befehl);
+  SWAPVECTORS;
+END;
+
+
+
+
+BEGIN
+
+ Abfrage;
+
+  CHDIR ('USERS');
+  MKDIR (E_Verzeichnis);
+  CHDIR (E_Verzeichnis);
+
+ Daten_speichern_1;
+ Daten_speichern_2;
+
+  CLRSCR;
+
+     Command := '/C'+ '..\..\PKZIP DATA.ZIP -s'+ CodeWort +' *.*';
+     Lade_Programm (Command);
+
+     Command := '/C DEL *.DAT';
+     Lade_Programm (Command);
+
+  CHDIR ('\ICE');
+
+END.

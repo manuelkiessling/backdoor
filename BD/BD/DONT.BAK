@@ -1,0 +1,25 @@
+PROGRAM NoSwearing;
+USES crt;
+
+
+  VAR A : string;
+
+  LABEL NO;
+  LABEL BAD_GUY;
+
+Begin
+
+
+ Read(A);
+
+    IF A <> 'fuck' THEN GOTO BAD_GUY;
+    IF A <> 'shit' THEN GOTO BAD_GUY;
+
+      GOTO NO;
+      BAD_GUY:
+
+   WRITE ('Don`t you dare to swear again. You are a bad guy!!!');
+
+   NO:
+
+END.

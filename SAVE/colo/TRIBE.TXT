@@ -1,0 +1,102 @@
+;
+;       COLONIZATION Tribe Dispersal Chart
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Historical dispersal of tribes for use in creating American maps.
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Copyright (c) 1994 von MicroProse Software
+;
+;       Ver`nderungen an dieser Datei knnen zu Fehlfunktionen des 
+;       Spiels fhren.
+;
+;
+
+@IROQUOIS
+27,15
+30,11
+23,15
+19,14
+25,10
+16,10
+15,6
+20,8
+25,6
+29,6
+36,6
+@STOP
+
+@CHEROKEE
+25,20
+28,23
+22,18
+21,21
+@STOP
+
+@ARAWAK
+37,29
+32,25
+31,27
+45,30
+46,35
+@STOP
+
+@INCA
+36,52
+35,66
+35,60
+37,56
+27,43
+@STOP
+
+@SIOUX
+10,8
+13,3
+8,4
+3,1
+4,8
+13,12
+4,13
+@STOP
+
+@APACHE
+16,15
+4,17
+7,15
+12,16
+17,19
+13,20
+17,23
+@STOP
+
+@AZTEC
+17,27
+12,24
+24,28
+26,34
+@STOP
+
+@TUPI
+47,45
+41,59
+26,34
+44,56
+48,52
+50,48
+31,35
+34,39
+37,36
+42,38
+46,41
+52,44
+44,52
+39,42
+45,48
+42,45
+@STOP
+
+
+
+

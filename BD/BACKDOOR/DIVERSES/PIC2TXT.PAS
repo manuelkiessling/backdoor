@@ -1,0 +1,183 @@
+PROGRAM ConvertPicDataToPRTData;
+
+USES Graph,Crt,BMP16;
+
+VAR  f : Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROCEDURE GraphInit(grDrv, grMd : Integer; Pfad : String);
+
+VAR OccErr : Integer;
+
+
+BEGIN
+
+   InitGraph(grDrv, grMd, Pfad);
+
+   OccErr := GraphResult;
+
+   IF OccErr = grOk THEN
+    BEGIN
+     EXIT;
+    END
+  ELSE
+   BEGIN
+    WRITELN;
+     TEXTCOLOR (LightRed+Blink);
+    WRITE('ERROR: ');
+     TEXTCOLOR (Yellow);
+    WRITELN(GraphErrorMsg(OccErr));
+     HALT;
+   END;
+
+END;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROCEDURE DateiInit(Name : String);
+
+BEGIN
+
+ ASSIGN(f, Name);
+
+  {$I-};
+   RESET(f);
+  {$I+};
+
+   IF IORESULT = 0 THEN EXIT ELSE REWRITE(f);
+
+END;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROCEDURE Convert(a,b,c,d : Integer);
+
+VAR p : Integer;
+    s : String;
+
+
+ FUNCTION Col2Str(c : Integer) : String;
+
+ BEGIN
+
+  IF c = 0 THEN Col2Str := 'Û';
+  IF c = 1 THEN Col2Str := '²';
+  IF c = 2 THEN Col2Str := '±';
+  IF c = 3 THEN Col2Str := '°';
+  IF c = 4 THEN Col2Str := 'W;';
+  IF c = 5 THEN Col2Str := 'M';
+  IF c = 6 THEN Col2Str := 'A';
+  IF c = 7 THEN Col2Str := '±';
+  IF c = 8 THEN Col2Str := '²';
+  IF c = 9 THEN Col2Str := '#';
+  IF c = 10 THEN Col2Str := 'S';
+  IF c = 11 THEN Col2Str := 'O';
+  IF c = 12 THEN Col2Str := 'C';
+  IF c = 13 THEN Col2Str := ';';
+  IF c = 14 THEN Col2Str := ':';
+  IF c = 15 THEN Col2Str := 'a';
+
+ END;
+
+
+
+
+
+BEGIN
+
+ FOR b := 1 TO d DO BEGIN
+  FOR a := 1 TO c DO BEGIN
+
+   p := GETPIXEL(a,b);
+   s := s + Col2Str(p);
+
+  END;
+
+   WRITE(f,s);
+
+ END;
+
+END;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BEGIN
+
+ DateiInit('TEST.PRT');
+
+ GraphInit(VGA, VGAHi, 'D:\TP70\BGI');
+
+ PUTBMP(0,13, 'C:\WINDOWS\aegypten.bmp');
+
+ Convert(1,1,80,80);
+
+END.
