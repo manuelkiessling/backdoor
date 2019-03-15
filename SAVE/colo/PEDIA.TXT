@@ -1,2122 +1,0 @@
-;
-;       COLONIZATION: Colonizop`die
-;       Copyright (c) 1994 von MicroProse Software
-;
-;       Ver`nderungen an dieser Datei knnen zu Fehlfunktionen des 
-;       Spiels fhren.
-;
-;
-
-@; Colonizopedia categories
-
-@PEDIA
-Art der Ware
-Art der Einheit
-Art des Gel`ndes
-F`higkeiten der Kolonisten
-Koloniegeb`ude
-Grnderv`ter
-Spielplan
-
-@MISCELLANEOUS
-12
-Auflsen
-Verst`rken
-Pflgen
-Straen
-Wache
-Handelsroute
-Erfahrene Einheiten
-Preise
-Steuern
-Freiheitsglocken
-Kreuze
-H`mmer
-
-
-@; *** FOUNDING FATHERS ***
-
-@; ECONOMICS AND TRADE
-
-@; Adam Smith
-@FATHER0
-@width=300
-^{Adam Smith (1723-1790)}
-Britischer Wirtschaftstheoretiker, der das erste groe Werk der 
-Wirtschaftspolitik verffentlichte: "An Inquiry into the Nature and Causes
-of the
-Wealth of Nations" ("Der Wohlstand der Nationen") stellte eine detaillierte
-Untersuchung der Auswirkungen wirtschaftlicher Freiheit dar.
-^
-{Adam Smith ermglicht den Bau von Fabriken in Ihren Kolonien.}
-In Fabriken knnen aus einer Einheit Rohstoffe 1 1/2 Einheiten
-Fertigprodukte hergestellt werden.
-
-@; Jakob Fugger
-@FATHER1
-@width=300
-^{Jakob Fugger (1459-1525)}
-Auerordentlich erfolgreicher deutscher Kaufmann, der schon frh Import- 
-und Exportgesch`fte mit den ostindischen Kolonien vorantrieb und damit sehr
-m`chtig und einflureich wurde. 
-Da er beachtliche Reichtmer ansammelte, verlieh er einen Teil davon an
-Kaiser Maximilian I.
-^
-{Wenn Fugger Ihrem Kongre beitritt, werden alle Boykotte aufgehoben, ohne
-da Sie dafr Steuern nachzahlen mssen. Sie knnen also den Handel mit
-diesen Waren 
-ohne zus`tzliche Kosten wieder aufnehmen.}
-
-@; Peter Minuit
-@FATHER2
-@width=300
-^{Peter Minuit (1580-1639)}
-Generaldirektor der amerikanischen Kolonie der Dutch West India 
-Company (holl`ndisch-westindischen Gesellschaft). Er kaufte Manhattan von
-den Indianern fr 24$. 
-^
-{Nachdem Peter Minuit dem Kontinentalkongre beigetreten ist, mssen Sie
-fr von den Indianern abgetretenes Land kein Geld mehr bezahlen.}
-
-@; Peter Stuyvesant
-@FATHER3
-@width=300
-^{Peter Stuyvesant (1610-1672)}
-Erster erfolgreicher Gouverneur der holl`ndischen Kolonie Neu 
-Amsterdam (New York). Er war ein strenger Herrscher, frderte den 
-Handel und setzte sich fr den Schutz der Interessen der 
-Neuen Welt ein.
-^
-{Mit Peter Stuyvesant beginnt der Bau von Zollh`usern in Ihren 
-Kolonien, wodurch der Handel mit Europa vorangetrieben und 
-w`hrend der Revolution ermglicht wird.}
-
-@; Jan De Witt
-@FATHER4
-@width=300
-^{Jan de Witt (1625-1672)}
-Holl`ndischer Staatsmann und oberster Minister der Vereinigten 
-Provinzen der Niederlande. Er versuchte, das Amt des Statthalters 
-abzuschaffen und die Macht des Hauses von Oranien zu beschr`nken. 
-^
-{Wenn Jan de Witt Ihrem Kongre beitritt, wird der Handel mit den Kolonien
-anderer Nationen 
-ermglicht. Auerdem beinhaltet der Bericht ber internationale Beziehungen
-von diesem Zeitpunkt an mehr Informationen.}
-
-@; EXPLORATION
-
-@; Ferdinand Magellan
-@FATHER5
-@width=300
-^{Ferdinand de Magellan: (1480-1521)}
-Portugiesischer Entdecker, dem es als ersten Europ`er gelang, eine 
-Expedition zu leiten, in der die Erde umsegelt wurde. Obwohl Magellan 
-das Ende dieser Expedition nicht mehr erlebte, wurde diese nur durch 
-seine Fhrung und seinen Mut ermglicht. 
-^
-{Wenn Magellan Ihrem Kongre beitritt, wird das Bewegungsmaximum aller
-Schiffe 
-um Eins erhht, und die Zeit, die ein Schiff bentigt, um vom westlichen 
-Rand der Karte nach Europa zu segeln, wird erheblich verkrzt.}
-
-@; Francisco de Coronado
-@FATHER6
-@width=300
-^{Francisco de Coronado (1510-1554)}
-Spanischer Konquistador, der die ersten europ`ischen Expeditionen in 
-den Sdwesten Amerikas leitete. Er erreichte als Erster den Grand 
-Canyon und entdeckte die Vlker Neu Mexikos. Coronado war ein 
-umsichtiger Planer und Kundschafter, der bedeutende 
-Entdeckungen machte.
-^
-{Wenn er Ihrem Kongre beitritt, werden alle Kolonien, die sich
-gegenw`rtig auf der Karte befinden, 
-einschlielich des sie umgebenden Gebietes gezeigt.}
-
-@; Hernando De Soto
-@FATHER7
-@width=315
-@SMALLFONT
-^{Hernando de Soto (1500-1542)}
-Skrupelloser spanischer Konquistador, der die ersten europ`ischen 
-Expeditionen in den Sdosten Nordamerikas leitete. Er kam in Florida an 
-und erkundete groe Teile von Georgia, Tennessee, Alabama, 
-Mississippi, Louisiana und Arkansas. Er war auf der Suche nach Gold und
-wird
-fr den Mord an Tausenden von Ureinwohnern verantwortlich gemacht. 
-^
-{Mit de Soto auf Ihrer Seite sind Sie immer erfolgreich, wenn Sie
-Gerchten ber untergegangene 
-St`dte nachgehen. Auerdem erhalten s`mtliche Einheiten einen erweiterten
-Sichtradius.}
-
-@; Henry Hudson
-@FATHER8
-@width=315
-@SMALLFONT
-^{Henry Hudson (????-1611)}
-Englischer Entdecker im Dienste der Niederlande, der die Buchten von 
-Chesapeake und Delaware sowie den Hudson River bis Albany 
-erkundete. Er entdeckte sp`ter die Hudson Bay und wurde schlielich 
-von Meuterern ermordet. Die Hudson Bay wurde zu einem der grten 
-Fellfanggebiete, und die Hudson Bay Company war ber viele Jahre 
-hinweg in der Pelztierjagd und der Fellverarbeitung t`tig.
-^
-{Hudson erhht die Effektivit`t aller Fellj`ger um 100%%.}
-
-@; La Salle
-@FATHER9
-@width=300
-^{La Salle (1643-1687)}
-Franzsischer Entdecker, der den Mississippi bis zum Golf von Mexiko 
-hinuntersegelte und das gesamte Entw`sserungsland an diesem Flu zum 
-Eigentum der franzsischen Krone erkl`rte. Er trug dazu bei, die 
-franzsische Vorherrschaft westlich der Appalachen aufzubauen.
-^
-{Durch La Salle erhalten alle neuen Kolonien eine Einpf`hlung, sobald 
-die Bevlkerungszahl 3 erreicht.}
-
-@; MILITARY
-
-@; Hernan Cortes
-@FATHER10
-@width=300
-^{Hernan Cortes (1485-1547)}
-Spanischer Eroberer Mexikos und Zerstrer des Aztekenimperiums. 
-Cortes ist ein Musterbeispiel eines Konquistadors - ein Meister des 
-Eroberns und Plnderns.
-^
-{Nachdem Cortes Ihrem Kongre beigetreten ist, werfen alle eroberten 
-Siedlungen der Ureinwohner mehr Sch`tze ab, und Sie erhalten eine 
-Galeone, ohne dafr zahlen zu mssen.}
-
-@; George Washington
-@FATHER11
-@width=300
-^{George Washington (1732-1799)}
-Kommandant der amerikanischen Revolutionsstreitkr`fte und der erste 
-Pr`sident der Vereinigten Staaten. George Washington verstand es, 
-die Truppen der Kolonien zum Sieg im Kampf 
-um die Unabh`ngigkeit auszubilden und zu motivieren.
-^
-{Wenn George Washington dem Kontinentalkongre beitritt, wird jeder 
-Dragoner oder nicht erfahrene Soldat, der ein Gefecht gewinnt,
-befrdert.}
-
-@; Paul Revere
-@FATHER12
-@width=315
-@SMALLFONT
-^{Paul Revere (1735-1818)}
-Amerikanischer Patriot, der im Unabh`ngigkeitskrieg in der Kolonialarmee
-diente und, 
-als sich Britische Truppen n`herten, "Freiwillige auf Abruf" sammelte. 
-Sein beispielhafter Patriotismus veranlat Kolonisten in der
-Warenproduktion, 
-sich als Freiwillige zu melden und bei Bedarf 
-zur Verteidigung der Kolonie herbeizueilen.
-^
-{Wenn eine Kolonie ohne stehende Armee angegriffen wird, bedient sich 
-ein Kolonist automatisch der Musketen, die in der sich verteidigenden 
-Kolonie gelagert werden.}
-
-@; Francis Drake
-@FATHER13
-@width=300
-^{Francis Drake (1540-1596)}
-Der grte englische Seefahrer des Elisabethanischen Zeitalters. Drake 
-war ein ausgezeichneter Freibeuter, der die spanischen Seefahrer mit 
-einer Flotte von 15 Schiffen terrorisierte und dann eine in 
-Schwierigkeiten geratene englische Kolonie rettete^
-^
-{Wenn Drake Ihrem Kongre beitritt, erhht sich die Kampfst`rke Ihrer 
-gesamten Freibeuter (der Kaperschiffe) um 50%%.}
-
-@; John Paul Jones
-@FATHER14
-@width=300
-^{John Paul Jones (1747-1792)}
-Tapferer schottischer Kommandant der Seestreitkr`fte, der w`hrend des 
-Unabh`ngigkeitskrieges auf seiten der Kolonien k`mpfte. Er bewies 
-seine auerordentlichen F`higkeiten durch mehrere groe Heldentaten 
-im Gefecht und versenkte viele britische Schiffe.
-^
-{Wenn Jones dem Kongre beitritt, erhalten Ihre Kolonial-Seestreitkr`fte
-eine weitere Fregatte ohne zus`tzliche Kosten.}
-
-@; POLITICAL
-
-@; Thomas Jefferson
-@FATHER15
-@width=300
-^{Thomas Jefferson (1743-1826)}
-Groer Staatsmann der USA, Gestalter der Verfassung und dritter 
-Pr`sident. Jeffersons Ideen trieben die Entwicklung der demokratischen 
-Institutionen im kolonialen Amerika voran. 
-^
-{Der Beitritt Jeffersons zum Kongre erhht die Produktion von 
-Freiheitsglocken um 50%%.}
-
-@; Pocahontas
-@FATHER16
-@width=305
-^{Pocahontas (1595-1617)}
-Stammesfhrerin der Powhattan-Indianer, die Spannungen zwischen der 
-englischen Kolonie bei Jamestown und der Powhattan Konfderation 
-von Virginia zu beseitigen suchte. Pocahontas Heirat mit dem Engl`nder 
-John Rolffe fhrte zu einer Zeit des Friedens zwischen den Indianern und 
-den Engl`ndern.
-^
-{Wenn Pocahontas dem Kongre beitritt, werden s`mtliche Spannungen 
-zwischen Ihnen und der indianischen Bevlkerung abgebaut, und die 
-allgemeine Unruhe w`chst nur noch halb so schnell.}
-
-@; Thomas Paine
-@FATHER17
-@width=315
-@SMALLFONT
-^{Thomas Paine (1737-1809)}
-Nach Philadelphia ausgewanderter Engl`nder, der das bedeutende, 
-revolution`re Pamphlet "Common Sense" schrieb, in dem er die vllige 
-Unabh`ngigkeit der Kolonien vertrat. Auerdem verfasste er 
-"The Rights of Man" ("Die Rechte der Menschen"), womit er sich fr die 
-franzsische Revolution einsetzte, und schlielich "The Age of Reason".
-^
-{Mit dem Beitritt Thomas Paines zu Ihrem Kongre erhht sich die 
-Produktion von Freiheitsglocken um den gegenw`rtigen Steuersatz.}
-
-@; Simon Bolivar
-@FATHER18
-@width=300
-^{Simon Bolivar (1783-1830)}
-Organisierte und fhrte weitestgehend die Aufst`nde in groen Gebieten 
-des nrdlichen Sdamerikas. Er befreite das heutige Venezuela, 
-Kolumbien, Ecuador, Peru und Bolivien.
-^
-{Tritt Bolivar Ihrem Kongre bei, erhht sich der Anteil der Shne der 
-Freiheit in all Ihren Kolonien um 20%%.}
-
-@; Benjamin Franklin
-@FATHER19
-@width=315
-@SMALLFONT
-^{Benjamin Franklin (1706-1790)}
-Kolonist und sp`terer Staatsmann der USA, erster Generalpostmeister,
-Druckereibesitzer 
-und Botschafter in den englischen Kolonien und auch einer der ersten 
-groen amerikanischen Wissenschaftler. Tritt Franklin dem Kongre bei 
-und wird Botschafter in Europa, werden die Beziehungen zwischen den 
-Kolonien und den europ`ischen Nationen verbessert.
-^
-{Die Kriege der Knige in Europa haben keine Auswirkung mehr auf die
-Beziehungen 
-der Kolonialm`chte in der Neuen Welt untereinander, und Europ`er in der
-Neuen Welt sind, gegen 
-entsprechende Bezahlung, immer bereit, Frieden zu schlieen.}
-
-@; RELIGIOUS
-
-@; William Brewster
-@FATHER20
-@width=300
-^{William Brewster (1567-1644)}
-Einer der Pilgerv`ter und Gestalter des Mayflower-Vertrages. William 
-Brewster war ein religiser Fhrer der Pilgerv`ter und einer derjenigen, 
-die die Reisenden der Mayflower zusammenstellten.
-^
-{Befindet sich Brewster in Ihrem Kongre, erscheinen in den europ`ischen
-H`fen keine 
-weiteren Kriminelle oder verdingte Knechte als Auswanderer. Sie bestimmen,
-welcher Auswanderer vom Rekrutierungspool zum Hafen gehen soll.}
-
-@; William Penn
-@FATHER21
-@width=300
-^{William Penn (1644-1718)}
-Englischer Qu`kerfhrer und Grnder von Pennsylvania. William Penn 
-erhielt ein groes Stck Land in Nordamerika - das sp`tere Pennsylvania 
-- um dort mit seinen Gefolgsleuten in religiser Freiheit zu leben. 
-^
-{Durch Penn entstehen in Ihren Kolonien 50%% mehr Kreuze.}
-
-@; Father Jean de Brebeuf
-@FATHER22
-@width=300
-^{Father Jean de Brebeuf (1593-1649)}
-Franzsischer Jesuitenmissionar, der in Kanada in einer Schlacht zwischen
-den Huronen 
-und den Irokesen von den Irokesen gettet wurde. Er bersetzte den
-Katechismus in die Sprache 
-der Huronen und wurde 1930 heilig gesprochen.
-^
-{Wenn Brebeuf ein Mitglied Ihres Kongresses ist, werden alle Missionare zu
-erfahrenen Missionaren.}
-
-@; Juan de Sepulveda
-@FATHER23
-@width=315
-@SMALLFONT
-^{Juan de Sepulveda (ca. 1490-ca. 1573)}
-Spanischer Philosoph und "Humanist", der eine harte Behandlung der
-Ureinwohner befrwortete. 
-Seine Denkweise basierte auf seiner Theorie, da die Ureinwohner aufgrund
-ihrer Unzivilisiertheit 
-nicht in der Lage w`ren, sich selbst zu regieren. Dies wurde durch die
-Tatsache "bewiesen", 
-da sie sich der spanischen Invasion nicht widersetzen konnten... 
-^
-{Durch seinen Beitritt zum Kongre erhht sich die Wahrscheinlichkeit, 
-da unterworfene Ureinwohner "konvertieren" und der Kolonie beitreten.}
-
-@; Bartolome de las Casas
-@FATHER24
-@width=305
-^{Bartolome de Las Casas (1474-1566)}
-Der "Apostel der Indianer", ein spanischer Missionar, der an Kolumbus'
-dritter Expedition 
-teilnahm. Er setzte sich fr die Rechte der Ureinwohner ein und versuchte,
-sie 
-vor der Sklaverei zu beschtzen. So machte er sich mehrere Male zum 
-Frsprecher der indianischen Bevlkerung vor spanischen Gerichten.
-^
-{Mit dem Beitritt von Las Casas zum Kongre werden alle indianischen 
-Konvertiten als freie Siedler in die Kolonien aufgenommen.} 
-
-
-@; *** CARGO TYPES ***
-
-
-@;
-@CARGO0
-@width=315
-@SMALLFONT
-^{NAHRUNGSMITTEL}
-Nahrungsmittel stellen die wichtigste Ware einer Kolonie dar, 
-denn schlielich h`ngt Ihr \berleben davon ab. Folgende Gebiete 
-sind fr den Nahrungsmittelanbau am besten geeignet: {Flachland, Grnland,
-Pr`rie, Savanne}. Wenn Sie das Land pflgen, erhalten Sie hhere Ertr`ge.
-Auerdem bietet die {Fischerei} eine gute Nahrungsquelle. Nutzen Sie
-ertragreiche {Fischgrnde}.
-^
-{Jeder Kolonist, der in einer Kolonie arbeitet, verzehrt pro Zug zwei
-Nahrungsmitteleinheiten.}
-
-@;
-@CARGO1
-@width=300
-^{ZUCKER}
-Zucker ist ein landwirtschaftliches Produkt, das in Europa zu einem guten
-Preis 
-verkauft werden oder von einem {Schnapsbrenner} zu {Rum} verarbeitet
-werden kann, um noch hhere Gewinne zu erzielen. 
-^
-{Zucker gedeiht gut in der Savanne, vor allem in bestem 
-Zuckergebiet.}
-
-@;
-@CARGO2
-@width=300
-^{TABAK}
-Tabak ist ein landwirtschaftliches Produkt, das in Europa zu einem guten
-Preis verkauft werden 
-oder von einem {Tabakh`ndler} zu {Zigarren} verarbeitet werden kann, um
-noch hhere Gewinne zu erzielen. 
-^
-{Tabak w`chst besonders gut im Grnland, vor allem in bestem 
-Tabakgebiet.}
-
-@;
-@CARGO3
-@width=300
-^{BAUMWOLLE}
-Baumwolle ist ein landwirtschaftliches Produkt, das in Europa zu einem
-guten Preis verkauft werden 
-oder von einem {Weber} zu {Stoffen} verarbeitet werden kann, um noch hhere
-Gewinne zu erzielen. 
-^
-{Baumwolle w`chst besonders gut in der Pr`rie, vor allem in bestem 
-Baumwollgebiet.}
-
-
-@;
-@CARGO4
-@width=315
-@SMALLFONT
-^{PELZE}
-Pelze gibt es in Amerika in groem Mae, und sie lassen sich sehr gut in
-Europa 
-verkaufen. Ihre {Pelzh`ndler} verarbeiten Felle zu M`nteln, wodurch noch 
-grere Gewinne erzielt werden. Auf Pelztierjagd knnen Sie in allen
-{W`ldern} gehen, vor allem 
-in {Wild- und Biber-}Quadraten der k`lteren Regionen. Eine {Strae} 
-in einem Wald-Quadrat sorgt fr grer Ertr`ge.
-^
-{Pelztiere trifft man in groer Zahl in allen W`ldern, vor allem aber in
-k`lteren 
-Regionen, in denen Biber vorkommen.}
-
-
-@;
-@CARGO5
-@width=300
-^{NUTZHOLZ}
-Nutzholz ist eines der wertvollsten Erzeugnisse, das Sie herstellen knnen.
-Ihre 
-{Schreiner} bentigen es fr {Geb`ude, Schiffe, Artillerie und Festungen}.
-Nutzholz f`llt ab, wenn Ihre Pioniere ein Wald-Quadrat abholzen oder 
-Holzf`ller in den W`ldern arbeiten.
-^
-{Holz knnen Sie in allen Arten von W`ldern schlagen. Straen in den
-W`ldern und 
-beste Nutzholzgebiete erhhen die Nutzholzproduktion.}
-
-@;
-@CARGO6
-@width=315
-^{ERZ}
-Erz ist eines Ihrer ntzlichsten Produkte. Sie knnen es in Europa
-verkaufen oder von 
-Ihren {Schmieden} zu {Werkzeugen} verarbeitet lassen. Die Werkzeuge knnen
-dann 
-von den {Waffenschmieden} zu {Waffen} weiterverarbeitet werden. 
-^
-{Erze kommen in Hgellandschaften, Bergen und Sumpflandschaften vor.} 
-
-@;
-@CARGO7
-@width=300
-^{SILBER}
-Silber ist normalerweise das wertvollste Material, das die Neue Welt zu
-bieten hat. 
-Es kann in Minen in {Berg-}Quadraten abgebaut werden, und einige
-indianische Vlker 
-besitzen es in groen Mengen.
-^
-{Silber kommt in den Bergen vor. Aber wenn es dort in Minen abgebaut wird,
-sind diese Vorkommen schnell erschpft.}
-
-@;
-@CARGO8
-@width=315
-^{PFERDE}
-Pferde stellen in der Neuen Welt ein wichtiges Transportmittel dar. {Sp`her
-und Dragoner} sind 
-wesentlich schneller als Kolonisten, die sich zu Fu fortbewegen. {Jeder 
-Kolonist} kann durch ein Pferd zu einem {Sp`her} werden, und {jeder 
-Soldat} kann so zu einem {Dragoner} gemacht werden.
-^
-{Pferde erhalten Sie nur in Europa,} aber sobald Sie welche nach Amerika
-gebracht haben, 
-vermehren sie sich. Sie brauchen in einer Kolonie {zwei oder mehr Pferde}
-und zus`tzliche Nahrungsmittel in den Lagern, um
-{mehr Pferde zu zchten}. Errichten Sie St`lle, 
-vermehren sich die Pferde doppelt so schnell.
-
-@;
-@CARGO9
-@width=300
-^{RUM}
-Rum erh`lt man durch die Verarbeitung von Zucker in einer
-Schnapsbrennerei. 
-Er ist in der Regel weitaus mehr wert als unverarbeiteter Zucker. 
-^
-{Jeder Kolonist, der als Schnapsbrenner arbeitet, kann Zucker zu Rum
-verarbeiten.}
-
-@;
-@CARGO10
-@width=300
-^{ZIGARREN}
-Zigarren erh`lt man durch die Verarbeitung von Tabak im Haus oder Gesch`ft
-eines 
-Tabakh`ndlers. Gewhnlicherweise bekommt man fr Zigarren wesentlich mehr
-Geld als fr 
-unverarbeiteten Tabak.
-^
-{Jeder Kolonist, der als Tabakh`ndler arbeitet, kann Tabak zu 
-Zigarren verarbeiten.}
-
-@;
-@CARGO11
-@width=300
-^{STOFF}
-Stoff wird aus Baumwolle im Haus eines Webers oder dessen Gesch`ft
-hergestellt. Fr Stoffe erhalten 
-Sie normalerweise weitaus mehr Geld als fr unverarbeitete Baumwolle.
-^
-{Jeder Kolonist, der als Weber arbeitet, kann Baumwolle zu Stoffen
-verarbeiten.}
-
-@;
-@CARGO12
-@width=300
-^{MNTEL}
-M`ntel entstehen durch die Verarbeitung von Pelzen im Haus oder Gesch`ft
-eines Pelzh`ndlers. 
-Sie sind gewhnlicherweise viel mehr wert als unverarbeitete Felle.
-^
-{Jeder Kolonist, der als Pelzh`ndler arbeitet, kann Felle zu M`nteln
-verarbeiten.}
-
-@;
-@CARGO13
-@width=300
-^{HANDELSWAREN}
-Handelswaren erhalten Sie nur aus Europa oder von anderen europ`ischen
-Kolonien. 
-Dies sind Fertigprodukte wie kleinere Werkzeuge, Schmuck, Bekleidung usw.,
-die Sie zum Handel mit den Ureinwohnern verwenden knnen. Die meisten
-indianischen Vlker nehmen diese 
-Waren, zumindest anf`nglich, gerne an. 
-
-@;
-@CARGO14
-@width=315
-@SMALLFONT
-^{WERKZEUGE}
-Werkzeuge sind fr alle kolonialen Aktivit`ten von grter Bedeutung. 
-Sie bentigen Werkzeuge, um {Pioniere} auszustatten. Nur sie 
-sind in der Lage, {Straen zu bauen, W`lder abzuholzen und Felder 
-zu pflgen}. Sie brauchen Werkzeuge auerdem fr die Fertigstellung vieler
-Geb`ude und 
-fr die {Herstellung von Waffen}. Ihre {Waffenschmiede} 
-verarbeiten Werkzeuge n`mlich zu Musketen.
-^
-{Werkzeuge kaufen Sie in Europa oder lassen sie von Ihren Schmieden
-herstellen, die Erze 
-zu Werkzeugen verarbeiten.}
-
-@;
-@CARGO15
-@width=300
-^{MUSKETEN}
-Musketen bentigen Sie fr die Verteidigung Ihrer Kolonien und um eine gute
-Offensivarmee aufzustellen. Mit ihnen rsten Sie 
-Soldateneinheiten aus. Mit Musketen knnen Sie {jeden Kolonisten} 
-zu einem {Soldaten} und {jeden Sp`her} zu einem {Dragoner} machen.
-^
-{Musketen knnen Sie in Europa kaufen oder in einer {Waffenkammer, 
-einem Waffendepot oder -arsenal} herstellen lassen. Jeder Kolonist, der als
-Waffenschmied 
-arbeitet, kann Werkzeuge zu Waffen verarbeiten.
-
-
-@;
-@;      *** UNIT TYPES ***
-@;
-
-@;
-@UNIT0
-@width=300
-@SMALLFONT
-^{KOLONISTEN}
-Die grundlegende Bezeichnung fr die Menschen, die in die Neue Welt reisen,
-ist "Kolonisten". 
-In diesem Spiel repr`sentiert ein einzelner Kolonist eine grere Anzahl 
-von Menschen - etwa 500 - in der Realit`t. Im allgemeinen gibt es vier
-Arten von Kolonisten 
-mit jeweils unterschiedlichen F`higkeiten: Kleinkriminelle, verdingte 
-Knechte, freie Kolonisten und berufserfahrene Siedler. All diese 
-Kolonisten knnen fr jede Art von Arbeit eingesetzt werden, allerdings 
-machen die Meister ihres Faches ihre Arbeit besonders gut.
-^
-Es gibt noch eine andere Untergruppierung: Indianische Konvertiten, d.h. jene 
-Ureinwohner, die sich Ihren Kolonien anschlieen und dadurch selbst zu Kolonisten 
-werden. Sie sind ausgezeichnet fr Arbeiten in der freien Natur, jedoch kaum fr 
-Manufakturberufe geeignet.
-
-
-@;
-@UNIT1
-@width=315
-@SMALLFONT
-^{SOLDATEN}
-Wenn Sie einem Kolonisten {Musketen} geben, wird dieser zu einem  
-Soldaten,
-der zu einem 
-{erfahrenen Soldaten} aufsteigen kann, indem er K`mpfe gewinnt oder in
-einem {College} 
-unterrichtet wird. {Erfahrene
-Soldaten} 
-(Veteranen) finden Sie gelegentlich auch unter den Auswanderern, oder 
-Sie knnen sie an der {kniglichen Universit`t} anwerben. 
-
-@;
-@UNIT2
-@width=300
-^{PIONIERE}
-Pioniere erhalten Sie, indem Sie Kolonisten mit {Werkzeugen} ausrsten. 
-Diese fhren verschiedene, wichtige Aufgaben aus, z.B. {W`lder abholzen,
-Felder pflgen 
-und Straen bauen}. Im allgemeinen verrichten {gest`hlte Pioniere} diese
-Aufgaben schneller als gewhnliche Siedler, die als Pioniere eingesetzt 
-werden.
-
-@;
-@UNIT3
-@width=315
-@SMALLFONT
-^{MISSIONARE}
-Einen Missionar knnen Sie berall dort erschaffen, wo sich eine
-{Kathedrale oder 
-eine Kirche} befindet, d.h. entweder in den {europ`ischen H`fen} oder in
-einer
-Kolonie, in der schon eine Kirche oder eine Kathedrale gebaut wurde.
-Missionare 
-fhren folgende wichtige, besondere Aufgaben aus: Sie {errichten Missionen
-in 
-indianischen Siedlungen}, um die Ver`rgerung der Ureinwohner zu reduzieren,
-sie {bezichtigen andere europ`ische Missionen 
-der Ketzerei}, was zu deren Zerstrung fhren kann, oder sie
-{bewegen die Ureinwohner dazu, eine andere Nation anzugreifen} und leisten
-Ihnen somit 
-wertvolle Untersttzung in einer kriegerischen Auseinandersetzung. 
-{Jesuitenmissionare sind fr diese Aufgabe am besten geeignet.}
-
-@;
-@UNIT4
-@width=300
-^{DRAGONER}
-Dragoner sind {berittene Soldaten} - die koloniale Entsprechung der
-Kavallerie. 
-Sie knnen jeden Soldaten zu einem Dragoner machen, indem Sie ihn mit 
-einem Pferd ausstatten. Dragoner knnen pro Zug grere Entfernungen
-zurcklegen und 
-auch besser k`mpfen.
-{Erfahrene Dragoner sind in Gefechtssituationen effizienter als normale 
-berittene Soldaten.}
-
-@;
-@UNIT5
-@width=315
-@SMALLFONT
-^{SPHER}
-Jeder Kolonist, der ein Pferd erh`lt, wird zu einem Sp`her und kann dann 
-wichtige Aufgaben fr Sie ausfhren: Sp`her knnen unbekannte Gebiete
-schneller 
-{erforschen},pro Zug {grere Entfernungen zurcklegen}, haben mehr Erfolg,
-wenn 
-sie {Gerchten ber untergegangene St`dte nachgehen}, knnen sich {mit
-Stammesfhrern 
-treffen und mit diesen reden}, sich in {fremde Kolonien
-einschleichen}, um herauszufinden, was dort passiert und sich mit gegnerischen 
-Majoren in deren Kolonien treffen. {Kampferprobte Sp`her erfllen diese Aufgaben 
-besser als gewhnliche Kolonisten, die als Sp`her eingesetzt werden.} 
-
-@;
-@UNIT6
-@width=300
-^{REGULRE TRUPPEN}
-Europ`ische Infanterietruppen sind die regul`ren Armeetruppen der Krone. 
-Sie tauchen im Spiel auf, wenn Sie Ihre Unabh`ngigkeit erkl`ren. 
-Ihre Schw`che besteht darin, da Sie mit dem unbekannten, rauhen 
-Terrain der Neuen Welt nicht vertraut sind.
-
-@;
-@UNIT7
-@width=300
-^{KONTINENTALKAVALLERIE}
-Ihre Kontinentalkavallerie steht in Sachen Effektivit`t eine Stufe ber
-Ihren erfahrenen 
-Dragonern. Sie sind erfahrene Soldaten, die die abgelegensten Gebiete
-kennen, und haben 
-auerdem eine milit`rische Ausbildung durchlaufen.
-
-@;
-@UNIT8
-@width=300
-^{EUROPISCHE KAVALLERIE}
-Die europ`ische Kavallerie besteht aus regul`ren berittenen Truppen der
-Krone. 
-Sie kommen ins Spiel, wenn Sie Ihre Unabh`ngigkeit erkl`ren. Ihre Schw`che
-liegt darin, da 
-sie fr das unbekannte, rauhe Terrain 
-nicht ausgebildet sind.
-
-@;
-@UNIT9
-@width=300
-^{KONTINENTALARMEE}
-Ihre kontinentalen Infanterietruppen stehen in Sachen Effektivit`t eine
-Stufe ber Ihren erfahrenen 
-Soldaten. Sie sind erfahrene Soldaten, die die abgelegensten Gebiete
-kennen, und haben 
-auerdem eine milit`rische Ausbildung durchlaufen.
-
-@;
-@UNIT10
-@width=300
-^{SCHTRATZZUG}
-Schatzzge befrdern {erbeutete Sch`tze}, vor allem Gold, Silber, 
-Edelsteine und wertvolle Stoffe. Sie werden eingesetzt, um die 
-erbeuteten Sch`tze einer indianischen Siedlung oder untergegangenen Stadt
-abzutransportieren. Um die Waren eines Schatzzuges ber das Meer zu
-befrdern, 
-brauchen Sie eine {Galeone}.
-
-@;
-@UNIT11
-@width=300
-^{ARTILERIE}
-Artillerieeinheiten knnen Sie in Europa kaufen oder in Ihren Kolonien, die
-ber eine 
-Waffenkammer verfgen, produzieren. Artillerieeinheiten sind sehr ntzlich,
-um 
-{Kolonien anzugreifen und zu verteidigen} und um befestigte Einheiten oder
-indianische Siedlungen anzugreifen. Wenn eine Artillerieeinheit in einem
-Kampf 
-geschlagen wird, verliert sie einen Teil ihrer Feuerkraft und wird zu einer
-{schwachen Artillerie.}
-
-@;
-@UNIT12
-@width=315
-^{WAGENZGE}
-Wagenzge bentigen Sie, um Waren und Rohstoffe {auf dem Land} zu
-transportieren.
-Sie knnen darin allerdings keine Kolonisten befrdern. Um mit der
-indianischen Bevlkerung 
-effektiv zu handeln, mssen Sie Ihre Ware in diesen Zgen zu ihnen bringen.
-Wagenzge haben zwei freie Pl`tze und knnen {Handelsrouten} zugewiesen
-werden.
-
-@;
-@UNIT13
-@width=300
-^{KARAVELLE}
-Eine Karavelle ist ein kleines Erkundungsschiff, das eine kleine Mannschaft
-sowie dementsprechend 
-Fracht fr deren Versorgung ber ein paar Monate transportieren kann. Sie
-verfgt ber 
-{2 freie Pl`tze} und hat ein {Bewegungsmaximum von 4}.
-
-@;
-@UNIT14
-@width=300
-^{HANDELSSCHIFF}
-Ein Handelsschiff ist ein mittelgroes Frachtschiff, dessen Hauptaufgabe
-darin besteht, 
-Handelswaren zu H`fen zu transportieren. Es ist etwas grer als 
-eine Karavelle und hat mehr Segel.
-
-@;
-@UNIT15
-@width=300
-^{GALEONE}
-Eine Galeone ist ein groes Frachtschiff, das fr lange Reisen und groe
-Transportmengen ausgelegt ist. 
-Sie ist so gro wie ein Kriegsschiff, verfgt aber ber keine 
-Bewaffnung. 
-
-@;
-@UNIT16
-@width=315
-@SMALLFONT
-^{KAPERSCHIFF}
-Ein Kaperschiff befindet sich im Besitz von Privatpersonen und erhielt von
-seiner Regierung 
-einen "Kaperbrief", der ihm das "Recht" gibt, Schiffe anderer Nationen zu
-berfallen. 
-Kaperschiffe anderer Nationen knnen Ihrem Handel sehr gef`hrlich 
-werden, da sie keinerlei internationale Verhaltensmaregeln einhalten. 
-Die Nationen, die diese Schiffe untersttzen, leugnen gewhnlich 
-jegliche Verbindung ab. 
-
-@;
-@UNIT17
-@width=300
-^{FREGATTE}
-Fregatten sind gef`hrliche, bewaffnete Schiffe, die in der Lage sind, jedes
-gegnerische 
-Schiff zu besch`digen oder zu versenken. 
-
-@;
-@UNIT18
-@width=315
-@SMALLFONT
-^{KRIEGSSCHIFFE}
-Diese m`chtigen Schiffe tauchen nur auf, wenn ein Unabh`ngigkeitskrieg
-ausgebrochen ist. 
-In diesem Fall werden sie von Ihrem Heimatland geschickt, um Ihre Truppen
-zu bek`mpfen, 
-und wenn andere Nationen intervenieren, erhalten Sie einige dieser Schiffe
-zu Ihrer eigenen 
-Untersttzung. Sie sind mit einer groen Zahl von Kanonen bewaffnet und in
-der Lage, 
-riesige Invasionstruppen oder auch eine groe Frachtmenge zu 
-befrdern. 
-
-@;
-@UNIT19
-@width=300
-^{KRIEGER}
-Krieger stellen die grundlegende Einheit der amerikanischen Ureinwohner
-dar. 
-Sie sind Ureinwohner ohne zus`tzliche Ausstattung, d.h. vor dem Erhalt von
-Waffen oder Pferden von den Europ`ern.
-
-@;
-@UNIT20
-@width=300
-^{BEWAFFNETE KRIEGER}
-Die amerikanischen Ureinwohner knnen Ihnen sehr gef`hrlich werden, wenn
-sie den Umgang 
-mit den von Europa eingeschleppten tdlichen Waffen lernen. Wenn ein Stamm
-von den 
-Europ`ern Waffen erh`lt, werden einige Gruppen seiner Krieger damit
-ausgerstet. 
-{Die Waffen in Verbindung mit ihrer Kenntnis der weiten Landschaft machen
-sie 
-zu herausragenden K`mpfern in W`ldern, Hgellandschaften und Bergen.}
-
-@;
-@UNIT21
-@width=300
-^{REITER}
-Das Pferd kam erst im sp`ten 15. Jahrhundert mit den Spaniern zu den 
-indianischen Vlkern. Sie integrierten es sehr schnell in ihre Kultur und
-in einigen F`llen wurde das Pferd zu einem sehr wichtigen Bestandteil 
-der indianischen Lebensweise. {Pferde erhhen die Mobilit`t und die 
-Kampfst`rke der Ureinwohner.}
-
-@;
-@UNIT22
-@width=300
-^{ERFAHRENE REITER}
-St`mme, die von den Europ`ern Pferde und Musketen erhalten haben, sind
-wirklich 
-sehr gef`hrlich. Sie sind ebenso gut wie koloniale Dragoner, sogar noch
-besser, 
-wenn sie in der Wildnis k`mpfen.
-
-@;
-@UNIT23
-@width=300
-^{Kolonisten}
-
-
-@;
-@TERRAIN0
-@width=300
-^{TUNDRA}
-Dieses offene und recht kalte Land wirft zwar eine geringe Menge von
-Nahrungsmitteln ab, ist 
-aber kaum fr den Ackerbau geeignet. Sie finden dort jedoch oft Erze.
-
-@;
-@TERRAIN1
-@width=300
-^{WSTE}
-In diesen kargen, trockenen Gebieten ist es zwar mglich, aber sehr schwer,
-Nahrungsmittel anzubauen. 
-Sie knnen dort jedoch manchmal Erze abbauen.
-
-@;
-@TERRAIN2
-@width=300
-^{FLACHLAND}
-In diesen Gebieten knnen Sie eine ganze Reihe von Nahrungsmitteln anbauen.
-Sie sind aber auch fr den Anbau von Baumwolle geeignet.
-^
-{Diese Gebiete sind fr den Anbau von Nahrungsmitteln am besten
-geeignet.}
-
-@;
-@TERRAIN3
-@width=300
-^{PRRIE}
-Diese offenen, relativ flachen Gebiete eignen sich hervorragend fr den
-Anbau von Baumwolle. 
-Sie knnen dort aber auch Nahrungsmittel anbauen.
-^
-{In diesen Gebieten w`chst Baumwolle am besten.}
-
-@;
-@TERRAIN4
-@width=300
-^{GR\NLAND}
-Durch den fruchtbaren Boden und das milde Klima sind diese Gebiete ideal
-fr den Tabakanbau. 
-Sie knnen dort aber auch Nahrungsmittel anbauen.
-^
-{Tabak w`chst in diesen Gebieten am besten.}
-
-@;
-@TERRAIN5
-@width=300
-^{SAVANNE}
-Fruchtbare, feuchte Bden machen diese Gebiete zu idealen
-Zuckeranbaugebieten. 
-Sie eignen sich aber auch fr den Nahrungsmittelanbau. 
-^
-{Zuckerrohr w`chst dort am besten.}
-
-@;
-@TERRAIN6
-@width=300
-^{FEUCHTGEBIETE}
-Diese Gebiete befinden sich dort, wo das Land und das Meer zusammentreffen.
-Sie knnen dort 
-einige Nahrungsmittel anbauen, und auerdem finden Sie dort Erze im
-\berflu.
-
-@;
-@TERRAIN7
-@width=300
-^{SUMPFLAND}
-Diese niedriggelegenen Sumpfgebiete verbergen oft Erzvorkommen. Sie knnen
-dort 
-in geringem Mae Nahrungsmittel und auch ein wenig Zucker anbauen.
-
-@;
-@TERRAIN8
-@width=300
-^{BOREALE WALDGEBIETE}
-Dies ist ein Waldgebiet in k`lteren Zonen, das sich gut fr die
-Pelztierjagd 
-und das Schlagen von Holz eignet.
-^
-{Es wird zur Tundra (Erze), wenn Sie es abholzen.}
-
-@;
-@TERRAIN9
-@width=300
-^{GESTR\PP}
-Dies sind trockene und kahle Gebiete mit vereinzelter Vegetation. Sie
-finden 
-dort gelegentlich Erze.
-^
-{Dieses Gebiet verwandelt sich in Wste (Erze), wenn es abgeholzt wird.}
-
-@;
-@TERRAIN10
-@width=300
-^{MISCHWALD}
-Mischwald befindet sich in Gebieten mit mildem Klima. Er eignet sich gut
-fr die Pelztierjagd und 
-das Schlagen von Holz.
-^
-{Dieses Gebiet verwandelt sich in Flachland (Nahrungsmittel), wenn es
-abgeholzt wird.}
-
-@;
-@TERRAIN11
-@width=300
-^{LAUBWALD}
-Laubwald befindet sich in Gebieten mit mildem Klima. Er eignet sich gut fr
-die Pelztierjagd und 
-das Schlagen von Holz.
-^
-{Laubwaldgebiete, die abgeholzt werden, verwandeln sich in Pr`rie
-(Baumwolle).}
-
-@;
-@TERRAIN12
-@width=300
-^{NADELWALD}
-Nadelwald befindet sich in Gebieten mit mildem Klima. Er eignet sich gut
-fr die Pelztierjagd und 
-das Schlagen von Holz.
-^
-{Nadelwaldgebiete, die abgeholzt werden, verwandeln sich in Grnland
-(Tabak).}
-
-@;
-@TERRAIN13
-@width=300
-^{TROPENWLDER}
-Tropenw`lder befinden sich in feuchtwarmen Gebieten und eignen sich fr den
-Abbau von Holz und in geringerem Mae fr die Pelztierjagd.
-^
-{Tropenw`lder, die abgeholzt werden, verwandeln sich in Savannen
-(Zuckerrohr).}
-
-
-@;
-@TERRAIN14
-@width=300
-^{WLDER IN FEUCHTGEBIETEN}
-W`lder in Feuchtgebieten befinden sich in tropischen Gebieten. Sie knnen
-dort
-Holz schlagen, etwas Pelztierjagd betreiben und Erze abbauen. 
-^
-{Wenn Sie diese Gebiete abholzen, werden Sie zu Feuchtgebieten (Erze).}
-
-@;
-@TERRAIN15
-@width=300
-^{REGENWALD}
-Dies ist ein tropisches Waldgebiet, in dem Sie Holz schlagen, etwas Zucker
-anbauen und 
-Erze abbauen knnen.
-^
-{Regenwald wird zu Sumpfland (Erze), wenn er abgeholzt wird.}
-
-@;
-@TERRAIN16
-@width=300
-^{BOREALE WALDGEBIETE}
-Dies ist ein Waldgebiet in k`lteren Zonen, das sich gut fr die
-Pelztierjagd 
-und das Schlagen von Holz eignet.
-^
-{Es wird zur Tundra (Erze), wenn Sie es abholzen.}
-
-@TERRAIN17
-@width=300
-^{GESTR\PP}
-Hier handelt es sich um trockenes, des Land mit wenig Vegetation. 
-Manchmal kann in diesen Gegenden Erz gefunden werden.
-^
-{Wird nach der Rodung zur Wste (Erz).}
-
-@;
-@TERRAIN18
-@width=300
-^{MISCHWALD}
-Bewaldetes Gebiet mit moderatem Klima; gut fr 
-Fallenstellen (Pelze) und Holzgewinnung geeignet.
-^
-{Wird nach der Rodung zu Flachland (Nahrungsmittel).}
-
-@;
-@TERRAIN19
-@width=300
-^{LAUBWALD}
-Bewaldetes Gebiet mit moderatem Klima; gut fr 
-Fallenstellen (Pelze) und Holzgewinnung geeignet.
-^
-{Wird nach der Rodung zur Pr`rie (Baumwolle).}
-
-@;
-@TERRAIN20
-@width=300
-^{NADELWALD}
-Bewaldetes Gebiet mit moderatem Klima; gut fr 
-Fallenstellen (Pelze) und Holzgewinnung geeignet.
-^
-{Wird nach der Rodung zu Grnland (Tabak).}
-
-@;
-@TERRAIN21
-@width=300
-^{TROPENWALD}
-Bewaldetes Gebiet mit feuchtem Klima; gut 
-zur Holzgewinnung und bedingt fr 
-Fallenstellen (Pelze) geeignet.
-^
-{Wird nach der Rodung zur Savanne (Zuckerrohr).}
-
-@;
-@TERRAIN22
-@width=300
-^{WLDER IN FEUCHTGEBIETEN}
-Tropenwald; geeignet fr die Gewinnung von 
-Nutzholz, Pelzen (begrenzt) und Erz.
-^
-{Wird nach der Rodung zum Feuchtgebiet (Erz).}
-
-@;
-@TERRAIN23
-@width=300
-^{REGENWALD}
-Tropisches Dschungelgebiet; geeignet fr 
-Nutzholzgewinnung, Zucker und Erz.
-^
-{Wird nach der Rodung zum Sumpfland (Erz).}
-
-
-@;
-@TERRAIN24
-@width=300
-^{ARKTISCH}
-Kalt und eisig - fr die landwirtschaftliche 
-Nutzung kaum geeignet.
-
-@;
-@TERRAIN25
-@width=300
-^{OZEAN}
-Das weite, offene Meer. Geeignet fr den Fischfang, 
-besonders entlang der Kste und in Fischgrnden. 
-
-@;
-@TERRAIN26
-@width=300
-^{SEEWEG}
-Hier handelt es sich um Teile des offenen Ozeans, die zu den wichtigsten 
-Schiffahrtsrouten zwischen der Neuen Welt und Europa fhren. Soll ein 
-Schiff Richtung Europa segeln, mu es sich zu einem der Seewege 
-begeben und dann Kurs auf Osten (falls es die Karte im Osten verlassen 
-soll) oder Westen (falls es die Karte im Westen verlassen soll) nehmen.
-
-@;
-@TERRAIN27
-@width=300
-^{BERGE}
-Hier handelt es sich um weite, bergige Gebiete, die das Reisen 
-erschweren, auf der anderen Seite aber auch Erz- und 
-Silbervorkommen aufweisen. In bergigem Terrain knnen keine 
-Kolonien aufgebaut werden. 
-^
-{In diesen Gebieten sind groe Mengen an Silber und Erz zu finden.}
-
-@;
-@TERRAIN28
-@width=300
-^{H\GELLANDSCHAFT}
-Diese Gegenden eignen sich gut fr den Abbau von Erzen. 
-Auch landwirtschaftlich bieten sie gewisse Mglichkeiten.
-^
-{Reiche Erzvorkommen.}
-
-
-@;
-@;      *** COLONIST PROFESSIONS ***
-@;
-
-@;
-@JOB0
-@width=300
-^{ERFAHRENE FARMER} 
-Einige Ihrer Leute haben den "grnen Daumen", und ihre Kenntnisse 
-ber Wetter und Jahreszeiten schenken ihnen reiche Ernten. Diese 
-Experten finden Sie als Ausreisewillige in Europa, oder Sie bilden 
-sie an der Kniglichen Universit`t aus. Auch einige der 
-Ureinwohner sind hervorragende Farmer, und sie knnen freie 
-Kolonisten und verdingte Knechte in die Geheimnisse der 
-Landwirtschaft einweihen.
-^ 
-{Flachland ist fr die Landwirtschaft 
-besonders geeignet.} 
-^
-{Erfahrene Farmer ernten  pro Kartenquadrat 2 
-Nahrungseinheiten mehr als andere Bauern.}
-
-@;
-@JOB1
-@width=300
-^{MEISTER-ZUCKERPFLANZER}
-Der Anbau von Zuckerrohr ist ein kompliziertes Unterfangen, das 
-gute Planung und spezielle Techniken verlangt. Nur die 
-Ureinwohner verfgen ber die ntigen Kenntnisse, um als 
-Experten bezeichnet zu werden, und nur sie knnen Ihren 
-Leuten dieses Wissen vermitteln. Besch`ftigt sich ein Kolonist 
-lange genug mit der Landwirtschaft, kann er jedoch selbst zum 
-Meister werden. 
-^
-{Der beste Ort fr den Zuckerrohranbau ist die Savanne.}
-^
-{Meister-Zuckerpflanzer sind doppelt so produktiv 
-wie ihre Berufs-Kollegen.}
-
-@;
-@JOB2
-@width=300
-^{MEISTER-TABAKPFLANZER}
-Tabak ist in der Neuen Welt im \berflu vorhanden. Er wird von 
-den Indianern angebaut und fr viele Rituale und zur Entspannung 
-verwendet. Einige Indianer verfgen ber weitreichende Kenntnisse 
-ber dieses geheimnisvolle Kraut und stehen Ihren Leuten beim 
-Tabakanbau hilfreich zur Seite. 
-^
-{Das Grnland ist fr Tabak am besten geeignet.} 
-^
-{Meister-Tabakpflanzer sind auf ihrem Gebiet doppelt so produktiv 
-wie andere Farmer.}
-
-@;
-@JOB3
-@width=300
-^{MEISTER-BAUMWOLLPFLANZER}
-Die Baumwolle in der Neuen Welt ist von guter Qualit`t und kann 
-zu feinem Tuch versponnen werden. Meister-Baumwollpflanzer 
-mssen von der indianischen Bevlkerung in diese Kunst eingeweiht 
-werden, deren langj`hrige Erfahrung die besten Anbaumethoden 
-hervorgebracht hat. 
-^
-{Pr`riegebiete eignen sich am besten fr den 
-Anbau von Baumwolle.}
-^
-{Meister-Baumwollpflanzer sind auf ihrem Gebiet doppelt so 
-produktiv wie andere Farmer.}
-
-@;
-@JOB4
-@width=300
-^{ERFAHRENE PELZJGER}
-In der Neuen Welt herrscht ein enormer Reichtum an pelztragenden 
-S`ugetieren, deren Felle in Europa gute Gewinne bringen. Die 
-indianischen Ureinwohner jagen diese Tiere wegen der Felle und des 
-Fleisches seit vielen Generationen. Ihre Kolonisten knnen von den 
-Indianern alles ber die Tiere des Waldes erfahren und so zu 
-Meister-Pelzj`gern werden. 
-^
-{Waldgebiete eignen sich am besten 
-fr das Fallenstellen, besonders in khleren Gegenden.} 
-^
-{Meister-Pelzj`ger sind doppelt so produktiv 
-wie andere Trapper.}
-
-@;
-@JOB5
-@width=300
-^{ERFAHRENE HOLZFLLER}
-Nutzholz ist sowohl in der Neuen als auch in der Alten Welt 
-ein unverzichtbares Material. Erfahrene Holzf`ller finden Sie 
-daher in den Hafenanlagen von Europa. Sie knnen auch 
-ausgebildet werden. 
-^
-{Waldgebiete sind fr die Nutzholzgewinnung 
-natrlich am besten geeignet.} 
-^
-{Erfahrene Holzf`ller sind doppelt so produktiv wie andere.}
-
-@;
-@JOB6
-@width=300
-^{ERFAHRENE ERZ-BERGARBEITER}
-Seit der Eisenzeit war der Bergbau in der Alten Welt von groer 
-Bedeutung. Viele Experten haben umfangreiche Kenntnisse ber 
-Mineralien und Vorkommen, Erzadern und Minenbau. Erfahrene 
-Erz-Bergarbeiter finden Sie in den Hafenanlagen Europas, oder Sie 
-bilden sie in der Neuen Welt aus. 
-^
-{Erzvorkommen finden Sie in 
-Bergen, Hgeln und Sumpfgebieten, besonders, wenn es dort auch 
-Mineralvorkommen gibt.}
-^
-{Erfahrene Erz-Bergarbeiter sind doppelt so produktiv wie andere.}
-
-@;
-@JOB7
-@width=300
-^{ERFAHRENE SILBER-BERGARBEITER}
-Wie der Erzabbau ist auch die Gewinnung von Silber eine wichtige 
-und lukrative F`higkeit, die in Europa wohlbekannt ist. 
-^
-{Der 
-beste Ort, um Silber zu finden, sind die Berge.}
-^
-{Erfahrene Silber-Bergarbeiter sind doppelt so produktiv wie andere.}
-
-@;
-@JOB8
-@width=300
-^{ERFAHRENE FISCHER}
-Der Fischfang ist in Europa seit langem ein eintr`gliches Gesch`ft, 
-und viele der Immigranten verfgen ber gute Kenntnisse ber die 
-Gewohnheiten und Lebensr`ume der Fische. Die besten Fischgrnde 
-liegen entlang der Ozeankste und in den Seen. Allgemein gilt: 
-^
-{Je mehr Land an das Kartenquadrat angrenzt, in dem der Fischer seiner 
-Arbeit nachgeht, desto produktiver ist er.} 
-^
-{Erfahrene Fischer sind doppelt so produktiv wie andere.} 
-
-@;
-@JOB9
-@width=300
-^{ERFAHRENE SCHNAPSBRENNER}
-Die Kunst, {Rohzucker in Rum} und andere Schnapssorten 
-umzuwandeln, gibt es seit Menschengedenken. Einige der 
-Immigranten, die in der Neuen Welt eintreffen, sind mit dem 
-Herstellungsvorgang vertraut. 
-^
-{Erfahrene Schnapsbrenner sind doppelt so produktiv wie andere.}
-
-@;
-@JOB10
-@width=300
-^{MEISTER-TABAKHNDLER}
-Nachdem die Kolonisten die Indianer beim Tabakkonsum beobachtet 
-und sich mit den vielen Nuancen der Pfeifen- und Zigarrenherstellung 
-vertraut gemacht haben, ist in Europa ein eintr`glicher Industriezweig 
-entstanden. Tabakh`ndler wandeln {Tabak in Zigarren} um. 
-Meister-Tabakh`ndler warten in den Hafenanlagen von Europa, wo 
-sie auch ausgebildet werden knnen. 
-^
-{Meister-Tabakh`ndler sind doppelt so produktiv wie 
-gewhnliche Kolonisten, die als Tabakh`ndler arbeiten.}
-
-@;
-@JOB11
-@width=300
-^{MEISTER-WEBER}
-Das Weben ist ein uraltes Handwerk. Meister-Weber warten 
-in den Hafenanlagen von Europa auf die \berfahrt. 
-^
-{Sie sind doppelt so produktiv wie andere Weber.}
-
-@;
-@JOB12 
-@width=300
-^{MEISTER-PELZHNDLER}
-Der Reichtum an Fellen in der Neuen Welt hat die Pelzindustrie 
-Europas auf Vordermann gebracht, und viele erfahrene Gerber 
-treffen in der Neuen Welt ein, um hier ihr Glck zu machen. 
-Erfahrene Pelzh`ndler finden Sie in den Hafenanlagen Europas 
-oder Sie bilden sie aus.
-^
-{Sie sind doppelt so produktiv wie gewhnliche Kolonisten, 
-die Felle zu M`nteln verarbeiten.}
-
-@;
-@JOB13
-@width=300
-^{ERFAHRENE SCHREINER}
-Die weiten Waldgebiete der Neuen Welt bieten gengend 
-Rohmaterialien fr eine Vielzahl von Bauprojekten. Ein 
-Meister-Schreiner ist fr die Entwicklung Ihrer Kolonie von 
-entscheidender Bedeutung. Meister-Schreiner finden Sie in 
-den Hafenanlagen Europas. Sie knnen sie dort auch 
-ausbilden. 
-^
-{Erfahrene Schreiner sind doppelt so produktiv 
-wie gewhnliche Kolonisten, die als Schreiner Holz in 
-Geb`ude umwandeln.}
-
-@;
-@JOB14
-@width=300
-^{ERFAHRENE SCHMIEDE}
-Metallbearbeitung ist ein wichtiger Aspekt erfolgreicher 
-Kolonisierung. Schmiede knnen Metallgegenst`nde reparieren 
-oder neue herstellen. Sie wandeln {Erz in Werkzeuge} um, 
-erscheinen in den Hafenanlagen Europas oder knnen dort 
-ausgebildet werden. 
-^
-{Erfahrene Schmiede sind doppelt so produktiv wie 
-gewhnliche Kolonisten, die als Schmiede arbeiten.}
-
-
-@;
-@JOB15
-@width=300
-^{MEISTER-WAFFENSCHMIEDE}
-Die F`higkeit, Ihre Leute mit Waffen aus eigener Produktion 
-auszustatten, ist fr Ihren Weg in die Unabh`ngigkeit von 
-entscheidender Bedeutung. Waffenschmiede wandeln 
-{Werkzeuge in Musketen} um. Sie erscheinen in den 
-Hafenanlagen Europas oder knnen dort ausgebildet werden. 
-^
-{Meister-Waffenschmiede sind doppelt so produktiv wie 
-gewhnliche Kolonisten, die als Waffenschmiede besch`ftigt sind.}
-
-
-@;
-@JOB16
-@width=300
-^{FEURIGE PREDIGER}
-Der religise Unfriede in Europa ist ein Auslser fr die 
-Immigration in die Neue Welt. Religise Unruhen in Europa 
-knnen gefrdert werden, so da mehr Prediger sich aufmachen, 
-um in der Neuen Welt ihre Lehre zu verbreiten. Prediger 
-produzieren Kreuze, die fr Religionsfreiheit stehen. 
-Je mehr Kreuze in Amerika produziert werden, desto mehr 
-potentielle Kolonisten versammeln sich an den Hafenanlagen 
-Europas. 
-^
-{Ein feuriger Prediger produziert doppelt so viele Kreuze 
-wie ein gewhnlicher Kolonist, der in einer Kirche oder Kathedrale 
-als Priester t`tig ist.}
-
-@;
-@JOB17
-@width=300
-^{GROSSE STAATSMNNER}
-Politiker und Menschen, die die Funktion der Politik und der 
-Regierung erkennen, sind fr Ihre Gesellschaft  von groem 
-Wert, denn sie schaffen eine politische Infrastruktur. 
-Staatsm`nner produzieren Freiheitsglocken, die fr die 
-Fortentwicklung der Regierung und patriotische Gesinnung 
-stehen. 
-^
-{Groe Staatsm`nner produzieren doppelt so viele 
-Freiheitsglocken wie gewhnliche Staatsm`nner und knnen 
-in Europa ausgebildet oder in den Hafenanlagen gefunden werden.}
-
-@;
-@JOB18
-@width=300
-^{Student}
-
-@;
-@JOB19
-@width=300
-^{FREIE KOLONISTEN}
-Freie Kolonisten sind Immigranten, die sich als freie M`nner 
-und Frauen dazu entschlossen haben, in der Neuen Welt ihre 
-ganze Kraft und all ihre F`higkeiten zum Wohle der Gemeinschaft 
-einzusetzen. Sie sind daher in allen Arbeitsbereichen, in den 
-Feldern und in der Heimindustrie erfolgreich t`tig. Abgesehen von 
-erfahrenen Siedlern mit Berufsausbildung sind die freien 
-Kolonisten die produktivsten Mitglieder Ihrer Gesellschaft.
-
-@;
-@JOB20
-@width=300
-^{GESTHLTE PIONIERE}
-Diese ganz besondere Sorte von M`nnern und Frauen drang 
-in die Neue Welt vor, um der Wildnis ein wenig Zivilisation 
-abzuringen. Die Pioniere knnen daher als Vork`mpfer Ihrer 
-neuen Gesellschaft angesehen werden. Sie bauen Straen, roden 
-W`lder und pflgen Felder. Jeder Siedler kann zum Pionier 
-gemacht werden, wenn Sie ihm Werkzeuge geben, aber zum 
-gest`hlten Pionier wird man nur durch Ausbildung. Allerdings 
-knnen Sie diese besonderen M`nner und Frauen auch in den 
-Hafenanlagen Europas finden. 
-^
-{Gest`hlte Pioniere fhren s`mtliche Pionieraufgaben wesentlich 
-schneller durch} als gewhnliche Pioniere. 
-
-@;
-@JOB21
-@width=300
-^{ERFAHRENE SOLDATEN}
-Erh`lt ein beliebiger Kolonist Musketen, dann wird er zum Soldaten. 
-Um zum erfahrenen Soldaten zu werden, bentigt er jedoch 
-Ausbildung oder Kampferfahrung. Veteranen der europ`ischen 
-Kriege erscheinen zuweilen in den Hafenanlagen, sie knnen aber 
-auch an der Kniglichen Universit`t ausgebildet werden. Auch 
-Soldaten, die aus K`mpfen siegreich hervorgehen, werden 
-schlielich zu erfahrenen Soldaten.
-
-@;
-@JOB22
-@width=300
-^{KAMPFERPROBTE SPHER}
-Kolonisten zu Pferde fhren Sp`heraufgaben aus. Ein Sp`her 
-sieht  besser, bewegt sich schneller und kann Informationen ber 
-fremde Ansiedlungen (z.B. indianische Drfer und St`dte) 
-zusammentragen. Kampferprobte Sp`her fhren dieselben 
-Aufgaben schneller und effektiver aus. Manchmal erscheinen 
-sie als Immigranten in den Hafenanlagen, oder werden durch 
-den Besuch indianischer Siedlungen zu kampferprobten Sp`hern.
-
-@;
-@JOB23
-@width=300
-^{ERFAHRENE DRAGONER}
-^Bis zur Etablierung der Kontinentalarmee stellen die Dragoner 
-Ihre beste Milit`reinheit dar. Dragoner sind berittene Soldaten und 
-daher etwas st`rker als gewhnliche Soldaten. 
-Durch Ausbildung oder Erfahrung erlangen sie den Status des 
-erfahrenen Soldaten. 
-
-@;
-@JOB24
-@width=300
-^{JESUITENMISSIONARE}
-^Die Jesuiten sind berzeugte Christen, die in Indianergebieten 
-Missionsstationen aufbauen und fortan mit den Ureinwohnern 
-leben, um die christliche Lehre zu verbreiten. Sie erfllen 
-Vermittlerfunktionen zwischen Ihnen und den Ureinwohnern, 
-und oft gelingt es ihnen, die Indianer zum Kampf gegen 
-konkurrierende europ`ische M`chte zu berreden. Ihre 
-Hauptaufgabe ist es, die Ureinwohner zu beschwichtigen und 
-zum Christentum zu bekehren. 
-^
-{Im allgemeinen erweisen sich Jesuiten im Vergleich zu 
-gewhnlichen Siedlern, die mit dieser Aufgabe betraut wurden, 
-als weitaus effektivere Missionare.}
-
-@;
-@JOB25
-@width=300
-^{VERDINGTE KNECHTE}
-Verdingte Knechte sind Menschen, die zwar in die Neue Welt 
-aufbrechen mchten, sich aber die \berfahrt nicht leisten knnen. 
-Deshalb haben sie sich verpflichtet, die Kosten fr ihre \berfahrt 
-in der Neuen Welt abzuarbeiten. Aufgrund dieses Zustands der 
-Unfreiheit sind sie weniger produktiv als zu wnschen w`re. Wie
-Kleinkriminelle sind auch sie gute Feld- und Minenarbeiter, aber 
-fr Manufaktur- und Weiterverarbeitungsberufe weniger geeignet als 
-freie Kolonisten. Sie knnen jedoch durch Ausbildung oder Milit`rdienst 
-zu solchen umgewandelt werden. 
-
-@;
-@JOB26
-@width=300
-^{KLEINKRIMINELLE}
-Kleinkriminelle wurden "gewaltsam" in die Neue Welt deportiert, 
-um fr ihre Vergehen zu ben. Im allgemeinen sind die 
-Kleinkriminellen die {am wenigsten produktiven Mitglieder Ihrer 
-Kolonien}. Sie sind gute Arbeiter, fr Manufaktur- und 
-Weiterverarbeitungsberufe jedoch g`nzlich ungeeignet. Durch 
-Ausbildung oder milit`rische Erfahrungen knnen sie jedoch 
-zu verdingten Knechten werden
-
-@;
-@JOB27
-@width=300
-^{KONVERTIERTE INDIANER}
-Den Missionaren, die mit den Ureinwohnern zusammenleben, 
-gelingt es zuweilen, einige Indianer zum Christentum zu 
-bekehren. Diese Konvertiten sind in allen Berufszweigen 
-t`tig, die mit der Wildnis zu tun haben, d.h. sie halten sich 
-meist drauen auf. Fr Manufaktur und weiterverarbeitende 
-Berufe sind sie jedoch nicht geeignet. 
-
-@;
-@;      *** BUILDINGS ***
-@;
-
-@;
-@BUILDING0
-@width=300
-^{EINPFHLUNG}
-Die Einpf`hlung besteht aus einer niedrigen, 
-hlzernen Barrikade aus oben angespitzten Pf`hlen. 
-Sie ist innen mit Schiescharten fr die 
-Musketen und groben Podesten versehen, auf denen die 
-Musketen-Schtzen stehen knnen. 
-^
-Die Konstruktion einer Einpf`hlung stellt einen 
-beachtlichen Arbeitsaufwand der Koloniebevlkerung 
-dar und bedeutet, da die Siedler eine Weile bleiben 
-wollen. Der Bau kann bereits begonnen werden, wenn die 
-Bevlkerungszahl 3 betr`gt. Nach der Fertigstellung 
-kann die Bevlkerungszahl nicht auf weniger als 3 
-reduziert werden.
-^
-{Eine Einpf`hlung erhht die Verteidigungsst`rke einer 
-Einheit um 100%.}
-
-@;
-@BUILDING1
-@width=300
-^{FORT}
-Das Fort ist der Einpf`hlung aufgrund des deutlich erhhten 
-Schutzpotentials bei weitem vorzuziehen und kann erbaut 
-werden, sobald 4 Siedler in der Kolonie leben und bereits eine 
-Einpf`hlung vorhanden ist. Die Pfahlkonstruktion wird mit 
-Metallstreben verst`rkt, und Artilleriekr`fte werden eingesetzt, 
-um Schwachstellen zu schtzen. Auerdem werden umfangreiche 
-Verteidigungspl`ne entwickelt. Ein am Meer gelegenes Fort 
-verlangsamt ausl`ndische Schiffe und erffnet das Feuer auf sie,
-wenn sie sich zu nahe heranwagen.
-^
-{Die Verteidigungsst`rke einer Einheit, die sich von einem 
-Fort aus gegen Angreifer zur Wehr setzt, wird um 150%% erhht.}
-
-@;
-@BUILDING2
-@width=300
-^{FESTUNG}
-Die Festung ist eine Weiterentwicklung des Forts. Diese Struktur 
-kann erbaut werden, wenn die Bevlkerungszahl 8 erreicht und 
-bereits ein Fort vorhanden ist. Die robuste Holzbarrikade wurde 
-weiter verst`rkt, und die Schwachpunkte durch Mauerwerk ersetzt. 
-Die Schiescharten werden nun von der Artillerie besetzt, deren 
-Aufgabenumfang ausgedehnt wurde. Gut geplante Schufelder  
-erschweren die Ann`herung der gegnerischen Truppen. Eine am Ozean 
-gelegene Festung verlangsamt gegnerische Schiffe und erffnet das 
-Feuer, wenn sie zu nahe kommen.
-^
-{Die Verteidigungsst`rke einer Einheit, die sich von einer 
-Festung aus gegen Angreifer zur Wehr setzt, wird um 200% erhht.}
-
-@;
-@BUILDING3
-@width=300
-^{WAFFENKAMMER}
-^Ihre Leute knnen eine Waffenkammer bauen. In dieser 
-metallverarbeitenden Einrichtung werden Werkzeuge zu 
-Musketen umgewandelt.
-^
-^{Die Schreiner fertigen in der Waffenkammer Artillerie-Einheiten, 
-und Ihre Waffenschmiede wandeln Werkzeuge zu Musketen um.}
-
-@;
-@BUILDING4
-@width=300
-^{WAFFENDEPOT}
-^Die Waffenkammer kann zum Waffendepot umgewandelt  
-werden, sobald die Bevlkerungszahl 8 erreicht. 
-^
-{Dadurch wird die Musketenproduktion verdoppelt, 
-sofern die ntigen Werkzeuge vorhanden sind.}
-
-@;
-@BUILDING5
-@width=300
-^{WAFFENARSENAL}
-^Das Waffendepot kann zum Waffenarsenal umgewandelt 
-werden, wenn die Bevlkerung der Kolonie 8 erreicht.
-^
-{Ein Waffenarsenal verdoppelt die Musketenproduktion, 
-sofern die ntigen Werkzeuge vorhanden sind.}
-
-@;
-@BUILDING6
-@width=300
-^{HAFENANLAGEN}
-^Hier handelt es sich um die Liegepl`tze und Kaianlagen, die 
-bentigt werden, um die Fische aus den Fischgrnden 
-entlang der Kste der Neuen Welt zu verarbeiten. 
-^
-{Sind in Ihrer Kolonie Hafenanlagen vorhanden, knnen Sie 
-Ihre Siedler in jedem Ozean- oder Seequadrat einsetzen, 
-das an die Kolonie angrenzt.}
-
-@;
-@BUILDING7
-@width=300
-^{TROCKENDOCKS}
-^In den Trockendocks sind alle zur Reparatur eines Schiffes 
-(z.B. nach einem Seegefecht) ntigen Einrichtungen vorhanden. 
-In Ihrem Mutterland haben Sie stets Zugang zu einem Trockendock, 
-aber Ihre Siedler knnen in jeder Kstenkolonie mit Hafenanlagen 
-und einer Bevlkerungszahl von 6 selbst ein Trockendock bauen. 
-Wird eine See-Einheit besch`digt, gelangt sie automatisch zum 
-n`chsten Trockendock, um dort repariert zu werden. 
-^
-^{Mit Hilfe der Trockendocks kann jedes Schiff repariert werden, 
-ohne da Sie den weiten Weg nach Europa zurcklegen mten.}
-
-@;
-@BUILDING8
-@width=300
-^{WERFT}
-^In den Werften finden Sie alle zum Schiffsbau ntigen 
-Einrichtungen. 
-^
-^{Hat Ihre Kolonie eine Werft, knnen die Schreiner 
-dort Schiffe bauen.}
-
-@;
-@BUILDING9
-@width=300
-^{RATHAUS}
-^Das Rathaus ist eines der ersten Geb`ude, die die Koloniegrnder 
-bauten. Hier knnen sich die Siedler aus der Umgebung treffen, um 
-Themen zu besprechen, die die Kolonie betreffen - der erste Ansatz 
-zu einer funktionsf`higen Regierung. Ein Kolonist, der sich im 
-Rathaus befindet, produziert Freiheitsglocken, die das Anwachsen 
-des Nationalstolzes und die Entwicklung der Kolonialregierung 
-repr`sentieren. Ein groer Staatsmann im Rathaus produziert 
-zahlreiche Freiheitsglocken. 
-
-@;
-@BUILDING10
-@width=300
-^{RATHAUS} 
-
-@;
-@BUILDING11
-@width=300
-^{KOLONIALVERSAMMLUNG} 
-
-@;
-@BUILDING12
-@width=300
-^{SCHULHAUS}
-^Um Ihrer Bevlkerung die ntige Ausbildung angedeihen zu 
-lassen, mssen Sie eine Schule bauen. Dies kann geschehen, sobald 
-4 Siedler in Ihrer Kolonie leben. 
-^{Die Schule ermglicht es den folgenden Kolonisten, Ihre 
-F`higkeiten weiterzugeben:}
-^Erfahrener Farmer
-^Erfahrener Fischer
-^Erfahrener Pelzj`ger
-^Erfahrener Silber-Bergarbeiter
-^Erfahrener Erz-Bergarbeiter
-^Erfahrener Holzf`ller
-^Meister-Schreiner/Zimmermann
-^Kampferprobter Sp`her
-^Gest`hlter Pionier
-
-@;
-@BUILDING13
-@width=300
-^{COLLEGE}
-^Die Schule kann zum College umgewandelt werden, wenn 
-die Bevlkerung 8 erreicht. Die Funktion des College entspricht 
-der der Schule, abgesehen von den folgenden Ausnahmen:
-{Zwei Spezialisten knnen gleichzeitig 
-als Lehrer fungieren und die folgenden zus`tzlichen F`higkeiten lehren:}
-^ Meister-Zuckerpflanzer
-^ Meister-Baumwollpflanzer
-^ Meister-Tabakpflanzer
-^ Meister-Schnapsbrenner
-^ Meister-Weber
-^ Meister-Tabakh`ndler
-^ Meister-Pelzh`ndler
-^ Meister-Schmied
-^ Meister-Waffenschmied
-^ Erfahrener Soldat
-
-
-@;
-@BUILDING14
-@width=300
-^{UNIVERSITT} 
-Das College kann zur Universit`t umgewandelt 
-werden, wenn die {Bevlkerungszahl auf 10 anw`chst}. Die Universit`t 
-funktioniert genau wie das College, abgesehen von den folgenden Aspekten: 
-^
-{Drei Spezialisten knnen gleichzeitig unterrichten, und die folgenden 
-zus`tzlichen F`higkeiten knnen erlernt werden:} 
-^ Jesuitenmissionar
-^ Feuriger Prediger
-^ Groer Staatsmann
-
-@;
-@BUILDING15
-@width=300
-^{LAGERHAUS} 
-Normalerweise knnen in jedem Lagerhaus der 
-einzelnen Kolonien je 100 Stck eines Frachtguts aufbewahrt 
-werden. Ihre Schreiner knnen das Lagerhaus jedoch erweitern. 
-^
-{Die greren Lagerh`user fassen bis 
-zu 200 Stck jeden Frachtguts}. 
-
-@;
-@BUILDING16
-@width=300
-^{LAGERHAUS-ERWEITERUNGEN} 
-Normalerweise finden 
-in jedem Lagerhaus bis zu 200 Stck eines Frachtguts Platz. Ihre 
-Schreiner knnen das Lagerhaus jedoch beliebig oft erweitern, 
-wobei die Lagerkapazit`t jedes Mal um 100 erhht wird. Das 
-erweiterte Lagerhaus sieht genau gleich aus, nur da es mit 
-der Zahl "2" versehen ist. 
-
-@;
-@BUILDING17
-@width=300
-^{STLLE} 
-St`lle werden erbaut, um {die Zahl der Pferde 
-zu erhhen.} Wird ein Stall fertiggestellt, {wird die 
-Pferde-"Produktion" verdoppelt. }
-
-@;
-@BUILDING18
-@width=300
-^{ZOLLHAUS} 
-Nachdem {Peter Stuyvesant} dem 
-Kontinentalkongre beigetreten ist, knnen Ihre Schreiner 
-mit dem Bau von Zollh`usern beginnen. Ein Zollhaus ist eine 
-permanente Einrichtung, die der Verbindung der Kolonie mit 
-dem Mutterland dient. {Ist es fertiggestellt, dann entscheiden Sie, 
-welche Waren und Rohstoffe Sie regelm`ig nach Europa verkaufen 
-mchten} - die logistische Seite der Transaktionen l`uft dann 
-automatisch. Sie mssen Ihre Schiffe nicht mehr be- und entladen, 
-da diese Aufgabe durch die kaufm`nnischen \berseegesellschaften 
-in Europa und den Kolonien bernommen wird. 
-^
-{Das Zollhaus ermglicht Handelsbeziehungen 
-mit Europa auch nach Ausbruch 
-der Rebellion in den Kolonien, was andernfalls unmglich w`re}. 
-
-@;
-@BUILDING19
-@width=300
-^{VERLAG} 
-Verlage und Druckereien bieten ein Forum fr ffentliche 
-Argumentation. Das dadurch geschaffene ffentliche Forum kreiert 
-ein Gefhl der Zusammengehrigkeit und Solidarit`t, das den 
-Kolonialstolz frdert. 
-^
-{Ist der Verlag fertiggestellt, wird die Produktion von 
-Freiheitsglocken in der entsprechenden Kolonie um 50%% erhht.} 
-
-@;
-@BUILDING20
-@width=300
-^{DRUCKEREI} 
-Der Aufbau einer Druckerei bietet ein ffentliches Forum, 
-das den Menschen die Mglichkeit gibt, ihre Sorgen und Nte zu 
-`uern, wodurch ein Gefhl der Zusammengehrigkeit 
-und Solidarit`t kreiert wird, das den Kolonialstolz frdert. 
-^
-Hat der Bau von Druckereien begonnen, 
-{erhht sich  die Produktion von Freiheitsglocken 
-in der entsprechenden Kolonie um 100%%.} 
-
-@;
-@BUILDING21
-@width=300
-^{HAUS DES WEBERS} 
-Die Indianer verwenden eine neue 
-Baumwollart, und einige Kolonisten verweben das feine Garn 
-zu hochwertigem Tuch. {Ein Kolonist, der im Haus des Webers 
-arbeitet, kann Stoff herstellen}, wenn ihm gengend Baumwolle 
-zur Verfgung steht. Der Stoff wird anschlieend im Lagerhaus 
-verwahrt.
-
-@;
-@BUILDING22
-@width=300
-^{WEBEREI} 
-Hat eine Kolonie eine Weberei, {wird die 
-Produktion von Stoffen erhht}. Die Siedlung mu {mindestens 4 
-Einwohner} haben, um mit dem Bau einer Weberei beginnen 
-zu knnen.
-
-@;
-@BUILDING23
-@width=300
-^{TEXTILWERK} 
-Die Weberei kann zum Textilwerk ausgebaut 
-werden. Das Textilwerk steigert die Effizienz dramatisch, wodurch 
-{mehr Stoff pro Baumwolleinheit produziert werden kann}. Um mit 
-dem Bau dieser Einrichtung beginnen zu knnen, mu {Adam Smith} 
-Ihrem Kontinentalkongre beigetreten sein und die {Bevlkerungszahl 
-Ihrer Kolonie mindestens 8} betragen. 
-
-@;
-@BUILDING24
-@width=300
-^{HAUS DES TABAKHNDLERS} 
-Einige der Kolonisten haben 
-den Ureinwohnern den Tabakgenu abgeschaut und beginnen 
-bereits damit, die Pflanze zu trocknen und zu verarbeiten,  
-Zigarren herzustellen. Diese Industrie, die noch in den 
-Kinderschuhen steckt, knnte sich irgendwann zur wichtigen 
-Einnahmequelle entwickeln. 
-^
-{Ein Kolonist, der im Tabakladen arbeitet, kann Zigarren 
-herstellen (wenn gengend Tabak vorhanden ist)}. 
-Zigarren werden im Lagerhaus der Kolonie aufbewahrt.
-
-@;
-@BUILDING25
-@width=300
-^{TABAKLADEN} 
-Ist in einer Kolonie ein Tabakladen vorhanden, 
-{wird die Produktion von Zigarren deutlich erhht}. Die Siedlung mu 
-{mindestens 4 Einwohner} haben, um mit dem Bau des Tabakladens 
-beginnen zu knnen. 
-
-@;
-@BUILDING26
-@width=300
-^{ZIGARRENFABRIK} 
-Der Tabakladen kann zur Zigarrenfabrik 
-umgewandelt werden, wodurch die Effizienz dramatisch gesteigert 
-wird. Daher werden {mehr Zigarren pro Tabakeinheit} hergestellt. 
-{Adam Smith} mu Ihrem Kontinentalkongre beigetreten sein 
-und die Kolonie {mindestens 8 Mitglieder} umfassen, um mit dem 
-Bau beginnen zu knnen. 
-
-@;
-@BUILDING27
-@width=300
-^{HAUS DES RUMBRENNERS} 
-In einigen Gegenden wird feinstes Zuckerrohr angebaut - die Ureinwohner haben sogar 
-riesige Felder. Die Kolonisten wissen, da aus dieser Pflanze 
-Schnaps gebrannt werden kann. 
-^
-{Befindet sich ein Siedler im 
-Haus des Schnapsbrenners, kann er Rum herstellen, wenn ihm 
-genug Zucker zur Verfgung steht.} Der Rum wird in Flaschen 
-abgefllt und im Lagerhaus aufbewahrt. 
-
-@;
-@BUILDING28
-@width=300
-^{RUMBRENNEREI} 
-Eine Rumbrennerei {erhht die 
-Rumproduktion} jedes dort besch`ftigten Schnapsbrenners. 
-Die Kolonie mu {mindestens 4 Einwohner} haben, um mit 
-dem Bau der Rumbrennerei beginnen zu knnen.
-
-@;
-@BUILDING29
-@width=300
-^{RUMFABRIK} Die Schnapsbrennerei kann zur Rumfabrik 
-umgebaut werden, wodurch die Effizienz und damit die {Produktion 
-von Rum pro Zuckereinheit erheblich erhht} wird. {Adam Smith} 
-mu Ihrem Kontinentalkongre beigetreten sein und die Kolonie 
-{mindestens 8 Mitglieder} umfassen, damit Sie mit dem Bau 
-beginnen knnen. 
-
-@;
-@BUILDING30
-@width=300
-^{KONGRESSGEBUDE} 
-
-@;
-@BUILDING31
-@width=300
-^{CAPITOL EXPANSION}
-
-
-@BUILDING32
-@width=300
-^{HAUS DES GERBERS} 
-Als die Kolonisten in der Neuen Welt 
-eintrafen, fiel Ihnen der fast unerschpfliche Reichtum an 
-pelztragenden S`ugetieren auf. Bald fanden sie auch heraus, 
-wieviel Nutzen die Indianer aus dieser Tatsache zogen, und sie 
-erkannten, da der Verkauf dieser Felle und ihre Verarbeitung zu 
-Kleidungsstcken ein `uerst profitables Gesch`ft waren. {Ein 
-Kolonist, der in einer Gerberei arbeitet, kann M`ntel produzieren}, 
-wenn er mit gengend Fellen versorgt wird. Auch die M`ntel finden 
-Zugang in das Lagerhaus der Siedlung.
-
-@;
-@BUILDING33
-@width=300
-^{PELZHANDELSPOSTEN} 
-Ein Pelzhandelsposten {steigert die 
-Produktion von M`nteln} jedes Pelzh`ndlers. Die Kolonie mu {mindestens 4 Siedler} 
-umfassen, um mit dem Bau beginnen zu knnen. 
-
-
-@;
-@BUILDING34
-@width=300
-^{PELZFABRIK} 
-Der Pelzhandelsposten kann zur Pelzfabrik 
-umgewandelt werden, wodurch die Produktionsrate erheblich 
-gesteigert wird. Dadurch werden {pro Pelzeinheit mehr M`ntel 
-hergestellt}. {Adam Smith} mu Ihrem Kontinentalkongre 
-beigetreten sein und die Kolonie {mindestens 8 Mitglieder} 
-umfassen, damit Sie mit dem Bau beginnen knnen. 
-
-@;
-@BUILDING35
-@width=300
-^{ZIMMEREI} 
-Die Gemeinschaft baut eine Schreinerei/Zimmerei 
-aufgrund der offensichtlichen Notwendigkeit, Holzgegenst`nde fr 
-die Kolonie herzustellen. Ein Kolonist, der in der Schreinerei 
-arbeitet, {produziert (abh`ngig von den vorhandenen Holzvorr`ten) 
-eine bestimmte Anzahl von H`mmern}, die zur {Konstruktion von 
-Geb`uden} und anderen Strukturen ntig sind. 
-
-@;
-@BUILDING36
-@width=300
-^{SGEWERK} 
-Die einfache Zimmerei kann verbessert und 
-ausgebaut werden, wodurch die dort Besch`ftigten effektiver 
-arbeiten knnen. Sie knnen die Zimmerei zum S`gewerk 
-umwandeln, sobald die {Bevlkerung aus 3 Siedlern besteht}. 
-Dadurch wird die {Zahl der H`mmer verdoppelt}, die von den 
-dort arbeitenden Siedlern hergestellt werden - {allerdings nur 
-dann, wenn genug Holz vorhanden ist}. 
-
-@;
-@BUILDING37
-@width=300
-^{KIRCHE} 
-Schon bald nach der Ankunft in der Neuen Welt 
-kann eine Kirche gebaut werden, denn Sie bentigen dazu lediglich 
-{eine Bevlkerungszahl von 3}. Sofort danach wird die {Produktion von 
-Kreuzen gesteigert}, doch diese Zahl kann durch das Einsetzen von 
-Kolonisten in den neuen Geb`uden noch erhht werden. 
-
-@;
-@BUILDING38
-@width=300
-^{KATHEDRALE} 
-Eine Kirche kann zur Kathedrale umgewandelt 
-werden, wenn die Kolonie {8 Siedler} umfat. Dadurch wird die 
-{Produktion von Kreuzen erneut erhht}. Zudem knnen 
-noch mehr Kolonisten als Prediger in der Kathedrale arbeiten.
-
-@;
-@BUILDING39
-@width=300
-^{HAUS DES SCHMIEDS} 
-Die Gemeinde baut eine Schmiede, 
-um die wichtigsten Metallgegenst`nde - z.B. Werkzeuge - 
-anfertigen und vorhandene Ger`te reparieren zu knnen. {Ein 
-Kolonist, der in der Schmiede t`tig ist, kann Werkzeuge herstellen}, 
-die im Lagerhaus aufbewahrt werden. Der Schmied {bentigt Erz}, 
-um Werkzeuge herstellen zu knnen.
-
-@;
-@BUILDING40
-@width=300
-^{SCHMIEDE} 
-Das Haus des Schmieds kann in eine grere 
-Werkstatt "umgebaut" werden, wodurch die {Werkzeugproduktion 
-erhht} wird. Sie knnen mit dem Projekt beginnen, sobald Ihre 
-{Bevlkerungszahl 4} erreicht hat.
-
-@;
-@BUILDING41
-@width=300
-^{EISENH\TTE} 
-Ihre Kolonisten knnen sich an den Bau der 
-Eisenhtte machen, sobald die {Bevlkerungszahl 8} erreicht. Es 
-handelt sich hierbei um eine groe Metallverarbeitungshalle, die 
-die {Werkzeugproduktion erheblich steigert}. Die Eisenhtte ist 
-ein fabrik`hnliches Geb`ude und kann daher erst gebaut 
-werden, nachdem {Adam Smith} Ihrem Kontinentalkongre 
-beigetreten ist .
-
-
-
-@;
-@;      *** GAME CONCEPTS ***
-@;
-
-@;
-@MISC0
-@width=300
-{Spielplan}
-
-@;
-@MISC1
-@width=300
-{Spielplan}
-
-@;
-@MISC2
-@width=300
-{Spielplan}
-
-@;
-@MISC3
-@width=300
-{Spielplan}
-
-@;
-@MISC4
-@width=300
-{Spielplan}
-
-@;
-@MISC5
-@width=300
-{Spielplan}
-
-@;
-@MISC6
-@width=300
-{Game Concepts}
-
-@;
-@MISC7
-@width=300
-{Spielplan}
-
-@;
-@MISC8
-@width=300
-{Spielplan}
-
-@;
-@MISC9
-@width=300
-{Spielplan}
-
-@;
-@MISC10
-@width=300
-{Spielplan}
-
-@;
-@MISC11
-@width=300
-{Spielplan}
-
-

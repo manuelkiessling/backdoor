@@ -1,3408 +1,0 @@
-;
-;       COLONIZATION Game Messages
-;       Copyright (c) 1994 by MicroProse Software
-;
-;       Altering the contents of this file may cause the game to
-;       malfunction.
-;
-;       Copyright (c) 1994 von MicroProse Software
-;
-;       Ver`nderungen an dieser Datei knnen zu Fehlfunktionen des 
-;       Spiels fhren.
-;
-;
-
-
-
-@DOS
-@default=2
-Abbrechen zu DOS?
-
-Ja
-Nein
-
-@DOSYES
-Abbrechen zu DOS?
-
-Ja
-Nein
-
-@RETIRE
-@default=2
-Wollen Sie wirklich abbrechen?
-
-Ja
-Nein
-
-
-@BEGINMENU
-@width=160
-@y=91
-@smallfont
-{COLONIZATION} Version %STRING0 -- %STRING1
-@options
-Ein Spiel in der NEUEN WELT starten
-Ein Spiel in AMERIKA starten
-Neue Welt INDIVIDUALISIEREN
-Spiel LADEN
-Ruhmeshalle besuchen
-
-
-@GAMEOPTIONS
-@width=220
-@checkbox
-Spieloptionen festlegen
-@options
-Bewegungen der ~Indianer zeigen
-Bewegungen der anderen Europ`er zeigen ~F
-Bewegungsbe~schleuniger
-Spielzug~ende
-~Autom. Sichern
-Kampfanalyse ~C
-Farbwechsel fr Wasser ~Y
-~Tutortips
-
-@COLONYOPTIONS
-@width=220
-@checkbox
-Koloniebericht-Optionen festlegen
-@options
-Beschriftung an {Geb`uden}
-Beschriftung an {Waren} und {Terrain}
-Bericht, wenn Siedler {ausgebildet}
-Bericht bei {Nahrungsmittel}-Knappheit
-Bericht bei {Rohstoff}-Knappheit
-Bericht, wenn {Werkzeuge} fr Produktion bentigt
-Bericht bei {unf`higer} Regierung
-Bericht, wenn {neue Waren} erh`ltlich
-Bericht ber {Shne der Freiheit}-Mitgliedschaft
-Bericht bei {Rebellen}-Mehrheiten
-
-@SOUNDOPTIONS
-@width=190
-@checkbox
-Soundoptionen festlegen
-@options
-Hintergrundmusik ~B
-~Ereignismusik
-~Soundeffekte
-
-@SAVEGAME
-@width=190
-Sicherungszeile w`hlen
-
-@SAVEGOOD
-@width=190
-%STRING1 gesichert unter %STRING0.
-
-@SAVEERROR
-@width=190
-Fehler beim Sichern von %STRING0.
-
-@LOADGAME
-@width=190
-Spiel zum Laden w`hlen
-
-@LOADGOOD
-@width=190
-%STRING0 erfolgreich geladen.
-
-@LOADNOT
-@width=190
-%STRING0 ist als Sicherungsdatei ungltig.
-
-@LOADOLD
-@width=190
-%STRING0 ist als Sicherungsdatei veraltet.
-
-@LOADSIZE
-@width=190
-%STRING0 entspricht nicht der aktuellen
-Kartengre und kann jetzt nicht geladen werden.
-
-@LOADERROR
-@width=190
-Fehler beim Laden von %STRING0.
-
-
-@PICKNATION
-@default=1
-Eine europ`ische Macht w`hlen
-
-England
-Frankreich
-Spanien
-Holland
-
-
-@DIFFICULTY
-@width=190
-Einen Schwierigkeitsgrad w`hlen
-
-Entdecker
-Seefahrer
-Konquistador
-Gouverneur
-Vizeknig
-
-
-@LEADERNAME
-@width=300
-^^Geben Sie bitte Ihren Namen ein.
-_
-_
-@options
-______________________
-
-
-@FINDCITY
-@width=190
-Wo zum Teufel ist . . .
-
-Kolonie:
-
-@NOCITY
-@width=190
-"%STRING0" nicht gefunden.
-
-@VICEROY
-@width=81
-@x=235
-@y=16
-^
-^Im Jahr des Herrn 
-^1492
-^
-^Eine Audienz mit
-^d. Knig v. %COUNTRY
-^
-"Zur greren Ehre von %COUNTRY
-erkl`ren wir Euch zum Vizeknig der Neuen Welt.
-Geht hin und erforscht dieses neue Land.
-Besiedelt es, und bringt Euch selbst und
-unserer Nation Reichtum und Ruhm ein."
-
-@VICEROY2
-@width=81
-@x=235
-@y=16
-^
-^Im Jahr des Herrn 
-^1492
-^
-^Eine Audienz mit
-^dem Statthalter
-"Zur greren Ehre von %COUNTRY
-erkl`ren wir Euch zum Vizeknig der Neuen Welt.
-Geht hin und erforscht dieses neue Land.
-Besiedelt es, und bringt Euch selbst und
-unserer Nation Reichtum und Ruhm ein."
-
-@LANDHO
-@width=190
-@default=America
-Land ahoi! Wie sollen wir dieses neue
-Land nennen, Eure Exzellenz?
-
-Name:
-
-@COLONY
-Wie sollen wir diese Kolonie nennen?
-
-Name:
-
-@RENAMECOLONY
-Wie soll diese Kolonie jetzt heien?
-
-Name:
-
-@LANDFALL
-@default=1
-@width=190
-Sollen wir an Land gehen, Eure Exzellenz,
-und die Schiffe zurcklassen?
-
-Bei den Schiffen bleiben
-An Land gehen
-
-@LANDFALL2
-@default=1
-@width=190
-Unsere Schiffe knnen diesen Flu nicht hinauffahren,
-Eure Exzellenz. Sollen wir an Land gehen
-und die Schiffe zurcklassen?
-
-Bei den Schiffen bleiben
-An Land gehen
-
-@ONLYPIO
-@width=120
-Diese Funktion kann nur von
-{Pionieren} erfllt werden.
-
-@ONLYCOL
-@width=120
-Diese Funktion kann nur von
-{Siedlern} erfllt werden.
-
-@SHIPCOMBAT
-@width=190
-Nur {Kaperschiffe} und {Fregatten} knnen gegnerische Schiffe angreifen.
-
-@SHIPLAKE
-@width=190
-Schiff-Einheiten knnen keine{Seen}-Quadrate benutzen.
-
-@LANDFIRST
-@width=190
-Land-Einheiten knnen von Bord eines Schiffes aus nicht auf
-ein vom Gegner besetztes Kartenquadrat gehen. Sie mssen sie zuerst
-auf ein leeres oder von befreundeten M`chten besetztes Quadrat bringen.
-
-@SEACOLONY
-@width=140
-Es mag Sie vielleicht berraschen, aber Kolonien
-knnen nicht auf See gegrndet werden.
-
-@NOPORT 
-@width=190
-Dieses Kartenquadrat hat keinen Zugang zum {Meer},
-Eure Exzellenz. Wenn wir hier eine {Kolonie} 
-aufbauen, mssen wir unsere Produkte mit
-{Wagenzgen}, die wir in jeder Kolonie bauen knnen,
-zum {Hafen} transportieren.
-
-"Oh, daran hatte ich nicht gedacht."
-"Und das ist genau das, was ich vorhatte."
-
-@BUILT
-@width=140
-Kolonie %STRING0 produziert {%STRING1}.
-
-@FULL
-@width=190
-Die Kolonie {%STRING0} ist {viel zu dicht besiedelt},
-Exzellenz.
-Wir sollten lieber eine andere Kolonie
-fr diese Immigranten suchen.
-
-
-@NOTEACHER
-@width=190
-Nur Siedler mit einer Berufsausbildung drfen unterrichten.
-
-@NEEDCOLLEGE
-@width=190
-Wir mssen ein {College} bauen, um diesen
-Beruf ({%STRING0}) in unserer Kolonie zu lehren.
-
-@NEEDUNIVERSITY
-@width=190
-Wir mssen eine {Universit`t} bauen, um diesen
-Beruf ({%STRING0}) in unserer Kolonie zu lehren.
-
-
-@TRAINFAIL
-@width=190
-Wir haben einen {Lehrer} in {%STRING0}, doch alle Siedler
-dort haben schon einen Beruf. Vielleicht sollten Sie den
-Beruf eines der Siedler lschen, indem Sie ihn auf dem
-Koloniebildschirm w`hlen und im Berufe-Men 
-"{Spezialf`higkeit lschen}" w`hlen.
-
-@TRAINCRIMINAL
-@width=230
-Ein {Krimineller} in {%STRING0} ist durch eine Ausbildung 
-zum {verdingten Knecht} geworden.
-
-@TRAININDENTURED
-@width=230
-Ein {verdingter Knecht} in {%STRING0} ist durch eine 
-Ausbildung zum {freien Siedler} geworden.
-
-@TRAINPROFESSION
-@width=230
-Ein {Siedler} in {%STRING0} hat den Beruf {%STRING1} erlernt.
-
-
-@SIEGE
-@width=220
-Diese Kolonie wird {belagert}, da gegnerische Kampfeinheiten den eigenen
-zahlenm`ig berlegen sind. Bis zur Aufhebung der Belagerung
-knnen hier nur Soldaten- und Dragoner-Einheiten geschaffen werden.
-
-@ABANDON
-@width=230
-@default=2
-Sollen wir unsere Kolonie %STRING0 wirklich
-{aufgeben}, Eure Exzellenz, so da all unsere
-harte Arbeit hier umsonst war?
-
-Ja, es ist Gottes Wille.
-Niemals! Das w`re tricht.
-
-@ABANDON2
-@width=190
-@default=2
-Sollen wir unsere Kolonie %STRING0 wirklich
-{aufgeben}, Eure Exzellenz, so da all unsere
-harte Arbeit hier umsonst war? Wenn wir nach 
-1600 noch immer keine Kolonien haben, entzieht 
-uns der Knig vielleicht unser Vorrecht!
-
-Ja, es ist Gottes Wille.
-Niemals! Das w`re tricht.
-
-
-@SAILHOME
-@width=230
-@default=1
-Wir sind jetzt auf {hoher See}, Eure
-Exzellenz. Sollen wir nach
-Europa segeln?
-
-Jawohl, mit vollen Segeln.
-Nein, lat uns in diesen Gew`ssern bleiben.
-
-@SAILAWAY
-@width=230
-@default=1
-Sollen wir die Segel in Richtung {Neue Welt}
-setzen, Eure Exzellenz?
-
-Jawohl, setzt alle Segel.
-Nein, lat uns im Hafen bleiben.
-
-@SAILPORT
-@width=230
-@default=1
-W`hlen Sie einen Zielhafen:
-
-@TRAVELPLACE
-@width=230
-@default=1
-W`hlen Sie eine Kolonie als Reiseziel:
-
-
-@UNREST
-@width=220
-@default=1
-Religise Unstimmigkeiten in %COUNTRY sorgen fr verst`rkte
-Emigration. Siedler ({%STRING1}) sind jetzt in %STRING0 verfgbar.
-
-@RECRUIT
-@width=230
-Die folgenden Personen begleiten uns in die
-Neue Welt, wenn wir ihre \berfahrt
-bezahlen({%NUMBER0 Goldstcke}). Wen
-sollen wir mitnehmen?
-
-@RECRUITCHOOSE
-@width=220
-Religise Unstimmigkeiten in %COUNTRY sorgen fr verst`rkte
-Emigration. Siedler sind jetzt in %STRING0 verfgbar.
-Die folgenden Personen mchten uns in die
-Neue Welt begleiten, um ihre Religion ausben zu knnen.
-Wen sollen wir mitnehmen?
-
-
-@RECRUIT2
-@width=230
-Die folgenden Spezialberufe stehen unter den
-%STRING0 zur Verfgung. Welche sollen wir rekrutieren?
-
-
-@KINGRECRUIT
-@width=230
-@smallfont
-Die {Knigliche Universit`t} kann uns Spezialisten
-liefern, wenn wir die richtigen Leute bestechen.
-Welche F`higkeit sollen wir anfordern?
-
-
-@PURCHASE
-@width=230
-Die folgenden Gegenst`nde stehen zur Verfgung.
-Welche sollen wir kaufen?
-
-@SCHOOL1
-@width=230
-Das {Schulhaus} kann nur jeweils {einen} Lehrer
-unterhalten, Eure Exzellenz.
-
-@COLLEGE2
-@width=230
-Das {College} kann nur jeweils {zwei}
-Lehrer unterhalten, Eure Exzellenz.
-
-@UNIV3
-@width=230
-Die {Universit`t} kann nur jeweils {drei}
-Lehrer unterhalten, Eure Exzellenz.
-
-@NODOCKS
-@width=230
-Wir knnen in dieser Kolonie keine Fischerboote
-einsetzen, ehe wir {Hafenanlagen} gebaut haben, Exzellenz.
-
-@CARGOREADY0
-@width=230
-Eine neue Ladung {%STRING1} liegt in {%STRING0} bereit, Eure Exzellenz.
-
-@CARGOREADY1
-@width=230
-Eine neue Ladung {%STRING1} liegt in {%STRING0} bereit, Eure Exzellenz.
-%STRING0 hat seine Lagerkapazit`t fr %STRING1 ({%NUMBER0}) erreicht,
-daher sollten wir dort vielleicht ein greres {Lagerhaus} bauen.
-
-@CARGOREADY2
-@width=230
-Eine neue Ladung {%STRING1} liegt in {%STRING0} bereit, Eure Exzellenz.
-%STRING0 hat seine Lagerkapazit`t fr %STRING1 ({%NUMBER0}) erreicht.
-
-
-@LUMBER
-@width=230
-{%STRING0} ist das {Nutzholz} ausgegangen, Eure Exzellenz. Unsere
-Zimmerleute mssen nun auf einen neuen Vorrat warten.
-
-@COTTON
-@width=230
-{%STRING0} ist die {Baumwolle} ausgegangen, Eure Exzellenz. 
-Unsere Weber mssen nun auf einen neuen Vorrat warten.
-
-@TOBACCO
-@width=230
-{%STRING0} ist der {Tabak} ausgegangen, Eure Exzellenz. Unsere
-Tabakh`ndler mssen nun auf einen neuen Vorrat warten.
-
-@CANESUGAR
-@width=230
-{%STRING0} ist der {Zucker} ausgegangen, Eure Exzellenz. Unsere
-Rumbrenner mssen nun auf einen neuen Vorrat warten.
-
-@FURS
-@width=230
-{%STRING0} sind die {Felle} ausgegangen, Eure Exzellenz. Unsere
-Pelzh`ndler mssen nun auf einen neuen Vorrat warten.
-
-@ORE
-@width=230
-{%STRING0} ist das {Erz} ausgegangen, Eure Exzellenz. Unsere
-Schmiede mssen nun auf einen neuen Vorrat warten.
-
-@TOOLS
-@width=230
-{%STRING0} sind die {Werkzeuge} ausgegangen, Eure Exzellenz. 
-Unsere Waffenschmiede mssen nun auf einen neuen Vorrat warten.
-
-
-@FOOD1
-@width=230
-Der Nahrungsvorrat in {%STRING0}
-ist erschpft, Eure Exzellenz!
-
-@FOOD2
-@width=230
-Der Nahrungsvorrat in {%STRING0}
-ist erschpft, Eure Exzellenz! Der {Winter} steht vor der Tr,
-und wir knnten {verhungern}!
-
-@VANISH
-@width=230
-Eure Exzellenz! Unsere Kolonie in {%STRING0} ist
-verschwunden! Die Siedler scheinen
-{verhungert} zu sein.
-
-@STARVE1
-@width=230
-Der Kolonie {%STRING0} sind die Nahrungsmittel ausgegangen, Eure 
-Exzellenz! In diesem harten Winter {verhungern} 
-viele Siedler.
-
-@STARVE2
-@width=230
-Der Kolonie {%STRING0} sind die Nahrungsmittel ausgegangen, Eure
-Exzellenz! Die Siedler {verhungern}, und nun bricht auch noch
-der Winter an.
-
-@FOODLOW
-@width=230
-Die Kolonie {%STRING0} verbraucht ihre Nahrungsmittel sehr rasch,
-Eure Exzellenz. Wir haben nur {%NUMBER0 Lebensmittel}
-brig. Wir brauchen Nahrungsmittel fr die Wintermonate.
-
-@SPOIL1
-@width=230
-Die Kolonie {%STRING0} hat ihre Lagerkapazit`t erschpft.
-{%NUMBER0} Tonnen {%STRING1} wurden weggeworfen. Ein
-greres {Lagerhaus} knnte weitere{100} Tonnen davon aufnehmen.
-
-@SPOIL2
-@width=230
-Die Kolonie {%STRING0} hat ihre Lagerkapazit`t erschpft.
-Ein Teil unserer Waren wurde weggeworfen.
-Ein greres {Lagerhaus} knnte weitere {100} Tonnen jedes Warentyps
-aufnehmen.
-
-@SPOIL3
-@width=190
-Die Kolonie {%STRING0} hat ihre Lagerkapazit`t erschpft.
-{%NUMBER0} Tonnen {%STRING1} wurde weggeworfen.
-
-@SPOIL4
-@width=190
-Die Kolonie {%STRING0} hat ihre Lagerkapazit`t erschpft.
-Ein Teil unserer Waren wurde weggeworfen.
-
-@BUYME0
-@width=160
-Kosten fr Abschlu von %STRING0: %NUMBER0$.
-^Schatzkammer: %NUMBER1$.
-
-@BUYME1
-@width=160
-@default=1
-Kosten fr Abschlu von %STRING0: %NUMBER0$.
-^Schatzkammer: %NUMBER1$.
-
-Na, dann nicht.
-Trotzdem abschlieen.
-
-
-@DEFOREST
-@width=160
-Entwaldung in der N`he von %STRING0.
-
-@DEPLETION
-@width=160
-Mine erschpft in der N`he von %STRING0.
-
-@UNITFLAG
-@width=160
-Fehler bei Einheiten-Flaggen (%NUMBER0, %NUMBER1) (%STRING0).
-
-@COLONYFLAG
-@width=160
-Fehler bei Kolonie-Flaggen.
-
-@LOSTCITY0
-@width=230
-Welche der folgenden Personen sollen wir rekrutieren?
-
-@LOSTCITY1
-@width=230
-Sie haben einen {Jungbrunnen} entdeckt!
-Die Gerchtekche in Europa brodelt! Prompt stehen die
-Immigranten in den H`fen Schlange, um ewige Jugend zu finden!
-
-@LOSTCITY2
-@width=230
-Sie haben eine der {Sieben St`dte von
-Cibola} gefunden! Sch`tze im Wert von {%NUMBER1$} werden
-ausgegraben! Um diesen Schatz nach Europa zu bringen,
-werden Sie eine {Galeone} brauchen!
-
-@LOSTCITY3
-@width=230
-Sie finden die \berreste einer untergegangenen Zivilisation
-mit Gold und Kunstsch`tzen im Wert von {%NUMBER0$}.
-
-@LOSTCITY4
-@width=230
-Ihre Expedition trifft auf merkwrdige
-Grabhgel.
-
-"Lat uns nach Sch`tzen suchen!"
-"Haltet Euch davon fern!"
-
-
-@SCREWED
-@width=230
-"Dies sind die Grabst`tten unserer
-{%STRING0}-Vorv`ter! Ihr habt
-geheiligtes Land entweiht. Dafr
-mt Ihr sterben!"
-
-@BURIAL1
-@width=230
-Die Grabhgel sind kalt und leer.
-
-@BURIAL2
-@width=230
-Im Innern finden Sie Grabbeigaben im Wert von {%NUMBER0$}.
-
-@BURIAL3
-@width=230
-Im Innern finden Sie einen Schatz im Wert von {%NUMBER1$}!
-Sie werden eine {Galeone} brauchen, um diese Sch`tze nach Europa zu
-bringen!
-
-
-@LOSTCITY5
-@width=230
-Ihre Expedition ist spurlos verschwunden!
-
-@LOSTCITY6
-@width=230
-Sie finden nichts als Gerchte.
-
-
-@LOSTCITY7
-@width=230
-Ihre Expedition erreicht das Dorf eines kleinen,
-gastfreundlichen Stammes. Der H`uptling bietet
-Ihnen {%NUMBER0$} als Geschenk an.
-
-
-@LOSTCITY8
-@width=230
-"Ihr seid in das heilige Land um unsere {%STRING0}-Schreine
-eingedrungen. Der %STRING0-Stamm ist sehr erzrnt!"
-
-
-@LOSTCITY9
-@width=230
-Sie treffen auf die verzweifelten \berlebenden einer
-frheren Kolonie. Im Austausch gegen dringend bentigte
-Vorr`te schlieen sie sich %STRING0 an.
-
-
-@SNEAK
-@width=230
-Ein \berraschungsangriff der treulosen {%STRING0}!
-
-
-@CANCELPEACE
-@width=230
-{%STRING0} lst den Friedensvertrag mit {%STRING1}.
-
-@SIGNTREATY
-@width=220
-Die {%STRING0} und {%STRING1} haben Frieden geschlossen.
-
-@DECLAREWAR
-@width=230
-Die {%STRING0} und {%STRING1} haben einander den Krieg erkl`rt.
-
-
-@HAVETREATY
-@width=230
-"Wir haben einen Friedensvertrag mit den {%STRING0} unterzeichnet,
-Eure Exzellenz."
-
-Handlung abbrechen.
-Friedensvertrag brechen.
-
-
-@WHACKINDIANS
-@width=230
-Sollen wir die {%STRING0} angreifen, Eure Exzellenz?
-
-Ja
-Nein
-
-@VILLAGEHAPPY
-@width=230
-Ihre Expedition hat %STRING0 der {%STRING1} erreicht. Die
-Einwohner arbeiten friedlich auf den umliegenden Feldern.
-{Glcklich} winken Sie Ihnen zu.
-
-@VILLAGESAVAGE
-@width=230
-Ihre Expedition hat %STRING0 der {%STRING1} erreicht. Die
-Einwohner sind auf den umliegenden
-Feldern besch`ftigt. Als sie Ihnen {glcklich} zuwinken,
-bemerken Sie eine Sammlung von Skalpen, die drohend
-von einem Baum in der N`he herabh`ngen.
-
-@VILLAGEMEDIUM
-@width=230
-Ihre Expedition hat %STRING0 der {%STRING1} erreicht. Die
-Einwohner sind auf den umliegenden
-Feldern besch`ftigt. Kleine Gruppen von Kriegern ben
-{Bogenschieen} und beobachten Sie {argwhnisch}.
-
-@VILLAGEBAD
-@width=230
-Ihre Expedition hat %STRING0 der {%STRING1} erreicht. Eine
-Gruppe {Krieger} beobachtet Sie vorsichtig.
-Sonst ist niemand zu sehen.
-
-@VILLAGEWAR
-@width=230
-Ihre Expedition hat %STRING0 der {%STRING1} erreicht. An
-einem Baum in der N`he h`ngt drohend eine Sammlung von
-Skalpen. Aus dem Dorf ertnt das unheilvolle Drhnen
-von {Kriegstrommeln}.
-
-
-
-@INDIANWELCOME
-@width=230
-"Der {%STRING0}-Stamm heit Euch willkommen.
-Wir sind eine ruhmreiche Nation von {%NUMBER0 %STRING1n}.
-Um unsere Freundschaft zu besiegeln, 
-bieten wir Euch das Land, das Ihr besetzt habt,
-als Geschenk an. Nehmt Ihr unser Angebot an, 
-und wollt Ihr mit uns in Frieden als unsere Brder leben?"
-
-Ja
-Nein
-
-@INDIANBOW
-@width=230
-"Der Stamm der {%STRING0} beugt sich der Macht der 
-{%STRING1}. Als Tribut geben wir Euch
-alles Land, das Ihr besetzt habt."
-
-@INDIANTREATY
-@width=230
-"Der Stamm der {%STRING0} beugt sich der Macht der 
-{%STRING1}. Als Tribut geben wir Euch
-alles Land, das Ihr besetzt habt."
-Nehmt Ihr unser Angebot an, und wollt Ihr
-in Frieden als Nachbarn mit uns leben?"
-
-Ja
-Nein
-
-@INDIANHELLO1
-@width=230
-"Der Stamm der {%STRING0} heit die beraus ehrbaren 
-{%STRING1} der {%STRING2} willkommen."
-
-@INDIANHELLO2
-@width=230
-"Der Stamm der {%STRING0} heit die skrupellosen 
-{%STRING1} der {%STRING2} willkommen."
-
-@INDIANPEACE
-@width=230
-"Die {%STRING0} begren den Frieden mit unseren Brdern,
-den {%STRING1}. Lat uns eine Friedenspfeife rauchen,
-um unsere ewige Freundschaft zu besiegeln."
-
-@INDIANCOME
-@width=230
-"Wir hoffen, da Ihr bald die Drfer der %STRING0 {besuchen},
-unser Wissen mit uns teilen und Eure {Wagenzge}
-schicken werdet, um mit uns Handel zu treiben."
-
-@INDIANSHUN
-@width=230
-"Dann werden die m`chtigen {%STRING0} Euch gnadenlos aus
-ihren Gebieten vertreiben. Das bedeutet KRIEG!"
-
-
-@INDIANWAGONS
-@width=230
-"Die {%STRING0} Siedler haben unertr`gliche Frevel
-an Land und Volk der {%STRING1} angerichtet.
-Wir fordern daher alle {%NUMBER0}
-{%STRING2} in diesen Wagen als Entsch`digung."
-
-Gebt sie ihnen.
-Baut eine Wagenburg.
-
-@INDIANCITY
-@width=230
-"Die {%STRING0} Siedler haben unertr`gliche Frevel
-an Land und Volk der {%STRING1} angerichtet.
-Wir fordern daher {%NUMBER0}
-{%STRING2} aus den Lagerh`usern der Kolonie als Entsch`digung."
-
-Bemannt die Einpf`hlungen!
-Gebt sie ihnen.
-
-
-@INDIANGOLD
-@width=230
-"Die {%STRING0} schreien nach Gerechtigkeit.
-Wir fordern {%NUMBER0$} als Entsch`digung."
-
-"Wir lassen uns nicht erpressen!"
-"Wir bezahlen mit Freuden {%NUMBER0$}."
-
-
-@INDIANSLAVES
-@width=220
-Ver`ngstigte {%STRING0} strmen als {Konvertiten} zur Mission in
-%STRING1.
-
-@INDIANSCONVERT
-@width=230
-"Die Weisheit Eurer Missionare hat einige von uns berzeugt, 
-Eurer Kolonie beizutreten und in 
-{%STRING0} als {Konvertiten} bei Euch zu leben."
-
-@INDIANGIVEFOOD
-@width=230
-"Die {%STRING0} sehen, da Ihr diesen Herbst wenig Vorr`te habt.
-Unsere eigene Ernte war jedoch sehr reichhaltig, und wir sind
-gekommen, unseren \berflu mit Euch zu teilen.
-Wir bieten Euch {%NUMBER0 Nahrungsmittel} als Pfand fr
-den ewigen Frieden zwischen unseren Vlkern an. Lat uns
-zusammen essen und danksagen fr unsere glckliche Lage."
-
-@INDIANGIVESTUFF
-@width=230
-"Der Stamm der {%STRING0} freut sich ber die Fortschritte
-seiner Nachbarn in {%STRING1}. Wir sind gekommen, um Euch
-{%NUMBER0 %STRING2} als Pfand fr den ewigen Frieden 
-zwischen unseren Vlkern anzubieten."
-
-@INDIANCOMMENT
-@width=230
-Die {%STRING0} freuen sich ber den Wohlstand ihrer Nachbarn,
-der {%STRING1}. Wir sind jedoch besorgt, da Eure Kolonien
-anfangen, das Land in der N`he unserer Siedlungen zu
-stark zu nutzen.
-
-@INDIANBEGFOOD
-@width=230
-"Der Stamm der {%STRING0} mu schwere Zeiten durchstehen und
-hat dieses Jahr nicht genug Lebensmittel. Werden unsere Brder in 
-{%STRING1} den \berflu ihrer Ernte in unseren Notzeiten
-mit uns teilen?"
-
-"Tut mir leid, wir haben schon gegeben."
-"Wir bieten Euch {%NUMBER0} unserer {%NUMBER1 Nahrungsmittel}."
-
-@INDIANWAR
-@width=230
-"Wir {%STRING0} haben versucht, in Frieden mit Euch
-zu leben, doch diese Provokationen sind unertr`glich.
-Eure Verbrechen schreien nach Rache. Das bedeutet KRIEG!"
-
-@INDIANGRUDGE
-@width=220
-Nation der {%STRING0} h`lt Kriegsrat!
-%STRING1 nehmen auf Seiten der Loyalisten am Unabh`ngigkeitskrieg teil!
-Loyalisten wollen Musketen und Pferde fr die %STRING0 bereitstellen.
-
-@INDIANLAND
-@width=230
-"Ihr seid in {%STRING0-Land} eingedrungen.
-Wir bitten Euch im Guten, es sofort zu verlassen."
-
-"Gut, wir werden Eure Wnsche respektieren."
-"Wir bieten Euch {%NUMBER1$} fr dieses Land."
-"Ihr irrt Euch, dies ist jetzt UNSER Land!"
-
-@INDIANROAD
-@width=230
-"Wir sind besorgt, da der Bau einer {Strae} hier
-das Leben der {%STRING0} stren wird.
-Wir bitten Euch im Guten, den Bau zu stoppen."
-
-"Dann werden wir keine Strae bauen, mein Freund."
-"Wir bieten Euch {%NUMBER1$} als Entsch`digung."
-"Es tut mir leid, aber diese Strae ist notwendig."
-
-@INDIANFOREST
-@width=230
-"Dieser Wald und die Geschpfe darin sind
-notwendig fr die Lebensweise der {%STRING0}.
-Wir bitten Euch im Guten, ihn nicht zu zerstren."
-
-"So lat denn diese B`ume weiterwachsen, mein Freund."
-"Wir bieten Euch {%NUMBER1$} als Entsch`digung."
-"Achtung, Baum f```lllt!"
-
-@INDIANFOREST2
-@width=230
-"Dieser Wald und die Geschpfe darin sind
-notwendig fr die Lebensweise der {%STRING0}.
-Eure Kolonie in{%STRING1} w`chst jetzt auf diesen
-Wald zu. Wir bitten Euch, ihn nicht zu zerstren."
-
-@INDIANBRIBE
-@width=230
-"Nun gut, wir ziehen unsere Einw`nde zurck."
-
-@NOPLOW
-@width=230
-Das Land ist bereits {gepflgt}.
-
-@NOROAD
-@width=230
-Hier gibt es schon eine Strae,
-Eure Exzellenz.
-
-@VIOLATE
-@width=230
-{%STRING0} dringen in {%STRING1} Gebiete in der N`he von 
-{%STRING2} ein! Die Siedler sind entrstet! 
-
-@HALF
-@width=230
-Eure Exzellenz, diese M`nner sind erschpft. Wenn wir sie in
-dieser Runde zum Angriff zwingen, k`mpfen sie mit {%NUMBER0/3
-St`rke}.
-
-"Zum Angriff!"
-"Dann lat sie ausruhen."
-
-
-@NOLOOT
-@width=230
-{%STRING0} Truppen brennen {%STRING2} der %STRING1 nieder! Die 
-Eingeborenen ergreifen panisch die Flucht!
-
-@LOOT
-@width=220
-{%STRING0} Truppen verbrennen und plndern {%STRING2} der %STRING1. Die
-Eingeborenen fliehen! {%NUMBER0$} Sch`tze aus den Ruinen geborgen!
-Sie knnen nur mit einer {Galeone} nach Europa gebracht werden!
-
-@LOOT2
-@width=220
-{%STRING0} Truppen brennen {%STRING2} der %STRING1 nieder. 
-Die Eingeborenen fliehen!
-
-@LOOTCASH
-@width=230
-{%STRING0} Schatzflotte mit {%NUMBER0$} landet sicher in %STRING1!
-Krone fordert Anteil von {%NUMBER1%%}. {%NUMBER2$} in die %STRING0
-Schatzkammer gezahlt.
-
-@LOOTFOREIGN
-@width=230
-Spione berichten: {%STRING0} Schatzflotte mit {%NUMBER0$} landet
-in %STRING1. %STRING0 Knig glcklich ber die Beute.
-
-@LOOTCAPTURE
-@width=230
-{%STRING0} Schatz im Wert von {%NUMBER0$} durch die {%STRING1} EROBERT!
-
-@WAGONCAPTURE
-@width=230
-{%STRING0} Wagenzug durch die {%STRING1} EROBERT!
-
-@COLONISTCAPTURE
-@width=230
-{%STRING0} Siedler durch die {%STRING1} Armee GEFANGEN!
-
-@COLONISTCAPTURE2
-@width=230
-{%STRING0} Siedler durch die {%STRING1} Armee GEFANGEN!
-Soldaten verlieren Erfahrenen-Status.
-
-@CARGOCAPTURE
-@width=230
-{%STRING0} Ware ({%NUMBER0 %STRING1}) durch {%STRING2 %STRING3}
-erobert!
-
-@DEMOTE
-@width=230
-{%STRING0 %STRING1} geflchtet! Einheit zu {%STRING2}-Status degradiert.
-
-@SHIPDAMAGE
-@width=230
-%STRING0 Schiff ({%STRING1}) besch`digt! Kehrt zu Reparaturen 
-nach {%STRING2} zurck.
-
-@SHIPSUNK
-@width=230
-%STRING0 Schiff ({%STRING1}) versenkt durch %STRING2 %STRING3!
-
-
-@RAIDNOTHING
-@width=230
-{%STRING0}-Plnderungstrupp in {%STRING1} ausgelscht!
-Siedler im Freudentaumel!
-
-
-@RAIDWREAK
-@width=230
-Spione berichten: {%STRING0}-Plnderungstrupp richtet Verwstungen in
-{%STRING3} Kolonie {%STRING1} an.
-
-
-@RAIDSTORES
-@width=220
-{%STRING0}-Plnderungstrupp greift Lagerh`user in {%STRING1} an!
-Groe Mengen {%STRING2} geraubt. Siedler wutentbrannt!
-
-
-@RAIDBURN
-@width=230
-{%STRING0}-Plnderungstrupp brennt Geb`ude in {%STRING1} nieder!
-{%STRING2} zerstrt. Siedler fordern umgehende Vergeltung!
-
-@RAIDSCALP
-@width=230
-{%STRING0}-Plnderungstrupp erbeutet Skalpe in {%STRING1}!
-Siedler schreien nach Rache!
-
-@RAIDSHIP
-@width=230
-{%STRING0}-Plnderungstrupp greift Hafen von {%STRING1} an!
-{%STRING2} besch`digt. Siedler entsetzt!
-
-@RAIDGOLD
-@width=230
-{%STRING0}-Plnderungstrupp erobert Geldkassetten in {%STRING1}!
-H`ndler berichten: {%NUMBER0$} geraubt. Siedler aufgebracht!
-
-@MISSION0
-@width=230
-Mission %STRING0 %STRING1 im %STRING2 %NUMBER0 gegrndet.
-{%STRING3} treten der neuen Religion mit {Neugier} entgegen.
-
-@MISSION1
-@width=230
-Mission %STRING0 %STRING1 im %STRING2 %NUMBER0 gegrndet.
-{%STRING3} sind {vorsichtig}.
-
-@MISSION2
-@width=230
-Mission %STRING0 %STRING1 im %STRING2 %NUMBER0 gegrndet.
-{%STRING3} sind {gekr`nkt}.
-
-@MISSION3
-@width=230
-Mission %STRING0 %STRING1 im %STRING2 %NUMBER0 gegrndet.
-{%STRING3} reagieren mit {Feindseligkeit}.
-
-@HERESY0
-@width=230
-{%STRING0 Missionare} verurteilen Ketzerei der {%STRING1}.
-{%STRING2}-Konvertiten brennen %STRING1 Mission nieder und 
-errichten neue (%STRING0)!
-
-@HERESY1
-@width=230
-{%STRING0 Missionare} verurteilen Ketzerei der {%STRING1}.
-Treue {%STRING2} Anh`nger verbrennen %STRING0 auf dem
-Scheiterhaufen!
-
-@INDIANBURN
-@width=230
-{%STRING0} brennen {%STRING1} Missionen nieder! Die Kirche
-ist auer sich!
-
-@INDIANWIN0
-@width=230
-{%STRING0} berfallen {%STRING1 %STRING2} bei %STRING3!
-
-@INDIANWIN1
-@width=230
-{%STRING0} berfallen {%STRING1 %STRING2} bei %STRING3!
-{Musketen} von %STRING4-Indianern erobert!
-
-@INDIANWIN2
-@width=230
-{%STRING0} berfallen {%STRING1 %STRING2} bei %STRING3!
-{Pferde} von %STRING4-Indianern erobert!
-
-
-@INDIANLOSE
-@width=230
-{%STRING1 %STRING2} %STRING4 {%STRING0} bei %STRING3!
-
-@INDIANWINCOLONY
-@width=230
-{%STRING0} vernichten {%STRING1} Siedler bei {%STRING3}!
-{%STRING2} stirbt bei der Abwehr des Angriffs.
-
-@INDIANWINCOLONY2
-@width=230
-Spione berichten: {%STRING0} vernichten {%STRING1} Siedler bei
-{%STRING3}. %STRING1 Gouverneur plant Gegenmanahmen.
-
-@INDIANBURNCOLONY
-@width=230
-{%STRING0} vernichten {%STRING1} Siedler bei {%STRING3}!
-Kolonie vllig niedergebrannt! Knig fordert Erkl`rung!
-
-@INDIANBURNCOLONY2
-@width=230
-Spione berichten: {%STRING0} brennen {%STRING1} Kolonie bei {%STRING3}
-nieder. %STRING1 Gouverneur schwrt Rache.
-
-@INDIANSURPRISE
-@width=220
-{%STRING0} fhren \berraschungsangriff bei {%STRING1} durch! Siedler
-ver`ngstigt. %STRING2-H`uptling weist Schuldzuweisung zurck.
-
-@CAPTURED
-@width=230
-{%STRING0} marschieren in {%STRING2} ein! {%NUMBER0$}
-geraubt!
-
-@CAPTURED2
-@width=230
-Spione berichten: {%STRING0} marschieren in {%STRING2} ein.
-
-@CAPTURED3
-@width=230
-{%STRING0} marschieren in {%STRING2} ein!
-
-@BURNED
-@width=230
-{%STRING0} legen {%STRING3} in Asche!
-Siedler ergreifen panisch die Flucht. Knig fordert
-Erkl`rung!
-
-@BURNED2
-@width=230
-Kolonie in {%STRING3} vllig niedergebrannt.
-{%STRING1} Gouverneur droht mit Vergeltung.
-
-@BURNED3
-@width=230
-Spione berichten: {%STRING0} legen {%STRING1} Kolonie in {%STRING3} in
-Asche. {%STRING1} Gouverneur droht mit Vergeltung.
-
-
-@EUROPEWIN
-@width=230
-{%STRING0} %STRING4 {%STRING1 %STRING2} bei %STRING3!
-
-@EUROPELOSE
-@width=230
-{%STRING1 %STRING2} %STRING4 {%STRING0} bei %STRING3!
-
-@WAREHOUSEFULL
-@width=230
-Eure Exzellenz, das Lagerhaus in {%STRING0} enth`lt
-bereits {%NUMBER0} Einheiten {%STRING1}. Es fat nur {%NUMBER1}.
-Wenn wir {%NUMBER2} Einheiten hinzufgen, wird ein Teil der
-Ware bestimmt verderben!
-
-Dann eben nicht.
-Ladet die Ware trotzdem ab.
-
-@EXTORTSTUFF
-@width=230
-"Groe %STRING0, wir beugen uns der Macht Eurer seltsamen Waffen.
-Die demtigen, friedliebenden {%STRING1} liefern mit Freuden {%NUMBER0
-%STRING2} nach {%STRING3} und hoffen, da sie von der Wut
-Eurer Krieger verschont bleiben."
-
-@EXTORTPOOR
-@width=230
-"M`chtiger %STRING0, wir zittern vor Euch. Doch leider haben die
-friedliebenden {%STRING1} keine Geschenke, die Eurer Herrlichkeit
-wert w`ren. Wir bitten um Eure Vergebung und Gnade."
-
-@EXTORTLAUGH
-@width=230
-"Wir lachen ber Eure armseligen Drohungen. Strapaziert unsere Geduld 
-nicht, denn {%STRING0}-Krieger sind fr ihren Kampfgeist bekannt."
-
-@EXTORTNO
-@width=230
-"Ihr mt uns fr wahre Dummkpfe halten, %STRING0 %STRING1. Die
-{%STRING2} fallen auf Eure Tricks und Finten nicht herein."
-
-@TOONEAR
-@width=230
-Dieses Land liegt fr eine neue Kolonie 
-zu nah an {%STRING0}, Eure Exzellenz.
-
-@TOONEARBUILD
-@width=230
-Auf dem benachbarten Kartenquadrat wird bereits eine
-Kolonie aufgebaut, Eure Exzellenz.
-
-@TOOMOUNTAIN
-@width=230
-Kolonien knnen nicht in den {Bergen}
-aufgebaut werden, Eure Exzellenz.
-
-@DONTKNOWSHIPS
-@width=230
-"Wir mssen zuerst mit den Indianern an Land sprechen, Exzellenz."
-
-@MADATSHIPS
-@width=230
-"Die {%STRING0} trauen den M`nnern in Euren Schiffen
-nicht. Deshalb wollen wir zur Zeit keinen Handel
-mit Euch treiben.
-Wenn Ihr Euch unserer Kste n`hert, werden wir Euch dafr strafen."
-
-@MADATWAGONS
-@width=230
-"Wegen der Greueltaten, die Ihr gegen die {%STRING0} verbt
-habt, mchten wir keinen Handel mit Euch treiben."
-
-@GRUDGEWAGONS
-@width=230
-"Wir akzeptieren Eure Wagen nur ungern, nachdem Ihr 
-solche Greueltaten gegen die{%STRING0} begangen habt."
-
-@CONFISCATE
-@width=230
-"Wegen der Greueltaten, die Ihr gegen die {%STRING0} 
-begangen habt, konfiszieren wir s`mtliche 
-Waren in diesen Wagen."
-
-
-@CHIEFHOWDY
-@width=230
-"Seid gegrt, Reisende. Wir sind ein friedliches Dorf, 
-bekannt fr {%STRING0}. Wir handeln gerne mit Euch,
-wenn Ihr uns
-{%STRING1} bringt. Wir wrden auch fr {%STRING2}
-oder {%STRING3} einen guten Preis zahlen.
-
-@CHIEFGUIDES
-@width=230
-"Wir heien Euch bei uns willkommen.
-Zu Ehren der seltsamen Geschichten, die Ihr uns erz`hlt habt, 
-werden die {%STRING0} Euch {Fhrer} zur Verfgung stellen,
-die Euch bei der Reise durch unser Land helfen."
-
-@CHIEFAREA
-@width=230
-"Die {%STRING0} freuen sich ber Reisende aus fernen
-L`ndern. Setzt Euch ans Feuer, und wir erz`hlen Euch 
-Geschichten aus {umliegenden L`ndern}."
-
-@CHIEFGIFT
-@width=230
-"Die {%STRING0} heien die Abgesandten der {%STRING1}
-willkommen. Bitte bringt diese Perlen (im Wert von {%NUMBER0$})
-Eurem Stammesfhrer als Friedensangebot."
-
-@CHIEFBORED
-@width=230
-"Die {%STRING0} freuen sich immer, {%STRING1}
-Reisende zu begren."
-
-@CHIEFKILL
-@width=230
-"Ihr habt geheiligte Tabus des {%STRING0}-Stammes gebrochen!
-Wir werden Euch fesseln und als Schiescheiben benutzen."
-
-
-
-@KILLWAGONS
-@width=230
-Eure Exzellenz! Unser Wagenzug ist im 
-{%STRING0}-Gebiet spurlos verschwunden.
-
-@TRADE0
-@width=230
-"Wie wir sehen, habt Ihr {%STRING1} %STRING0 mitgebracht, 
-um mit uns zu handeln. Wir bieten Euch {%NUMBER0$}
-dafr."
-
-"Wir nehmen {%NUMBER0$} dankbar an."
-"{%NUMBER1$} w`re ein angemessenerer Preis."
-"Nein, betrachtet die Waren als {Geschenk}."
-"Verget es."
-
-@TRADE1
-@width=230
-"Euer Gefeilsche strapaziert unsere Geduld,
-aber wir erhhen unser Angebot auf {%NUMBER0$}."
-
-"Wir nehmen {%NUMBER0$} dankbar an."
-"{%NUMBER1$} w`re ein angemessenerer Preis."
-"Verget es."
-
-@BADCARGO
-@width=230
-"Wir haben genug {%STRING0} 
-und brauchen im Moment nicht mehr davon.
-Kommt wieder, wenn Ihr etwas anderes anzubieten
-habt. Wir brauchen {%STRING1} und {%STRING2}.
-Selbst {%STRING3} wrden wir dankbar annehmen."
-
-@BADHAGGLE0
-@width=230
-"Wir haben genug von Eurem Gefeilsche.
-Wir wollen Eure wertlosen Waren nicht mehr.
-Kommt zurck, wenn Ihr etwas anderes anzubieten habt."
-
-@BADHAGGLE1
-@width=230
-"Wir haben Euch bereits wissen lassen, da wir 
-{%STRING0} nicht wollen. Kommt zurck, 
-wenn Ihr etwas anderes anzubieten habt."
-
-@BADHAGGLE2
-@width=230
-"Wir haben genug von Eurem Gefeilsche.
-Wir werden Euch nichts mehr verkaufen, 
-bis Ihr uns etwas Wertvolles bringt."
-
-@BADHAGGLE3
-@width=230
-"Wie wir bereits sagten, verkaufen wir Euch nichts mehr, 
-bis Ihr uns etwas Wertvolles bringt."
-
-@BRING
-@width=230
-"Wir bentigen {%STRING0} und {%STRING1}. Vielleicht knnt Ihr 
-n`chstes Mal etwas davon mitbringen. Selbst ber {%STRING2}
-wrden wir uns freuen."
-
-@DEFICIT
-@width=230
-"Da Ihr keine Waren mitgebracht habt, werden wir 
-nicht mit Euch handeln."
-
-@BUYWHICH
-@width=230
-"Wir knnen Euch {%STRING0}, {%STRING1}, und {%STRING2} zum Handel 
-anbieten. Was mchtet Ihr kaufen?"
-
-"{%STRING0}."
-"{%STRING1}."
-"{%STRING2}."
-"Im Moment nichts, danke."
-
-@TRADEWHICH
-@width=230
-Welche Waren sollen wir zum Handeln anbieten, Eure Exzellenz?
-
-@BUY0
-@width=230
-"Wir werden {%NUMBER2 %STRING0} auf Euer Schiff laden, 
-wenn Ihr uns {%NUMBER0$} gebt. Nehmt Ihr an?"
-
-"Wir zahlen mit Freuden {%NUMBER0$} (von {%NUMBER3$})."
-"{%NUMBER1$} w`re ein angemessenerer Preis."
-"Verget es."
-
-@BUY1
-@width=230
-"Wir haben genug von Eurem Gefeilsche. Wir verkaufen Euch
-{%NUMBER2 %STRING0}, wenn Ihr uns {%NUMBER0$}
-gebt. Seid Ihr damit einverstanden?"
-
-"Wir zahlen mit Freuden {%NUMBER0$} (von {%NUMBER3$})."
-"{%NUMBER1$} w`re ein angemessenerer Preis."
-"Verget es."
-
-@NOTENOUGH
-@width=230
-"Leider h`lt Eure Schatzkammer ({%NUMBER0$}) nicht, 
-was Ihr versprecht."
-
-@LEARNMASTER
-@width=230
-"Wir sind froh, einen Meister-{%STRING1} unter uns 
-zu haben, alter Mann. Leider knnen wir nur jenen 
-Kolonisten neue F`higkeiten beibringen, die noch keine haben. 
-Bring uns einen {verdingten Knecht} oder
-einen {freien Kolonisten}, und wir werden ihn ausbilden."
-
-
-@LEARNCRIMINAL
-@width=230
-"Eure schlechten Manieren beleidigen uns, junger Mann.
-Wir bezweifeln, da Ihr jemals mehr als ein {gemeiner Krimineller} 
-sein werdet. Die {%STRING0} werden Euch nichts beibringen knnen."
-
-@LEARNALREADY
-@width=230
-"Die {%STRING0} dieses Dorfes haben ihr Wissen bereits mit
-jungen Europ`ern geteilt. Geht und lernt von ihnen, 
-wenn Ihr wollt. Wir haben Euch nichts mehr
-beizubringen."
-
-@LEARNMAD
-@width=230
-"Eure schlechten Manieren erzrnen uns, junger Mann.
-Ihr versteht unsere Denkweise nicht, daher bezweifeln wir,
-da Ihr jemals etwas von uns lernen werdet. Ihr solltet lieber 
-gehen. Eure Anwesenheit beleidigt uns."
-
-@LEARNSLOW
-@width=230
-"Ihr seid ungeschickt und unbeholfen, junger Mann, und
-versteht unsere Denkweise nicht. Wir haben wenig 
-Hoffnung fr Euch. Trotzdem drft Ihr gern in
-unserem Dorf bleiben. Vielleicht lernt Ihr mit der Zeit 
-doch etwas Ntzliches."
-
-@LEARNSTAY
-@width=230
-"Ihr seid ungeschickt, junger Mann, und habt seltsame
-Ansichten. Wenn Ihr es jedoch wnscht, werden wir {%STRING0}
-Euch zeigen, wie Ihr ein Meister-{%STRING1} werdet."
-
-"Dann will ich ein Meister-{%STRING1} werden."
-"Im Moment nicht, danke."
-
-@LEARNLATER
-@width=230
-"Sehr schn, vielleicht ein andermal."
-
-@LEARNDONE
-@width=230
-"Glckwunsch, junger Mann. Ihr habt die Methoden der
-{%STRING0} erlernt und seid ein Meister-{%STRING1} geworden.
-Wir hoffen, da Ihr dieses Wissen weise einsetzt.
-Ihr seid in unserem Dorf immer willkommen."
-
-@TRADEMANY
-@width=230
-Ihr knnt nur {%NUMBER0} Handelsrouten festlegen, Exzellenz.
-Ihr mt daher zuerst eine alte Route lschen.
-
-@TRADESTART
-@width=230
-Zielortzahl %NUMBER0 fr Route w`hlen
-
-@TRADETYPE
-@width=230
-Ist dies eine Route fr den Handel {zu Wasser} oder {zu Lande}?
-
-Zu Wasser
-Zu Lande
-
-@TRADENAMES
-5
--Strecke
--F`hre
--Frachtweg
--Transport
--Dreieck
-
-@TRADENAME
-@width=230
-Geben Sie den Namen fr diese Handelsroute ein.
-
-Name:
-
-@TRADENONE
-@width=230
-Sie haben noch keine Handelsrouten festgelegt.
-
-@TRADENONE2
-@width=230
-Sie haben noch keine Handelsrouten {%STRING0} festgelegt.
-
-@TRADESELECT
-@width=230
-W`hlen Sie eine Handelsroute:
-
-
-@TRADEDELETE
-@width=230
-Welche Handelsroute sollen wir {lschen}:
-
-@SUREDELETE
-@width=230
-Mchten Sie {%STRING0} wirklich lschen?
-
-Ja
-Nein
-
-@CARGOLOAD
-@width=120
-W`hlen Sie eine Ware zum Einladen in {%STRING0}.
-
-@CARGOUNLOAD
-@width=120
-W`hlen Sie eine Ware zum Ausladen in {%STRING0}.
-
-@ROUTELOOP
-@width=230
-Eure Exzellenz, unsere Handelsroute "{%STRING0}"
-besteht nur aus einem Hafen!
-
-@PISS0
-@width=230
-Der {%STRING1}-Stamm ist nun %STRING2 {%STRING3}.
-
-@PISS1
-@width=230
-Aufgrund Ihres umfangreichen Straenbaus ist der
-Stamm der {%STRING1} jetzt %STRING2 {%STRING3}.
-
-@PISS2
-@width=230
-Da Sie weiterhin auf der Zerstrung des Waldes bestehen, 
-ist der Stamm der {%STRING1} jetzt %STRING2 {%STRING3}.
-
-@PISS3
-@width=230
-Wegen der fortgesetzten Arbeit der %STRING0 Missionare
-ist der Stamm der {%STRING1} jetzt %STRING2 {%STRING3}.
-
-@PISS4
-@width=230
-Wegen dieses grundlosen Angriffs ist der Stamm
-der {%STRING1} jetzt %STRING2 {%STRING3}.
-
-@PISS5
-@width=230
-Aufgrund der zunehmenden Bevlkerungszahl in
-%STRING0 Kolonien ist der Stamm der {%STRING1}
-jetzt %STRING2 {%STRING3}.
-
-
-@KINGNO
-@width=230
-"Wir sind mit Euren Bemhungen in der Neuen Welt
-`uerst unzufrieden. Daher geruhen wir, Eure Bitte
-zu diesem Zeitpunkt nicht zu gew`hren."
-
-
-@KINGFUND
-@width=230
-"Unsere knigliche Schatzkammer ist im Moment
-berbeansprucht. Wir knnen Euch nur {%NUMBER0$} anbieten."
-
-"Wir nehmen dieses Geschenk dankbar an."
-"Verget es."
-
-@KINGLOWER
-@width=230
-"Nach sorgf`ltiger \berlegung haben wir gn`dig beschlossen,
-Eure Steuern um {%NUMBER0%%} zu senken. Der Steuersatz
-betr`gt jetzt {%NUMBER1%%}."
-
-@KINGNOTHING
-@width=230
-"Trotz Eurer Unversch`mtheit werden wir Euren Steuersatz
-zur Zeit nicht erhhen. Ihr habt jedoch die Erlaubnis,
-den Ring an unserem kleinen Finger zu kssen."
-
-@KINGRAISE
-@width=230
-"Ihr WAGT es, eine Steuersenkung zu fordern? Nach all
-unserer Mildt`tigkeit? Fr Eure Unversch`mtheit werden wir den
-Steuersatz um {%NUMBER0%%} auf {%NUMBER1%%} erhhen."
-
-@KINGTAX
-@width=230
-"Es ist unbedingt erforderlich, da die Krone fr ihre
-Bemhungen angemessen entsch`digt wird.
-Wir haben daher gromtig beschlossen, Euren Steuersatz um
-{%NUMBER0%%} auf {%NUMBER1%%} zu erhhen.
-Ihr drft nun den Ring an unserem Finger kssen."
-
-@KINGBLESS
-@width=230
-"Ihr habt unseren kniglichen Segen. Ihr drft nun
-den Ring an meinem Finder kssen."
-
-@KINGLAUGH
-@width=230
-"Ha ha ha ha ha ha ha! Das ist ein guter Witz!
-Ho ho ho ho ho! Unabh`ngigkeit! Ha ha ha ha ha!"
-
-@KINGWELCOME0
-@width=230
-"Willkommen, %STRING0 %STRING1. Eure Erfolge in der
-Neuen Welt erfreuen uns in hchstem Mae."
-
-@MERCANTILISM
-@width=230
-"Wir sind besorgt, da Eure Bauvorhaben 
-Einkommensverluste fr die %STRING1-Kaufleute bedeuten.
-Wir haben daher gn`dig bestimmt, da Euer Steuersatz um
-{%NUMBER0%%} auf {%NUMBER1%%} erhht wird.
-Ihr drft nun den Ring an unserem Finger kssen."
-
-@PURCHASETAX
-@width=230
-"Wir haben gn`dig beschlossen, Euren Steuersatz um {%NUMBER0%%}
-auf {%NUMBER1%%} zu erhhen, um unsere Schatzkammer fr
-die Auslagen zu entsch`digen. Ihr drft nun unseren Ring kssen."
-
-@TAXOPTIONS
-Den kniglichen Ring kssen
-'{%STRING3-Party}' abhalten 
-
-@TEAPARTY
-@width=220
-{%STRING3-Party}! Shne der Freiheit werfen {%NUMBER0} Tonnen %STRING0
-in %STRING1 ins Meer! Siedler verweigern Zahlung der neuen Steuer!
-Parlament gibt Boykott von %STRING0n bekannt. Diese Ware kann in %STRING2
-bis zur Aufhebung des Boykotts nicht gehandelt werden.
-
-@KISSUP
-@width=220
-Diese Ware wird momentan vom Parlament {boykottiert}, Exzellenz.
-Wir knnen in %STRING1 nicht damit handeln, bis das
-Parlament den Boykott aufhebt, wenn wir {%NUMBER0$} Steuern nachzahlen.
-
-Das ist Besteuerung ohne Stimmrecht! Ungerecht!
-{%NUMBER0$} zahlen.
-
-@KISSSORRY
-@width=220
-Leider stehen uns nur {%NUMBER0$} zur Verfgung.
-
-@PRICEUP
-@width=230
-Der Preis fr {%STRING0} in %STRING1 ist auf {%NUMBER0$} gestiegen.
-
-@PRICEDOWN
-@width=230
-Der Preis fr {%STRING0} in %STRING1 ist auf {%NUMBER0$}. gefallen
-
-@WHICHFREEDOM
-@width=230
-Der Kontinentalkongre wird in der n`chsten Sitzung ausgeweitet,
-Eure Exzellenz. Welchen Grndervater sollen wir als n`chstes Mitglied
-bestimmen?
-
-@FREEDOM
-@width=230
-%STRING1 Grnderv`ter geben bekannt, da
-{%STRING0} dem Kontinentalkongre beigetreten ist!
-
-@CLAND
-@width=230
-LANDMASSE
-
-Klein
-Normal
-Gro
-
-@CCONT
-@width=230
-LANDFORM
-
-Inselgruppe
-Normal
-Groe Kontinente
-
-@CTEMP
-@width=230
-TEMPERATUR
-
-Khl
-Gem`igt
-Warm
-
-@CCLIM
-@width=230
-KLIMA
-
-Trocken
-Normal
-Feucht
-
-@SHIPSLOW
-@width=230
-{%STRING0} durch %STRING1 Schiff ({%STRING2}) verlangsamt.
-
-@SHIPRUN
-@width=230
-%STRING2 Schiff ({%STRING0}) zieht an %STRING1 ({%STRING3}) vorbei!
-
-@FORTFIRE
-@width=230
-{%STRING0} in {%STRING1} erffnet Feuer auf {%STRING2 %STRING3}!
-
-@EUROPEARM
-@width=230
-Optionen fr europ`ische Hafenanlagen:
-
-@EUROPESHIPCLICK
-@width=230
-Europ`ische Hafenanlagen-Optionen fr {%STRING0}:
-
-@ARMOPTIONS
-Nicht aufs n`chste Schiff gehen.
-An Bord des n`chsten Schiffes gehen.
-An die Spitze der Schlange verlegen.
-Mit {Musketen} bewaffnen (Kosten {%NUMBER0$}).
-{Musketen} verkaufen (Einsparung {%NUMBER0$}).
-Mit {Werkzeugen} ausrsten (Kosten {%NUMBER1$}).
-{Werkzeuge} verkaufen (Einsparung {%NUMBER1$}).
-Mit {Pferden} ausrsten (Kosten {%NUMBER2$}).
-{Pferde} verkaufen (Einsparung {%NUMBER2$}).
-Zum {Missionar} berufen.
-{Missionar}-Status aufheben.
-Keine Ver`nderungen.
-
-@COLONYUNIT
-@width=230
-Optionen fr {%STRING1} (%STRING0):
-
-@UNITOPTIONS
-Nach vorne bewegen.
-Befehle aufheben.
-Wache / An Bord gehen.
-Befestigen.
-Keine Ver`nderungen.
-
-@SHIPOPTIONS
-Nach vorne bewegen.
-Befehle aufheben.
-Wache.
-Im Hafen ankern ("Befestigen").
-Alle Waren entladen.
-Keine Ver`nderungen.
-
-@EUROPESHIPOPTIONS
-Nach vorne bewegen.
-Segel setzen in die Neue Welt.
-Alle Waren entladen.
-Keine Ver`nderungen.
-
-
-@KINGFRIGATE
-@width=230
-"%STRING0 %STRING1, wir haben bemerkt, da gegnerische
-Kriegsschiffe Euren schutzlosen Schiffen auflauern. Sollen wir
-eine {Fregatte} der %STRING2 Marine zu Eurem
-Schutz schicken?"
-
-"Ja, ich frchte, das ist notwendig."
-"Nein, wir werden den Schutz selbst bernehmen."                   
-
-@KINGGALLEON2
-@width=220
-"%STRING0 %STRING1. Wir sind hchst erfreut ber die groe
-Beute, die Eure Konquistadoren in der Neuen Welt erobern.
-Wir haben jedoch festgestellt, da Ihr keine {Galeonen} habt,
-um diese groartigen Sch`tze nach %STRING2 zu transportieren.
-Wenn Ihr es wnscht, werden wir den Schatz in unseren eigenen
-kniglichen Galeonen transportieren, sobald unsere Sch`tzer
-den rechtm`igen Anteil der Krone errechnet haben."
-
-"Sehr schn, lat die Krone ihren rechtm`igen Anteil fordern."
-"Nein, ich wrde eher den Ring an Eurem Finger {kssen}."
-
-@KINGGALLEON3
-@width=220
-"%STRING0 %STRING1. Wir sind hoch erfreut ber die Menge der erbeuteten
-Sch`tze, die Eure Konquistadoren in der Neuen Welt erringen. Wir mchten 
-Euch jedoch nicht mit der Aufgabe bel`stigen, diese sagenhaften Sch`tze 
-nach %STRING2 transportieren zu mssen. Wenn Ihr es wnscht, werden wir 
-die Beute {ohne zus`tzliche Kosten} in den kniglichen Galeonen nach 
-Hause bringen, sobald unsere Steuerbeamten eine der augenblicklichen 
-Steuerrate ({%NUMBER0%%})entsprechenden Prozentbetrag abgezogen haben."
-
-"Sehr schn, lat die Krone ihren rechtm`igen Anteil fordern."
-"Nein, ich wrde eher den Ring an Eurem Finger {kssen}."
-
-
-@CASHTREASURE
-@width=220
-Sch`tze fr {%NUMBER0$} an ausl`ndische Agenten verkauft.
-
-@USEDUPTOOLS
-@width=230
-Unser {Pionier} ist auf den Status eines {Siedlers} zurckgefallen,
-nachdem er alle {Werkzeuge} benutzt hat.
-
-@EVASIVE
-@width=230
-%STRING0 Schiff ({%STRING1}) entkommt %STRING2 ({%STRING3}).
-
-@KINGMERCY
-@width=230
-"%STRING0 %STRING1. Im Angesicht des tragischen Verlustes einer
-kniglichen {%STRING2}-Einheit haben wir gromtig beschlossen,
-Euren Steuersatz um {%NUMBER0%%} auf {%NUMBER1%%} zu
-senken. Ihr drft nun den kniglichen Ring an unserem Finger kssen."
-
-
-@KINGNEWWAR
-@width=220
-"%STRING0 %STRING1. Die Arroganz der {%STRING2} zwingt uns,
-ihnen den {Krieg zu erkl`ren}. Wir haben daher Eure
-Friedensregelung aufgehoben und befehlen Euch, ihnen sofort
-eine Lektion zu erteilen. Wir stellen Euch dafr {%NUMBER0$}
-aus unserer Schatzkammer und {%NUMBER1} Einheiten unserer
-{erfahrenen Soldaten} zur Verfgung.
-Ihr drft nun den kniglichen Ring an unserem Finger kssen."
-
-
-@KINGVICTORY
-@width=230
-"%STRING0 %STRING1. Um unseren Sieg ber
-%STRING2 zu feiern, haben wir gromtig beschlossen, 
-den Steuersatz um {%NUMBER0%%} auf {%NUMBER1%%} zu
-SENKEN. Ihr drft wieder unseren Ring kssen."
-
-@KINGWIFE
-@width=230
-"%STRING0 %STRING1. Zu Ehren unserer Hochzeit mit unserer
-%STRING2 Frau haben wir edelmtig beschlossen, Eure Steuern
-um{%NUMBER0%%} auf {%NUMBER1%%} zu erhhen.
-Ihr drft den kniglichen Ring an unserem Finger kssen."
-
-@KINGWAR
-@width=300
-"%STRING0 %STRING1. Aufgrund neuer Entwicklungen in unserem
-andauernden Krieg gegen %STRING2 haben wir beschlossen, Eure Steuern
-um {%NUMBER0%%} auf {%NUMBER1%%} zu erhhen. Wenn Ihr
-mchtet, drft Ihr nun den Ring an unserer Hand kssen."
-
-@KINGNAVACT
-@width=300
-"%STRING0 %STRING1. Wir sind besorgt, da die Krone nicht den
-gebhrenden Anteil an den Geldern aus der Neuen Welt erh`lt.
-Mit einem neuen {Navigationsgesetz} wird daher Euer Steuersatz um
-{%NUMBER0%%} auf {%NUMBER1%%} erhht.
-Ihr drft nun den kniglichen Ring an unserer Hand kssen."
-
-@KINGSTAMPACT
-@width=230
-"%STRING0 %STRING1. Die undankbare Haltung der Siedler in
-{%STRING2} macht uns krank. Wir haben daher beschlossen, ihnen
-mit einem neuen Gesetz Respekt fr ihren Monarchen
-beizubringen. Der Steuersatz erhht sich um {%NUMBER0%%} auf
-{%NUMBER1%%}.Wenn Ihr mgt, drft Ihr nun den Ring an meinem Finger kssen."
-
-@COUNTRIES
-das Heilige Rmische Reich
-die Portugiesen
-die Osmanischen Trken
-die Karibikpiraten
-Ruland
-Preuen
-Schweden
-D`nemark
-
-@ORDINAL
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
-28.
-29.
-30.
-
-@NEEDTOOLS
-@width=230
-{%STRING1} im Bau in {%STRING0} bentigt
-{%NUMBER0 Werkzeuge} zur Fertigstellung. Nur {%NUMBER1}
-Werkzeuge stehen momentan in %STRING0 zur Verfgung.
-
-@NEEDTOOLS0
-@width=190
-{%STRING1} im Bau in {%STRING0} bentigt 
-{%NUMBER0 Werkzeuge} zur Fertigstellung. 
-In %STRING0 sind derzeit keine Werkzeuge vorhanden.
-
-@ALREADYHAVE
-@width=230
-{%STRING0} will {%STRING1} produzieren,
-hat jedoch schon ein Exemplar gebaut!
-
-@LOBOTOMIZE
-@width=230
-Mchten Sie die Spezialit`t dieses Siedlers ({%STRING0})
-{aufheben} und ihn zum einfachen freien Siedler machen?
-
-Ja
-Nein
-
-
-
-@NATION0A
-@width=300
-^^ENGLAND
-^^_
-__Das Zeitalter der Expansion traf in England mit einer Periode
-{religiser Konflikte} zusammen. Die Anglikanische Kirche - eigentlich
-protestantisch, doch mit vielen katholischen Traditionen - sah sich in
-der
-Kolonialzeit einer Reihe von Angriffen durch Reformer ({Puritaner})
-ausgesetzt. Die Untersttzung der englischen Monarchie schwankte von
-Generation zu Generation zwischen Pro-Katholiken und verschiedenen
-Formen des Protestantismus hin und her. Der Brgerkrieg (1640-49) 
-endete mit der Enthauptung Charles I und einer Regierungszeit der 
-Puritaner (1649-60) unter Oliver Cromwell. Aufgrund dieser Konflikte 
-konnte die englische Regierung keine religise Konformit`t in ihren 
-Kolonien durchsetzen. Diese entwickelten sich dadurch zu 
-Zufluchtsst`tten mit {religiser Freiheit} fr alle Gruppen (z.B.  
-Puritaner, Wiedert`ufer, Qu`ker), die in der Alten Welt verfolgt wurden.
-
-@NATION0B
-@width=300
-^^ENGLAND
-^^_
-Um die groe Zahl der englischen Einwanderer in die Kolonien zu
-reflektieren, bentigt der England-Spieler nur {2/3} der normalen
-Zahl von "{Kreuzen}", um Immigranten zu schaffen.
-
-
-@NATION1A
-@width=300
-^^FRANKREICH
-^^_
-__Als Nachzgler in der Neuen Welt baute Frankreich seine ersten
-sicheren Kolonien in {Kanada} am Sankt-Lorenz-Strom auf, wo das
-harte nordische Klima sich als gnstiger fr den {Pelzhandel} erwies
-als fr grere landwirtschaftliche Unternehmungen.
-Die {Indianer der Groen Seen} erwiesen sich als ideale Partner beim
-Pelzhandel, und die Franzosen schlossen langfristige Handelsabkommen
-mit den Huronen, Algonquins und anderen St`mmen. Obwohl das
-Gebiet um die Groen Seen bald mit Forts, Missionen und
-Handelsniederlassungen bers`t war, waren die franzsischen
-Siedlungen meist so klein, da sie in {Harmonie} mit den Eingeborenen
-lebten.
-Zwar gab es auch Zwischenf`lle, doch die Franzosen arbeiteten h`ufig
-gewinnbringend mit den Indianern zusammen. Diese Kooperation
-weitete sich gelegentlich auch auf den milit`rischen Bereich aus.
-
-
-
-@NATION1B
-@width=300
-^^FRANKREICH
-^^_
-Um die \berlegenheit der Franzosen bei der Zusammenarbeit mit der
-eingeborenen Bevlkerung zu reflektieren, lsen die Kolonien und
-Einheiten des Frankreich-Spielers unter den Indianern nur 
-halb so viel {Beunruhigung} aus wie andere.
-
-
-@NATION2A
-@width=300
-^^SPANIEN
-^^_
-__1492, im selben Jahr, in dem Columbus Amerika entdeckte, beendeten
-die Spanier ihre jahrhundertelange "reconquista" der Iberischen
-Halbinsel von den moslemischen Mauren. Daraus war Spanien eine 
-Generation von {Milit`rs} erwachsen, die darauf brannten, neue
-L`nder zu erobern und die {Heiden} mit Waffengewalt zum Christentum
-zu bekehren. Die Neue Welt mit ihren ahnungslosen Ureinwohnern bot
-genau diese Gelegenheit, daher besteht das erste Jahrhundert der
-spanischen Eroberung Amerikas aus Plnderungen und der Vernichtung
-zahlloser Eingeborenen-Zivilisationen. Die Spanier waren die ersten,
-die auf "Indianer" trafen, und die ansonsten m`chtigen Reiche der 
-{Inkas} und {Azteken} waren dem Ansturm der bewaffneten Fremden
-nicht gewachsen. Der Konquistador {Hernando Cortez} landete 1519
-mit ein paar Hundert M`nnern in Veracruz und zwang innerhalb von
-zwei Jahren das Aztekenreich in die Knie.
-
-@NATION2B
-@width=300
-^^SPANIEN
-^^_
-Um den strategischen \berraschungseffekt zu reflektieren, mit dem die
-Spanier die pr`-kolumbianischen Vlker bezwangen, erh`lt der Spanien-
-Spieler einen {50%-Kampfbonus} beim {Angriff auf Indianerdrfer}.
-
-
-@NATION3A
-@width=300
-^^HOLLAND
-^^_
-__Die protestantischen holl`ndischen Provinzen wurden im Zeitalter der
-Expansion vom katholischen Spanien unabh`ngig. Als {Fischer} und
-{Kaufleute} unterhielten die holl`ndischen Niederlande Flotten in
-der Nord- und Ostsee. Nach der Unabh`ngigkeit im frhen 17. Jh. konnte
-diese winzige Nation ihre ideale Lage zur Ausweitung ihres {\bersee-
-Handels} auf lukrative neue M`rkte im Fernen Osten und in der Neuen
-Welt nutzen. Anders als ihre Rivalen und zeitweisen Gegner, die Spanier,
-Franzosen und Engl`nder, wurden die Holl`nder von ihrer
-Kaufmannsklasse regiert. Daher waren s`mtliche Aspekte ihrer Staats-,
-Milit`r- und Wirtschaftspolitik auf {Handelsinteressen} ausgerichtet.
-Ihre Strategie erwies sich als erfolgreich, und die holl`ndische
-Wirtschaft und ihre Handelsflotte expandierten so rasch, da die
-anderen europ`ischen M`chte sich zu drastischen Manahmen
-gezwungen sahen, um ihre eigenen Unternehmungen zu verteidigen.
-
-@NATION3B
-@width=300
-^^HOLLAND
-^^_
-__Um die St`rke der holl`ndischen Wirtschaft und ihre Erfolge bei
-Handel und Bankgesch`ften zu repr`sentieren, erh`lt der Holland-Spieler
-einen Bonus, wenn er mit Amsterdam handelt. Die {Rohstoffpreise} in
-Amsterdam {fallen nicht} so rasch wie die in anderen europ`ischen
-H`fen und {erholen sich} schneller.
-
-@PICKACARGO
-@width=230
-Welche Ware sollen wir erobern?
-
-@CUSTOM
-@width=230
-@checkbox
-@smallfont
-Welche Waren soll unser {Zollhaus} exportieren?
-
-@CONTINENTAL
-@width=230
-Unsere {Erfahrenen %STRING0} haben {Kontinentalarmee}-
-Status erreicht, Eure Exzellenz!
-
-@VETERAN
-@width=230
-Unsere {%STRING0} haben den Status {Erfahrener Soldaten}
-erreicht, Eure Exzellenz!
-
-@VALOR
-@width=230
-Wegen ihrer Tapferkeit im Kampf wurden unsere {%STRING0}
--Soldaten vom {%STRING1}- zum
-{%STRING2}-Status befrdert.
-
-@SCOUTCOLONY
-@width=230
-Unsere {Sp`her} haben die Auenbezirke von {%STRING0}
-erreicht, Eure Exzellenz. Was sollen sie jetzt tun?
-
-Brgermeister treffen
-Kolonie infiltrieren
-Kolonie angreifen
-Nichts
-
-@LOSTOURSCOUTS
-@width=230
-Unsere {Sp`her} bei {%STRING1} wurden durch die {%STRING0}
-gefangengenommen, Eure Exzellenz!
-
-@LOSTTHEIRSCOUTS
-@width=230
-Wir haben eine Gruppe von {%STRING0-Sp`hern} gefangen,
-die {%STRING1} infiltrieren wollten, Exzellenz. Ihre {%NUMBER0 Pferde}
-wurden in die St`lle der Kolonie gebracht.
-
-
-@HELLOFIRST
-@width=220
-"Seid gegrt, %STRING0, und willkommen in {%STRING1}.
-Wir haben mit vollem Recht im Namen {%STRING2} Anspruch
- auf dieses Land erhoben und wollen hier %STRING3. Bitte
-widersetzt Euch dieser gottbefohlenen Mission nicht."
-
-@HELLOUSA
-@width=220
-"Seid gegrt, %STRING0, durch die neu gew`hlte Regierung
-der {%STRING1}."
-
-@HELLOAHOY
-@width=220
-"Ahoi, %STRING0, und willkommen in {%STRING1}.
-Wir beanspruchen alles Land in diesem Meer im Namen 
-{%STRING2} und wollen hier %STRING3. Bitte
-widersetzt Euch dieser gottbefohlenen Mission nicht."
-
-@HELLOMEEK
-@width=220
-"{M`chtiger} %STRING0, wir begren Euch erneut in {%STRING1}.
-Bitte erinnert Euch, da wir dieses ganze Land im Namen
-{%STRING2} beanspruchen. Wir mchten auch weiterhin
-%STRING3."
-
-@HELLOMANLY
-@width=220
-"%STRING0. Wir bemerken mit {Unwillen}, da Eure Anwesenheit
-weiterhin {%STRING1}, das wir zu Recht im Namen
-{%STRING2} beanspruchen, besudelt. Wir wollen hier %STRING3,
-und Ihr stellt Euch uns auf eigene {Gefahr} entgegen.."
-
-@GREATKINGS
-unserer Knigin und der Anglikanischen Kirche
-Seiner christlichsten Majest`t Knig Ludwig
-des Papstes und der Spanischen Krone
-des Statthalters der Vereinigten Provinzen der Niederlande
-
-@GREATDEEDS
-ein Leben {religiser Freiheit} im Dienste der Krone anstreben
-zum {Ruhm} Frankreichs beitragen
-{die Heiden bekehren} und unserem Herrscher Reichtum bringen
-ein m`chtiges {Handelsimperium} in \bersee schaffen
-
-@MYLEADER
-Knig
-Knig
-Knig
-Statthalter
-
-@GREATLEADER
-Unsere Knigin
-Unser Knig
-Der Papst
-Unser Statthalter
-
-@GREATLEADER2
-der Knigin
-des Knigs
-des Papstes
-des Statthalters
-
-
-@PIRACY
-@width=220
-"%STRING0 ist `uerst ver`rgert, da die {%STRING1-Piraten} vor der
-Kste von %STRING2 lauern. Wir {%STRING3}, da Ihr sofort alle
-{Kaperschiffe} zurckzieht."
-
-"Welche Piraten? Wir haben NIE Piraterie untersttzt!"
-"Nun gut, wir werden unsere {Kaperschiffe} nach Europa zurckziehen."
-
-
-
-@PIRACYUSA
-@width=220
-"Die {%STRING0} duldet nicht, da ausl`ndische Piraten ihre
-wirtschaftlichen Interessen sch`digen. Wir {%STRING3}, da Ihr 
-sofort alle {Kaperschiffe} zurckzieht."
-
-"Welche Piraten? Wir haben NIE Piraterie untersttzt!"
-"Nun gut, wir werden unsere {Kaperschiffe} nach Europa zurckziehen."
-
-
-@SIEGES
-@width=300
-@y=20
-"%STRING0 fhlt sich durch die %STRING1 Streitkr`fte an den
-Grenzen unserer %STRING2 Kolonien bedroht. Wir {%STRING3}, da 
-Ihr alle an %STRING2 Kolonien grenzenden Truppen sofort {abzieht.}"
-
-"Unsere Truppen vertreten rechtm`ige %STRING1 Interessen und bleiben."
-"Nun gut, wir werden unsere Truppen nach Europa {abziehen}."
-
-
-@SIEGESUSA
-@width=220
-"Die %STRING0 hat das Recht fremder M`chte, in dieser 
-Hemisph`re Truppen zu stationieren, nie anerkannt. Vor allem 
-Streitkr`fte in der N`he unserer groen St`dte beunruhigen uns.
-Wir {%STRING3}, da Ihr alle milit`rischen Einheiten, die an unsere
-St`dte angrenzen, sofort {abzieht}."
-
-"Unsere Truppen vertreten rechtm`ige %STRING1-Interessen und bleiben."
-"Nun gut, wir werden unsere Truppen nach Europa {abziehen}."
-
-
-@MEEKNESS
-bitten
-verlangen
-
-@HEATHEN
-@width=220
-"Wir sind im Moment mit der Unterwerfung der heidnischen {%STRING1}
-besch`ftigt. Werdet Ihr als Glaubensbrder uns dabei untersttzen?"
-
-"Niemals! Die {%STRING0} sind ein harmloses, friedliches Volk!"
-"Ja! Lat uns den {%STRING0} eine Lehre erteilen!"
-
-@HEATHENUSA
-@width=220
-"Die %STRING0 ist momentan mit der Umsiedlung von Mitgliedern 
-der  gef`hrlichen {%STRING1} in ein Reservat der Regierung 
-besch`ftigt. Werdet Ihr uns bei dieser Aufgabe helfen?"
-
-"Niemals! Das w`re ein schreckliches Verbrechen!"
-"Ja, denn das Schicksal hat uns dazu bestimmt."
-
-
-@APOSTATES
-@width=220
-"Wir haben erfahren, da Ihr ein Bndnis mit diesen Ketzern, den
-{%STRING0}, geschlossen habt. Wir {%STRING1}, da Ihr es
-unverzglich aufhebt."
-
-"Niemals! Die {%STRING0} sind unsere Freunde!"
-"Ja! Wir vernichten die stinkenden {%STRING0} gemeinsam!"
-
-
-@APOSTATESUSA
-@width=220
-"Wir haben erfahren, da Ihr ein Bndnis mit diesen 
-Imperialisten von {%STRING0} geschlossen habt. Wir 
-{%STRING1}, da Ihr es unverzglich aufhebt."
-
-"Niemals! Die {%STRING0} sind unsere Freunde!"
-"Ja! Wir vernichten die stinkenden {%STRING0} zusammen!"
-
-
-@TRIBUTE
-@width=220
-"%STRING0 hat uns befohlen, alle {%STRING1} von den Ksten von
-{%STRING2} zu vertreiben. Wir haben jedoch im Moment wichtigere 
-Aufgaben und knnten diese Anweisung fr eine entsprechende 
-"Spende" an die "Kirche" in Hhe von {%NUMBER0$} bersehen"
-
-"Keinen Pfennig fr diese ketzerischen Halunken!"
-"Fr eine solche gute Sache spenden wir gerne {%NUMBER0$}."
-
-
-@TRIBUTEUSA
-@width=220
-"Die {%STRING0} erkennt das Recht europ`ischer M`chte zur 
-Grndung von Kolonien in dieser Hemisph`re nicht an. Wir knnten 
-diese Doktrin jedoch vorbergehend bersehen, wenn wir eine 
-Entsch`digung von {%NUMBER0$} dafr erhalten."
-
-"Das ist Erpressung, damit wollen wir nichts zu tun haben."
-"Wir zahlen gerne {%NUMBER0$}."
-
-
-@WANTSTUFF
-@width=260
-"Wir sind ver`rgert, da Ihr weiterhin L`nder besudelt, die rechtm`ig
-uns gehren. Wir fordern als Entsch`digung {%NUMBER0 %STRING1}."
-
-"Wir lachen ber Eure armseligen Drohungen."
-"Wir teilen {%NUMBER0 %STRING1} gern mit unseren {%STRING2} Brdern."
-
-
-@WANTSTUFFUSA
-@width=220
-"Die {%STRING0} erkennt das Recht europ`ischer M`chte zur 
-Grndung von Kolonien in dieser Hemisph`re nicht an. Wir knnten 
-diese Doktrin jedoch vorbergehend bersehen, wenn wir als 
-Entsch`digung {%NUMBER0 %STRING1} erhalten."
-
-"Wir lachen ber Eure armseligen Drohungen."
-"Wir teilen {%NUMBER0 %STRING1} gern mit Nachbarn"
-
-
-@RID
-@width=220
-"Im Namen {%STRING0} befehlen wir Euch, {%STRING1} umgehend
-zu verlassen. Wenn nicht, werfen wir Euch ins Meer."
-
-@RIDUSA
-@width=220
-"Die {%STRING1} befiehlt Euch, diese Hemisph`re umgehend zu verlassen.
-Wenn nicht, werfen wir Euch ins Meer."
-
-
-@WORTHY
-@width=220
-"Obwohl dieses Land rechtm`ig uns gehrt, schlagen wir ein
-Grenzlinien-{Abkommen} vor, mit dem alles Land vor Gott
-in bleibende und unverletzliche {%STRING1} und {%STRING2}
-Einflubereiche aufgeteilt wird. Seid Ihr damit einverstanden?"
-
-"Ja"
-"Nein"
-
-@GIVECASH
-@width=220
-"Bitte verschont unsere bescheidene, schutzlose Siedlung.
-Wir geben Euch {%NUMBER0$}, wenn Ihr uns nicht angreift."
-
-"Nun gut, Ihr sollt verschont werden."
-"So leid es uns tut, es ist Gottes Wille."
-
-@PEACEMANLY
-@width=290
-"Gut, aber {nur} das Land, das Ihr jetzt bewohnt, soll der 
-{%STRING0} Bereich sein. Die {brigen} Gebiete sollen auf ewig
-{%STRING1} sein. Diese Gebiete betretet Ihr auf eigene
-{Gefahr}."
-
-"Geht in Frieden, Brder."
-"Zuerst mt Ihr Eure Truppen aus unseren Kolonien zurckziehen!"
-"Wieviel ist Euch Euer Leben wert, Ihr verdammten Heiden?"
-"Wir schlagen ein Bndnis vor."
-
-@PEACEMEEK
-@width=290
-"Groartig. Alles Land, das Ihr jetzt bewohnt, soll der
-{%STRING0} Bereich sein, das von uns bewohnte Land dagegen
-auf ewig {%STRING1}. Denkt bitte daran, diese Gebiete nicht 
-zu betreten."
-
-"Geht in Frieden, Brder."
-"Zuerst mt Ihr Eure Truppen aus unseren Kolonien zurckziehen!"
-"Wieviel ist Euch Euer Leben wert, Ihr verdammten Heiden?"
-"Wir schlagen ein Bndnis vor."
-
-@OLDPEACEMEEK
-@width=290
-"Wir begren die Freundschaft unserer Brder, der {%STRING0}, und
-ihres weisen Herrschers, %STRING2 %STRING3. Zusammen werden wir
-Gottes Werk in der Neuen Welt vollbringen."
-
-"Geht in Frieden, Brder."
-"Zuerst mt Ihr Eure Truppen aus unseren Kolonien zurckziehen!"
-"Wieviel ist Euch Euer Leben wert, Ihr verdammten Heiden?"
-"Wir schlagen ein Bndnis vor."
-
-@OLDPEACEMANLY
-@width=290
-"Obwohl die {%STRING0} nicht in diese Hemisph`re gehren,
-werden wir Euch diesmal nicht aus der Neuen Welt vertreiben."
-
-"Geht in Frieden, Brder."
-"Zuerst mt Ihr Eure Truppen aus unseren Kolonien zurckziehen!"
-"Wieviel ist Euch Euer Leben wert, Ihr verdammten Heiden?"
-"Wir schlagen ein Bndnis vor."
-
-
-@PEACEUSA
-@width=220
-"Die {%STRING0} begrt den Frieden mit unseren politisch 
-unterentwickelten Nachbarn, den {%STRING1}."
-
-"Geht in Frieden."
-"Zuerst mt Ihr Eure Truppen aus unseren Kolonien zurckziehen!"
-"Wieviel ist Euch Euer Leben wert, Ihr Hunde?"
-"Wir schlagen ein Bndnis vor."
-
-
-@NOTWITHDRAW
-@width=220
-"Unsere Truppen schtzen wichtige %STRING0-Interessen und
-werden nicht abgezogen."
-
-@WITHDRAW
-@width=220
-"Im Interesse des Friedens ziehen wir unsere Truppen ab."
-
-@NOTHINGWITHDRAW
-@width=220
-"Wir haben keine Truppen an den Grenzen zu Euren Kolonien."
-
-@MAYBEWITHDRAW
-@width=220
-"Unsere Truppen schtzen wichtige %STRING0-Interessen. Wir sind
-jedoch bereit, sie gegen {%NUMBER0$} abzuziehen, um die
-Kosten der Demobilisierung zu decken."
-
-"Wir zahlen gerne{%NUMBER0$}."
-"Zieht ab, oder sterbt, ketzerische Hunde!"
-"Na gut, dann eben nicht."
-
-
-@PROVOKE
-@width=220
-"Wir knnen Eure Provokationen nicht mehr dulden. Das heit KRIEG!"
-
-@WARMEEK
-@width=220
-"Nun gut, im Namen %STRING0 werden wir Euch von den Ksten
-von {%STRING1} vertreiben. Das bedeutet KRIEG!"
-
-@WARMANLY
-@width=220
-"Ihr lehnt unser grozgiges Angebot ab? Dann werden wir Euch im
-Namen %STRING0 vom Angesicht der Neuen Welt vertilgen.
-Das bedeutet KRIEG!
-
-@THREATS
-@width=220
-"Wir lachen ber Eure armseligen Drohungen."
-
-@GIFTS
-@width=220
-"Wir bieten Euch {%NUMBER0$} als Geschenk fr Eure
-weitere Nachsicht."
-
-@MILITARY
-@width=220
-"Ihr mt die Ungl`ubigen angreifen . . ."
-
-@NOCONTACT
-@width=220
-"Die {%STRING0} und wir haben keinen Kontakt."
-
-@ALREADYSMITE
-@width=220
-"Wir fhren bereits Krieg gegen die unntzen {%STRING0}."
-
-@SMITEINDIANS
-@width=220
-"Wir werden die heidnischen {%STRING0} gnadenlos auslschen,
-wenn wir {%NUMBER0$} zur Deckung unserer Unkosten erhalten."
-
-{%NUMBER0$} zahlen.
-Dann eben nicht.
-
-@SMITEEUROPE
-@width=220
-"Wir werden die ketzerischen {%STRING0} gnadenlos vom Angesicht
-der Neuen Welt tilgen, wenn wir {%NUMBER0$} zur Deckung
-unserer Unkosten erhalten."
-
-{%NUMBER0$} zahlen.
-Dann eben nicht.
-
-
-@UNFORTUNATE
-@width=220
-"Leider reicht Eure Schatzkammer nicht aus, um Euer
-maloses Versprechen einzulsen."
-
-@MERCENARY
-@width=220
-Die {%STRING0} erkl`ren den Krieg gegen die {%STRING1}.
-
-@SUCCESSION
-@width=220
-Kampf um die spanische Thronfolge endet in Europa!
-{%STRING0}, vom Krieg verwstet, tritt %STRING1
-an die {%STRING2} ab. Laut dem Frieden von Utrecht fallen alle
-{%STRING3} Besitztmer in der Neuen Welt in {%STRING2} H`nde.
-
-@REBELMAJORITY
-@width=220
-Die Mitgliedschaft bei den Shnen der Freiheit in {%STRING0} ist auf
-%NUMBER0%% gestiegen, Exzellenz. Die Mehrheit der Siedler 
-ist fr Unabh`ngigkeit von %STRING1! Alle Siedler 
-in %STRING0 erhalten +1 zu ihrer Grundproduktivit`t dazu.
-
-@REBELUNANIMOUS
-@width=220
-Die Mitgliedschaft bei den Shnen der Freiheit in {%STRING0} ist auf
-100%%
-gestiegen, Exzellenz. Alle Siedler sind fr Unabh`ngigkeit
-von %STRING1! Die Siedler in %STRING0 erhalten +2 zu
-ihrer Grundproduktivit`t hinzu und knnen schneller ausgebildet werden.
-
-@TORYMINORITY
-@width=220
-Die Mitgliedschaft bei den Shnen der Freiheit in {%STRING0} 
-ist von 100%% auf %NUMBER0%% gefallen, Exzellenz. 
-Etliche Siedler sind nicht mehr fr Unabh`ngigkeit von %STRING1! 
-Alle Siedler in %STRING0 erhalten nur +1 zu ihrer 
-Grundproduktivit`t dazu.
-
-@TORYMAJORITY
-@width=220
-Die Mitgliedschaft bei den Shnen der Freiheit in {%STRING0} ist auf
-%NUMBER0%% gefallen, Exzellenz. Die Mehrheit der Siedler ist 
-nicht mehr fr Unabh`ngigkeit von %STRING1! Die Siedler 
-in %STRING0 erhalten keinen Produktivit`tsbonus mehr
-
-@SONSUP
-@width=220
-Die Mitgliedschaft bei den Shnen der Freiheit in {%STRING0} ist auf
-%NUMBER0%% gestiegen, Exzellenz. Je mehr {Freiheitsglocken} 
-unsere {Staatsm`nner} produzieren, desto schneller steigt sie.  
-
-@SONSDOWN
-@width=220
-Die Mitgliedschaft bei den Shnen der Freiheit in {%STRING0} ist auf
-%NUMBER0%% gefallen, Exzellenz. Vielleicht sollten wir dort 
-mehr {Freiheitsglocken} herstellen. Dies geschieht durch 
-{Staatsm`nner}. {Verlage} und {Druckereien} sowie Verbesserungen 
-an unseren Regierungsgeb`uden knnen die Herstellungsrate erhhen
-
-@REBELUP
-@width=230
-In den Kolonien steigt die {rebellische} Gesinnung, Eure Exzellenz!
-{%NUMBER0%%} der Bevlkerung untersttzen die Unabh`ngigkeit
-von %STRING0. Je autarker unsere Kolonisten sich fhlen, desto 
-produktiver werden sie. Jede Kolonie mit mindestens {50%%} Shnen der 
-Freiheit erh`lt einen {+1} Produktionsbonus.
-
-@REBELUP50
-@width=220
-In den Kolonien steigen die {rebellischen} Ansichten, Eure Exzellenz!
-{%NUMBER0%%} der Bevlkerung untersttzen die Unabh`ngigkeit
-von %STRING0. Einige der Grnderv`ter meinen, wir sollten den Knig
-um eine Audienz bitten und unsere Unabh`ngigkeit erkl`ren!
-
-@REBELDOWN
-@width=230
-{Loyalistische} Gesinnung findet in den Kolonien wieder mehr Zuspruch,
-Eure Exzellenz. Nur {%NUMBER0%%} der Bevlkerung untersttzt
-jetzt den Wunsch nach Unabh`ngigkeit von %STRING0.
-
-@REFIT
-@width=230
-{%STRING0}: Reparaturen in {%STRING1} abgeschlossen.
-
-@WELLSEASONED
-@width=230
-Unsere {Sp`her} haben jetzt {Kampferprobten}-Status, Exzellenz.
-
-@KINGBUY
-@width=230
-Knig erhht Milit`rausgaben. den Knigliche Expeditionstruppen 
-um {%STRING0} erweitert. Koloniefhrer `uern Besorgnis.
-
-@SEIZURE
-@width=230
-{%STRING0} auf hoher See von der kniglichen Marine erobert!
-
-@SEIZURESEA
-@width=230
-{%STRING0} von der kniglichen Marine auf See erobert!
-
-@SEIZURELAND
-@width=230
-{%STRING0} von der kniglichen Armee erobert!
-
-@INDEPENDENCE
-@width=230
-Kontinentalkongre unterzeichnet {Unabh`ngigkeitserkl`rung}!
-Vorwurf des Machtmibrauchs! Knig wird Ultimatum vorgelegt!
-Expeditionsstreitkr`fte zur Unterdrckung der Rebellion ausgesandt!
-General %STRING0 sucht Freiwillige fr eine neue Kontinentalarmee!
-
-@INVASION
-@width=230
-Knigliche Expeditionsstreitkr`fte landen bei {%STRING0}!
-
-@TOOTORY
-@width=250
-Nur {%NUMBER0%%} der Siedler untersttzen die 
-Unabh`ngigkeitsbewegung, Eure Exzellenz. Wir knnen 
-keine Rebellion gegen den Knig starten, bis wir eine 
-{Mehrheit} hinter uns haben.
-
-@DECLARE
-@width=230
-Sollen wir unsere Unabh`ngigkeit von {%STRING0} erkl`ren?
-Das bedeutet das Ende unserer Runde und Krieg gegen den Knig!
-
-"Niemals! Das w`re Verrat! Gott schtze den Knig!"
-"Ja! Freiheit oder Tod, sage ich!"
-
-@DEADCONVERTS
-@width=230
-{Konvertierte} Indianer kehren zu ihrem Stamm zurck.
-Konvertiten, die nicht innerhalb von {acht Runden} in die
-Kolonie eintreten, werden wegen Glaubensverlustes eliminiert.
-
-@TOOMANYUNITS
-@width=230
-Es kann keine {Einheit} geschaffen werden, da die Hchstzahl fr 
-Einheiten im Spiel erreicht ist. Es mssen Einheiten eliminiert werden,
-bevor neue geschaffen werden knnen.
-
-@TOOMANYCOLONIES
-@width=230
-Es kann keine {Kolonie} geschaffen werden, da die Hchstzahl fr 
-Kolonien im Spiel erreicht ist. Es mssen Kolonien eliminiert werden,
-bevor neue geschaffen werden knnen.
-
-@PICKMUSIC
-@smallfont
-@width=220
-W`hlen Sie ein Musikstck:
-
-"Bird Song"
-"Smoky Tune"
-"Cornwall"
-"Shady Grove"
-"Fiddler's Dance"
-"Jine the Cavalry"
-"Joe Clark"
-"Little Fiddle"
-"Hornpipe"
-"Bonny Morn"
-"Hole in the Wall"
-"Nightingale"
-"Unabh`ngigkeitsmelodien"
-"Milit`rmelodien"
-"Indianermelodien"
-
-@PICKINDEPENDENCE
-@smallfont
-@width=220
-W`hlen Sie eine Unabh`ngigkeitsmelodie:
-
-"Love Forever"
-"York Fusiliers"
-"Washington Artillery March"
-"Road to Boston"
-"Independence Way"
-
-@PICKMILITARY
-@smallfont
-@width=220
-W`hlen Sie eine Milit`rmelodie:
-
-"The Reveille"
-"Successful Campaign"
-"Morelli's Lesson"
-"To Arms"
-
-@PICKINDIAN
-@smallfont
-@width=220
-W`hlen Sie eine Indianermelodie:
-
-"Indianischer Sieg"
-"Treffen mit Indianern"
-"Tenochtitlan"
-"Pizarro at Cuzco"
-
-
-@UPKEEP
-@width=230
-Eure Exzellenz, den Unterhalt  fr unsere Geb`ude ({%NUMBER0$})
-knnen wir in dieser Runde nicht zahlen. Bis wir den {Unterhalt} 
-gezahlt haben, produzieren die Geb`ude mit {halber Effizienz}.
-
-@MOBILIZE
-@width=230
-Kontinentalarmee bei {%STRING0} mobilisiert! Unsere erfahrenen %STRING1
-wurden zum Status der {Kontinentalarmee} befrdert.
-
-@MOBILIZE2
-@width=230
-Kontinentalarmee bei {%STRING0} mobilisiert! {%NUMBER0} erfahrene
-Einheiten wurden zum Status der {Kontinentalarmee} befrdert.
-
-
-@CANTMOBILIZE
-@width=230
-Kontinentalarmee kann nur in Kolonien mobilisiert werden, die
-mindestens {%NUMBER0 Musketen} besitzen. Keine 
-unserer Kolonien hat gengend Musketen fr die
-Mobilisierung zur Verfgung!
-
-@KINGMOBILIZE
-@width=230
-Parlament bewilligt zus`tzliche Gelder zur Unterdrckung der
-Revolution in %STRING0. {%STRING1} in %STRING2 mobilisiert.
-
-@EUROPENOTAVAIL
-@width=230
-Der Europa-Statusbildschirm steht nach Beginn des
-{Unabh`ngigkeitskrieges} nicht mehr zur Verfgung. Schiffe knnen
-im Krieg nicht mehr nach Europa segeln. Kolonien, die {Zollhaus}-
-Verbesserungen bauen, knnen jedoch mit europ`ischen Schmugglern
-Handel treiben.
-
-@FOREIGNNOTAVAIL
-@width=230
-Der Auenpolitikberater-Bericht steht nach Beginn des
-{Unabh`ngigkeitskrieges} nicht mehr zur Verfgung.
-
-@EUROPENOTLEAVE
-@width=230
-Schiffe knnen im Krieg nicht mehr von und nach Europa segeln.  
-Kolonien, die {Zollhaus}-Verbesserungen bauen, knnen jedoch mit 
-europ`ischen Schmugglern Handel treiben.
-
-@NOWARSDURINGREV
-@width=220
-Fremde Kolonien knnen im {Unabh`ngigkeitskrieg} nicht angegriffen
-werden.
-
-@NOCOLONIESEITHER
-@width=230
-Kolonien knnen im {Unabh`ngigkeitskrieg} nicht gegrndet werden.
-
-@NOMAYORSDURINGREV
-@width=220
-Sp`her knnen im {Unabh`ngigkeitskrieg} keine Brgermeister treffen.
-
-@HOWMUCH1
-@width=230
-Wieviel {%STRING0} auf %STRING1 laden (0-%NUMBER0)?
-
-Menge:
-
-@HOWMUCH2
-@width=230
-Wieviel {%STRING0} von %STRING1 auf %STRING2 laden (0-%NUMBER0)?
-
-Menge:
-
-@HOWMUCH3
-@width=230
-Wieviel {%STRING0} von %STRING1 nach %STRING2 bringen (0-%NUMBER0)?
-
-Menge:
-
-@HOWMUCH4
-@width=230
-Wieviel {%STRING0} (zu {%NUMBER1$}) kaufen und
-auf %STRING1 laden (0-%NUMBER0)?
-
-Menge:
-
-@HOWMUCH5
-@width=230
-Wieviel {%STRING0} (zu {%NUMBER1$}) an %STRING2 verkaufen (0-%NUMBER0)?
-
-Menge:
-
-
-@AMBUSHHINT
-@width=220
-Eure Exzellenz, die Truppen des Knigs haben wenig Erfahrung mit den
-Taktiken, die bei K`mpfen in der
-Neuen Welt eingesetzt werden mssen.
-Wenn unsere Truppen die des Knigs angreifen, w`hrend sich niemand 
-auf einem Koloniequadrat befindet, gewinnen wir einen {Gel`ndebonus}
-in Hhe des normalen Verteidigungswertes des Kartenquadrats!
-
-@CONSIDER
-@width=220
-%STRING0 will mit uns gemeinsame Sache gegen den Knig machen,
-Eure Exzellenz! Wenn wir %NUMBER0 Freiheitsglocken herstellen,
-schlieen sie sich uns an.
-
-@INTERVENTION
-@width=220
-{%STRING0} erkl`rt %STRING1 den Krieg und k`mpft auf Seiten der 
-Rebellen! %STRING2 zu strategischen Beratungen nach %STRING3
- abgesandt. %STRING4e Marine plant Beschu der von
-den Loyalisten gehaltenen Befestigungen.
-
-@FRIEND
-Der britische General Cornwallis
-Der franzsische General Lafayette
-Ein spanischer General
-Der holl`ndische Admiral de Ruyter
-
-@INTERVENE
-@width=230
-%STRING1 Interventionstruppen erreichen {%STRING0}! rtlicher Kommandant
-der Rebellenarmee bewirtet %STRING1 Admiral.
-						     
-@EXPLOITS
-KOLONISIERUNGSWERTUNG: %NUMBER0%%
-In Anerkennung Ihrer Leistungen verwenden die Brger von
-%STRING0 Ihren Namen fr. . .
-
-@SCORE
-eine ansteckende Krankheit, %STRING0-Fieber
-ein stechendes Insekt,    die %STRING0-Fliege
-eine giftige Pflanze,     %STRING0-Efeu
-eine Giftschlange,      die %STRING0-Klapperschlange
-ein Gef`ngnis,              %STRING0catraz
-eine Schnellrestaurantkette,     %STRING0s Roast Beef
-eine Strae,              %STRING0 Boulevard
-eine Blume,              die %STRING0-Distel
-eine Schule,              %STRING0 Highschool
-einen Apfel,              %STRING0 Delicious
-eine Brcke,              die %STRING0-Ged`chtnisbrcke
-einen Vogel,                den %STRING0-Adler
-ein College,             %STRING0 A & M
-einen Berglwen,       den %STRING0-Puma
-eine begehrte Auszeichnung,   die %STRING0-Ehrenmedaille
-einen Flu,               den %STRING0 River
-eine Universit`t,          die %STRING0 and Lee University
-eine Bergkette,      die %STRING0-Berge
-eine Binnenmeer,         %STRING0 Bay
-eine Football-Mannschaft,       die %STRING0 Conquistadores
-einen der Vereinigten Staaten,  %STRING0 State
-eine Hauptstadt,             %STRING0 D.C.
-eine Nation,              die %STRING0-Republik
-EINEN KONTINENT!,          %STRING0ika
-
-
-@LOSING1
-@width=220
-Knigliche Truppen kontrollieren alle H`fen in %STRING0!
-Kontinentalkongre beugt sich Bedingungen des Knigs!
-Kontinentalarmee aufgelst; Knigliche Expeditionstruppen besetzen
-Kolonien. %STRING1, seiner Titel enthoben, flieht ins {Exil} nach %STRING2.
-
-@WARN1
-@width=220
-Eure Exzellenz, die Truppen des Knigs kontrollieren alle H`fen bis auf
-%NUMBER0 in %STRING0! Wenn wir nicht wenigstens einen
-zurckerobern, mssen wir uns ergeben, weil der Handel zusammenbricht!
-
-
-@LOSING2
-@width=220
-Knigliche Truppen kontrollieren alle Kolonien in %STRING0!
-Kontinentalkongre beugt sich Bedingungen des Knigs!
-Kontinentalarmee aufgelst; Knigliche Expeditionstruppen besetzen
-Kolonien. %STRING1, seiner Titel enthoben, flieht ins {Exil} nach %STRING2.
-
-@WARN2
-@width=220
-Eure Exzellenz, die Truppen des Knigs kontrollieren alle unsere 
-Kolonien bis auf %NUMBER1. Wir mssen die brigen verteidigen, 
-sonst verlieren wir den Krieg!
-
-
-@LOSING3
-@width=220
-Knigliche Truppen kontrollieren ber 90%% der %STRING0 
-Einwohner! Kontinentalkongre beugt sich Bedingungen des Knigs!
-Kontinentalarmee aufgelst; Knigliche Expeditionstruppen besetzen
-Kolonien. %STRING1, seiner Titel enthoben, flieht ins {Exil} nach %STRING2.
-
-@WARN3
-@width=220
-Exzellenz, die Truppen des Knigs kontrollieren %NUMBER2%% der 
-%STRING0 Einwohner. Bei 90% kann der Kontinentalkongre den
-Krieg nicht fortsetzen, und wir mssen uns ergeben!
-
-@WINNING
-@width=220
-Knigliche Expeditionstruppen vernichtet!
-General %STRING0 nimmt {Kapitulation} der Loyalisten-Truppen entgegen.
-Parlament erkl`rt Knig regierungsunf`hig und nimmt Unabh`ngigkeit
-von %STRING1 an. Kontinentalkongre erkl`rt %STRING0 zum ersten 
-{Pr`sidenten} der neuen Republik!
-
-@OTHERGRANTED
-@width=220
-Der Knig von {%STRING0} gew`hrt %STRING1 Unabh`ngigkeit! 
-%STRING2 wird zum ersten Pr`sidenten der Republik gew`hlt. 
-%STRING3 schliet Frieden mit allen europ`ischen Nationen.
-
-
-@OTHERMIGHT
-@width=220
-Exzellenz, der Knig von {%STRING0} denkt ber Unabh`ngigkeit fr
-seine Kolonien nach. {%NUMBER0} (von %NUMBER1) der %STRING1 Siedler
-sind momentan dafr. Sobald {%NUMBER2} Siedler fr Freiheit
-stimmen, erhalten die %STRING1 Kolonien ihre Unabh`ngigkeit und
-werden eine eigenst`ndige Nation.
-
-@OTHERLESS
-@width=220
-Spione berichten: Nur {%NUMBER0} {%STRING1} sind jetzt fr
-Unabh`ngigkeit von %STRING0. Der Knig von {%STRING0}
-gew`hrt sie erst dann, wenn {%NUMBER2} dafr stimmen
-
-@SCORED
-@width=220
-Die Punktwertung fr dieses Spiel ist nun abgeschlossen.
-
-Das war's.
-Trotzdem weiterspielen.
-
-@TORYUPRISING
-@width=220
-Loyalisten-Aufstand bei %STRING0! Parlament bewaffnet Loyalisten-Miliz!
-
-@CANNOTATTACK
-@width=230
-Diese Art von Einheit kann nicht angreifen.
-
-@TRADEMERCANTILISM
-@width=230
-"Im Interesse des {Merkantilismus} hat %STRING0 uns befohlen, nicht
-mit ausl`ndischen Kaufleuten zu handeln. Wir mssen Euch daher bitten,
-wieder zu gehen."
-
-@TRADEATWAR
-@width=230
-Schiffe und Wagenzge knnen nicht in Kolonien anderer M`chte
-fahren, mit denen Sie im Krieg sind oder noch keine Beziehungen 
-aufgenommen haben.
-
-
-@TRADENOCARGO
-@width=230
-"Ihr habt nichts dabei, mit dem Ihr handeln knntet. Bitte kommt erst
-wieder, wenn Ihr etwas Ntzliches anzubieten habt."
-
-@TRADENOWANT
-@width=230
-"Wir interessieren uns nicht fr Eure {%NUMBER0 %STRING0}. 
-Kommt zurck, wenn Ihr etwas Besseres anzubieten habt"
-
-@TRADEWITH
-@width=230
-"Wir geben Euch {%NUMBER0 %STRING0} fr Eure %NUMBER1 %STRING1.
-Wir sind auch bereit, Euch stattdessen {%NUMBER2$} zu geben.
-Seid Ihr damit einverstanden?"
-
-"Wir nehmen die {%NUMBER0 %STRING0}."
-"Gebt uns einfach die {%NUMBER2$}."
-"Haltet Ihr uns fr Dummkpfe?"
-
-@EXTINCT
-@width=230
-Der %STRING0-Stamm wurde ausgerottet.
-
-@MERCENARIES
-@width=230
-Der Knig von %STRING0 hat angeboten, uns ausgebildete {Sldner}
-(%STRING1) im Austausch gegen {%NUMBER0$} zu schicken.
-
-Nein danke.
-{%NUMBER0$} zahlen.
-
-@MERCS
-@width=230
-%STRING1 Sldner kommen in %STRING0 an.
-
-@OVERBOARD
-@width=230
-Welche Ware sollen wir ber Bord werfen, Eure Exzellenz?
-
-@ALREADYREVOLUTION
-@width=230
-Wir bestreiten bereits einen Unabh`ngigkeitskrieg, Eure Exzellenz.
-
-@SUREDISBAND
-@width=230
-%STRING0 wirklich {auflsen}?
-
-Ja
-Nein
-
-@NEWCOLONIST
-@width=230
-Bevlkerungszuwachs in %STRING0. Neue Siedler verfgbar.
-
-@INEFFICIENT
-@width=220
-{%STRING0} hat eine ineffektive Regierung, Eure Exzellenz!
-Jede Kolonie, in der mehr als {%NUMBER0} Siedler nicht Mitglied
-bei den Shnen der Freiheit sind, liegt in ihrer Regierungsentwicklung
-zurck. Siedler in solchen Kolonien erhalten Produktionsstrafpunkte von 
-{-1} fr jeweils %NUMBER0 Loyalisten . Wir knnen fr mehr Mitglieder
-bei den Shnen der Freiheit sorgen, indem wir mehr {Freiheitsglocken}
-in dieser Kolonie produzieren. Oder wir umgehen die Strafpunkte bei der
-Produktion, indem wir so viele Siedler entfernen, da die Zahl der 
-Loyalisten unter %NUMBER0 sinkt.
-
-@EFFICIENT
-@width=230
-{%STRING0} hat die Effektivit`t seiner Regierung erhht, Exzellenz.
-Die Siedler erhalten in %STRING0 keine Strafpunkte mehr.
-
-@CLEARCUT
-@width=230
-Pioniere roden Wald bei {%STRING0}. {%NUMBER0 Nutzholz} den
-Vorr`ten hinzugefgt.
-
-@REALLYBUY
-@width=230
-%STRING0 fr %NUMBER0$ kaufen?
-
-Ja
-Nein
-
-@INDIANWARPATH
-@width=230
-"Der {%STRING0}-Stamm ist bereit, auf den Kriegspfad zu gehen.
-Wen sollen wir angreifen?"
-
-@INDIANWARPATH2
-@width=230
-"Wir vertreiben die {%STRING0} gerne vom Land unserer
-Vorv`ter, wenn wir dafr {%NUMBER0$} bekommen."
-
-{%NUMBER0$} zahlen.
-Na, dann nicht.
-
-@INDIANWARFARE
-@width=230
-Nation der {%STRING0} h`lt Kriegsrat!
-{%STRING1} Missionare hetzen %STRING2 zum Krieg gegen
-die {%STRING3} auf!
-
-@LOSENOCOLONIES
-@width=230
-%STRING0 %STRING1. Unsere Bemhungen in der Neuen Welt haben 
-sich als fruchtlos erwiesen, und wir haben daher beschlossen, 
-Euch von Eurem Amt als Vizeknig zu entbinden. Ihr knnt nun 
-den kniglichen Ring kssen.
-
-@SOONRETIRING0
-@width=230
-%STRING0 %STRING1 hat vor, im Jahr 1800 in den Ruhestand zu 
-treten! Es geht ein Gercht um, da er seine Pl`ne verschieben 
-wrde, wenn ein Unabh`ngigkeitskrieg ausbr`chen wrde.  
-
-@SOONRETIRING1
-@width=230
-"General %STRING1, die Menschen sind des langen Krieges 
-berdrssig. Gelingt es uns nicht, bis 1850 eine Entscheidung 
-herbeizufhren, wird der Kontinentalkongre den Frieden einklagen        
-und dem Knig erneuerte Loyalit`t schwren." 
-
-@RETIRING
-@width=220
-%STRING0 %STRING1 tritt nach mehr als 300 Jahren treuen Dienstes 
-fr den Knig zurck. Der Knig adelt den alternden Vizeknig, der 
-sich auf ein Landgut in der N`he von %STRING2 zurckzieht.
-
-@RETIRING2
-@width=220
-Der kriegsmde Kontinentalkongre bittet um Frieden! Der Knig 
-akzeptiert die Kapitulation von %STRING0 %STRING1, der 
-sich auf ein Landgut in der N`he von %STRING2 zurckzieht.
-
-
-@HOWTOWIN
-@width=220
-Wir haben einen glorreichen Sieg auf dem Weg zur Freiheit errungen, 
-Eure Exzellenz. Um die kniglichen Truppen zu besiegen und unsere 
-Unabh`ngigkeit zu erringen, mssen wir dem Knig {all} unsere 
-Kolonien wieder abnehmen  und den Groteil seiner Bodentruppen 
-in der Neuen Welt zerstren.
-
-
-@ARTILLERY
-@width=230
-%STRING0 %STRING1 {besch`digt}.  Weitere Sch`den fhren unweigerlich 
-zur vlligen Zerstrung.     
-
-@ARTILLERY2
-@width=230
-Besch`digte %STRING0 %STRING1 {zerstrt}.
-
-
-@TIMECHANGE
-@width=230
-^^Colonization Help: Time Scale
-^
-Im Jahr 1600 `ndert sich der {Zeitrahmen} von einem Zug pro Jahr 
-zu {zwei Zgen pro Jahr}. Von nun an gibt es jedes Jahr einen Zug 
-im {Frhling} und einen im {Herbst}.
-
-
-@TEACHCONVERT
-@width=230
-Die indianischen Konvertiten kennen ihre eigenen Methoden bereits.      
-
-
-@SOMEBOYCOTT
-@width=230
-Ein Teil der Fracht konnte wegen des Boykotts des Parlaments nicht 
-entladen werden. Mchten Sie, da der Boykott aufgehoben wird, dann 
-klicken Sie das entsprechende Frachtgut an. 
-
-@KEEPSTOCKADE
-@width=220
-Wir knnen die Bevlkerungszahl einer Kolonie, die ber eine 
-Einpf`hlung, ein Fort oder eine Festung verfgt, nicht auf 
-weniger als {drei} reduzieren.
-
-@MORETHANTHREE
-@width=220
-Wir knnen nicht mehr als {drei} Kolonisten in einem Geb`ude einsetzen, 
-Eure Exzellenz.
-
-@LOOTWAGONS
-@width=220
-%STRING0 Plnderwagenzge in der N`he von %STRING3!
-
-
-@TUTORIAL1
-@width=230
-@x=10
-@y=40
-Unser {%STRING0} befindet sich mit einem Pionier und einem 
-Soldaten auf hoher See, Eure Exzellenz. Wenn wir Richtung Westen         
-navigieren ({linker Pfeil}), stoen wir wahrscheinlich auf Land.   
-Segeln wir hingegen gen Osten, ({rechter Pfeil}), knnen wir 
-zum Hafen zurckkehren.
-
-@TUTORIAL2
-@width=230
-Wir sind auf noch nicht kartographiertes Land gestoen, Exzellenz.
-Um die Kolonisten an Land zu bringen, bewegen Sie das Schiff zum Ufer,
-und w`hlen Sie {An Land gehen} vom Men.
-
-@TUTORIAL3
-@width=230
-Durch den \berflu an {%STRING0} bietet sich dieses Gebiet fr die 
-Grndung unserer ersten Kolonie an. Mchten Sie eine Kolonie grnden,      
-Sir, dann drcken Sie Taste '{B}'.
-
-@TUTORIAL4
-@width=230
-@x=10
-Auf dem {Kolonisationsbildschirm} knnen Sie bestimmen, was die Siedler  
-in dieser Kolonie tun sollen. Unser Kolonist produziert im Moment 
-{%STRING0}. Er knnte beispielsweise {%STRING1} produzieren. Um seinen   
-Beruf zu `ndern, w`hlen Sie ihn, worauf das {Jobmen} erscheint, und 
-bestimmen Sie, was er in Zukunft tun soll. Sie knnen ihn auch auf ein  
-anderes Kartenquadrat oder in eines der Koloniegeb`ude ziehen. Soll ein 
-Kolonist die Siedlung verlassen, ziehen Sie ihn zum Zaun (unweit des 
-Wassers auf der Kolonieabbildung). 
-
-@TUTORIAL5
-@width=220
-Exzellenz, in den Hafenanlagen von {%STRING0} (Europa) warten {%STRING1}.    
-Wenn wir unser Schiff dorthin schicken, werden sie gern an Bord gehen und
-zu ntzlichen Mitgliedern unserer Gesellschaft werden. 
-
-@TUTORIAL6
-@width=220
-Sir,in {%STRING1} sind {%NUMBER0} {%STRING0}.  Wenn wir ein Schiff nach   
-%STRING1 schicken, knnen wir die Fracht zuladen, nach  %STRING2 in
-Europa bringen und die Waren dort gewinnbringend verkaufen.          
-
-@TUTORIAL7
-@width=220
-%STRING0 w`chst rapide an, Eure Exzellenz, und wir sollten den Bau einer 
-{Einpf`hlung} erw`gen, um die Kolonie zu schtzen. Um etwas zu bauen, 
-mssen wir zun`chst einen unserer Siedler zum {Holzf`ller} machen und ihn
-auf einem Waldquadrat {Nutzholz} gewinnen lassen. Dann machen wir einen 
-Siedler zum {Schreiner}, der das Holz in Geb`ude umwandelt. Zuletzt sagen
-wir dem Schreiner, was er bauen soll. Dazu mssen Sie das blaue 
-'Hammer'-Icon links unten auf dem Bildschirm anklicken. Dadurch 
-sehen Sie, was im Augenblick gebaut wird und knnen sich gegebenenfalls 
-fr ein anderes Geb`ude entscheiden.
-
-
-
-@TUTORIAL8
-@width=230
-Dieser %STRING0 hat keine besondere Berufserfahrung. Wenn wir ihn in ein 
-uns freundlich gesinntes Indianerdorf schicken, bringen ihm die Ureinwohner
-vielleicht eine neue F`higkeit bei.
-
-@TUTORIAL9
-@width=220
-Hier knnte man gut eine {Strae} bauen. Unsere {Pioniere} fangen mit dem
-Bau einer Strae an, sobald Sie die Taste '{R}' drcken. Durch die Strae
-wird unsere Silber-, Fell-, Nutzholz- und Erzproduktion auf diesem
-Kartenquadrat erhht. Auch unsere Einheiten knnen sich ber eine 
-Strae schneller bewegen.
-
-
-
-@TUTORIAL10
-@width=220
-Hier knnte man gut {pflgen} oder {roden}.  Unsere {Pioniere} pflgen
-die Felder eines Kartenquadrats, wenn Sie Taste '{P}' drcken. 
-Durch das Pflgen eines Felds wird die Produktion von Nahrungsmitteln, 
-Tabak, Baumwolle und Zucker um jeweils 1 erhht. Durch das Pflgen 
-eines {Waldquadrats} werden B`ume {gerodet}, wodurch mehr Platz fr 
-die Landwirtschaft geschaffen wird.
-
-
-@TUTORIAL11
-@width=220
-Unser Schiff, ein/e {%STRING0}, ist eine der wertvollsten Einheiten. Wir 
-knnen es dazu verwenden, die unerforschten Weiten der Neuen Welt zu
-erkunden, unsere Frachtgter zum Verkauf nach {%STRING1} zu schaffen 
-oder neue Auswanderer aus Europa hierherzubringen. Sie knnen das 
-Schiff mit Hilfe der Pfeiltasten bewegen oder es durch Drcken der 
-Taste '{G}' zum Hafen Ihrer Wahl schicken.
-
-@TUTORIAL12
-@width=220
-@y=5
-Unser Schiff ist in %STRING0 angekommen, Eure Exzellenz, und erwartet die
-Beladung mit Frachtgtern. Die blauen K`stchen am unteren Bildschirmrand
-zeigen, welche Frachtgter in unserem Lagerhaus zur Verfgung stehen.
-Wollen Sie das Schiff beladen, ziehen Sie die gewnschte Fracht mit 
-Hilfe der Maus vom Lagerhaus in einen der Frachtr`ume (die kleinen 
-K`stchen unterhalb der Abbildung des Schiffs). Ist das Schiff beladen, 
-gelangen Sie durch Drcken von '{ESC}' zur Karte zurck. Beim n`chsten 
-Spielzug knnen Sie es dann nach Europa schicken, indem Sie '{G}' drcken.
-
-@TUTORIAL13
-@width=220
-Unsere {Pioniere} sind in der Neuen Welt angelangt, Exzellenz! Sie sind 
-bereit, einen guten Ort fr unsere erste Kolonie zu suchen. Versuchen
-Sie, einen Platz zu finden, an dem es genug Nahrungsmittel und andere
-Ressourcen gibt. Auerdem sollte unsere erste Kolonie in der N`he des 
-Ozeans liegen, damit unsere Schiffe sie problemlos erreichen knnen. 
-Unsere Pioniere sind im Moment mit {100 Werkzeugen} ausgestattet, 
-die sie zum Roden von W`ldern, Pflgen von Feldern und zum Straenbau 
-verwenden knnen. Wenn wir sp`ter mehr Pioniereinheiten 
-erstellen wollen, brauchen wir entweder mehr Werkzeuge aus Europa oder wir
-lassen sie vor Ort durch unsere eigenen Schmiede herstellen. 
-
-@TUTORIAL14
-@width=220
-Unsere {Soldaten} haben zweierlei Aufgaben. Sie knnen eingesetzt werden,
-um unsere Gegner anzugreifen, falls sie auf welche treffen. Wichtiger ist
-jedoch ihre Aufgabe als Schutztruppe fr unsere Siedlungen. Unsere 
-Soldaten sind mit {50 Musketen} bewaffnet. Wenn wir sp`ter mehr 
-Soldateneinheiten erstellen wollen, mssen wir entweder mehr Musketen 
-aus Europa einfhren, oder wir lassen sie vor Ort durch unsere eigenen 
-Waffenschmiede produzieren. Unsere Soldaten werden noch m`chtiger, 
-wenn wir sie  mit {Pferden} ausstatten.
-
-@TUTORIAL15
-@width=220
-In {%STRING0} sind neue Siedler angekommen, Eure Exzellenz! Sie machen sie zu
-Brgern von {%STRING0}, indem Sie zun`chst die Kolonie anklicken und die 
-Kolonisten dann vom "Zaun" aus zu einem Feld oder einem Geb`ude ziehen.
-
-@TUTORIAL16
-@width=220
-@y=10
-@x=5
-@smallfont
-Es ist beraus wichtig fr jede Kolonie, gengend {Nahrungsmittel} zu 
-produzieren, um die Versorgung der Kolonisten sicherstellen zu knnen. 
-Jeder Kolonist verbraucht {zwei} Nahrungseinheiten pro Spielzug. 
-Nahrungsmittel werden durch das "Mais"-Icon dargestellt. Ernten Sie 
-w`hrend eines Spielzugs nicht genug Nahrungsmittel, um all Ihre Siedler  
-ern`hren zu knnen, werden einige der im Kolonistenfenster abgebildeten 
-Maiskolben mit einem roten "X" durchkreuzt sein. Mchten Sie mehr Nahrung
-produzieren, mssen Sie mehr Siedler zu {Farmern} oder {Fischern}
-umwandeln. Sie knnen einen Farmer produktiver machen, indem Sie 
-Ihre Pioniere W`lder {roden} und Felder {pflgen} lassen. 
-
-
-@TUTORIAL17
-@width=300
-@y=10
-@smallfont
-Der Europa-Statusbildschirm zeigt Ihren Heimathafen in %STRING0,
-%STRING1. Wenn neue Auswanderer am Hafen ankommen, stellen sie sich auf, 
-um auf die \berfahrt in die Neue Welt zu warten. Sie knnen neue 
-Immigranten rekrutieren, indem Sie die Knpfe {Rekrutieren} oder 
-{Ausbilden} drcken. Kommen Schiffe im Hafen an, kann deren Fracht 
-verkauft werden, indem die Waren aus den Frachtr`umen in die blauen 
-Lagerh`user am unteren Bildschirmrand gezogen werden. Mchten Sie 
-Fracht kaufen, ziehen Sie sie aus genannten Lagerh`usern in die
-Frachtr`ume Ihres Schiffs. Die erste Zahl im Lagerhausk`stchen zeigt den 
-{gebotenen} Preis, der in diesem Hafen fr diese Art von Fracht gezahlt wird. 
-Die zweite Zahl steht fr den {geforderten} Preis, falls Sie die Ware
-ankaufen mchten. Wollen Sie ein Schiff in die Neue Welt zurckschicken, 
-klicken Sie es an, und ziehen Sie es in das K`stchen "Ziel: %STRING2".
-
-
-@TUTORIAL18
-@width=300
-@y=10
-@smallfont
-Fracht wird normalerweise in Hundertereinheiten gekauft. Wenn Sie ein 
-Frachtgut aus dem Lagerhaus in Ihr Schiff ziehen, wird automatisch 
-angenommen, da Sie 100 Einheiten laden. Da {%STRING0} pro Einheit 
-{%NUMBER0$} kostet, wir aber nur ber {%NUMBER1$} Gold verfgen, 
-knnen wir keine 100 Einheiten
-kaufen. Mchten Sie weniger als 100 Frachtguteinheiten zu- oder abladen, 
-halten Sie einfach die {SHIFT}-Taste gedrckt, und ziehen Sie die Fracht
-mit
-Hilfe der Maus an die gewnschte Stelle. Sie werden dann aufgefordert, 
-Angaben dazu zu machen, wieviele Frachtguteinheiten Sie kaufen mchten.
-
-@TUTORIAL19
-@width=230
-{Konvertiten} sind Ureinwohner, die sich aus irgendeinem Grund
-entschieden haben, sich Ihnen anzuschlieen 
-und in Ihren Kolonien zu leben. Im
-Gegensatz zu anderen Kolonisten knnen 
-Konvertiten keine neuen F`higkeiten erlernen.
-Auf der anderen Seite haben sie mehr Geschick, wenn es um Landwirtschaft, 
-Bepflanzung, Fischen und Bergbau geht.
-
-
-@TUTNOLUMBER
-@width=220
-Keines der dieses Kartenquadrat umgebenden Gebiete ist bewaldet, 
-Eure Exzellenz. Eine hier gegrndete Kolonie wird Schwierigkeiten haben, 
-genug Nutzholz zu gewinnen, um die Schreiner der Siedlung zu versorgen.
-Anweisung rckg`ngig machen.  
-Kolonie trotzdem bauen.
-
-
-@TUTNOSPACES
-@width=220
-An dieses Kartenquadrat grenzen nur wenige produktive Gebiete an,
-Eure Exzellenz. Eine hier erbaute Kolonie knnte erheblich langsamer
-wachsen als wir hoffen. Vielleicht sollten wir uns lieber in einem
-greren. Gebiet ansiedeln?
-
-Anweisung rckg`ngig machen.  
-Kolonie trotzdem bauen.
-
-@KINGLOSE
-@width=75
-@x=235
-@y=26
-"In unserer Weisheit haben wir beschlossen,
-Euch ziehen zu lassen. Wir haben 
-wichtigere Aufgaben zu erfllen, als uns mit  
-vermaledeiten Kolonisten herumzuplagen. Bittet  
-in Zukunft nicht mehr um unsere Untersttzung, 
-denn sie wird Euch nicht gew`hrt werden." 
-
- 
-@KINGWIN
-@width=90
-@x=202
-@y=125
-"Wie erwartet hat sich Euer Versuch, sich vom 
-Mutterland %STRING0 abzuspalten, als fruchtlos erwiesen. 
-Eure zerlumpten Truppen sind unserer gewaltigen 
-Kniglichen Armee einfach nicht gewachsen."
-
-
-@DISBANDSHIP
-@width=230
-Wir knnen ein Schiff auf hoher See nicht aufgeben, 
-solange sich noch Einheiten auf ihm befinden. 
-
-
-@NOMOREWAREHOUSE
-@width=230
-{%STRING0} will sein {Lagerhaus ausbauen}, Eure Exzellenz, 
-aber pro Kolonie ist nur {eine} Erweiterung erlaubt.
-
-@NOMOREWAGONS
-@width=230
-{%STRING0} will einen {Wagenzug} produzieren, Eure Exzellenz, 
-aber wir knnen nicht mehr Wagenzge als Kolonien besitzen
-({%NUMBER0}.
-
-
-@BUILD1
-@width=310
-@y=10
-^^Im Jahr des Herrn Eintausendvierhundertzweiundneunzig 
-
-@BUILD2
-@width=310
-@y=10
-^^verlie eine vom groen %STRING0 %STRING1
-^^ geleitete Expedition 
-
-@BUILD3
-@width=310
-@y=10
-^^%STRING0 und brach zu einer Entdeckungsreise auf.
-
-@BUILD4
-@width=310
-@y=10
-^^Im Auftrag und mit dem Segen von %STRING0 
-
-@BUILD5
-@width=310
-@y=10
-^^erforschten die mutigen M`nner die Weltmeere,
-
-@BUILD6
-@width=310
-@y=10
-^^fanden L`nder, die bisher auf keiner Karte verzeichnet waren,
-
-@BUILD7
-@width=310
-@y=10
-^^und grndeten Kolonien, um den Ruhm von %STRING0 zu vergrern.
-
-@BUILD8
-@width=310
-@y=10
-^^Eine kleine Flotte mit Pionieren und Soldaten an Bord 
-
-@BUILD9
-@width=310
-@y=10
-^^setzte die Segel, um ein neues Leben, einen neuen Anfang, 
-eine Neue Welt zu finden.
-		  
-@BUILD10
-@width=310
-@y=10
-^^Wer wute schon, welche Wunder, Gefahren, 
-Reichtmer und Mglichkeiten ^^sie erwarteten?
-
-
-
-
-@END
-
